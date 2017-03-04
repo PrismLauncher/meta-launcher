@@ -6,7 +6,6 @@
         "totalSize": 112200001,
         "url": "https://launchermeta.mojang.com/mc/assets/1.7.4/bb71fd461aca9a9bc18e2d1ab659122b05618a8e/1.7.4.json"
     },
-    "assets": "1.7.4",
     "downloads": {
         "client": {
             "sha1": "83ae44189888a873f46f7509a87ebdb6dc785741",
@@ -24,7 +23,7 @@
             "url": "https://launcher.mojang.com/mc/game/1.7.8/windows_server/6a6f9c4ee3cf15f27e002c171568571677cf7820/windows_server.exe"
         }
     },
-    "id": "1.7.8",
+    "fileId": "net.minecraft",
     "libraries": [
         {
             "downloads": {
@@ -328,23 +327,10 @@
             ]
         }
     ],
-    "logging": {
-        "client": {
-            "argument": "-Dlog4j.configurationFile=${path}",
-            "file": {
-                "id": "client-1.7.xml",
-                "sha1": "6605d632a2399010c0085d3e4da58974d62ccdfe",
-                "size": 871,
-                "url": "https://launchermeta.mojang.com/mc/log_configs/client-1.7.xml/6605d632a2399010c0085d3e4da58974d62ccdfe/client-1.7.xml"
-            },
-            "type": "log4j2-xml"
-        }
-    },
     "mainClass": "net.minecraft.client.main.Main",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type}",
-    "minimumLauncherVersion": 13,
     "name": "Minecraft",
     "releaseTime": "2014-04-09T07:58:16+00:00",
-    "time": "2016-06-01T11:45:48+00:00",
-    "type": "release"
+    "type": "release",
+    "version": "1.7.8"
 }

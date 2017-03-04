@@ -6,7 +6,6 @@
         "totalSize": 111220701,
         "url": "https://launchermeta.mojang.com/mc/assets/legacy/c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729/legacy.json"
     },
-    "assets": "legacy",
     "downloads": {
         "client": {
             "sha1": "6323bd14ed7f83852e17ebc8ec418e55c97ddfe4",
@@ -14,7 +13,7 @@
             "url": "https://launcher.mojang.com/mc/game/rd-161348/client/6323bd14ed7f83852e17ebc8ec418e55c97ddfe4/client.jar"
         }
     },
-    "id": "rd-161348",
+    "fileId": "net.minecraft",
     "libraries": [
         {
             "downloads": {
@@ -52,9 +51,8 @@
     ],
     "mainClass": "com.mojang.minecraft.RubyDung",
     "minecraftArguments": "${auth_player_name} ${auth_session}",
-    "minimumLauncherVersion": 7,
     "name": "Minecraft",
     "releaseTime": "2009-05-16T11:48:00+00:00",
-    "time": "2016-02-02T15:37:47+00:00",
-    "type": "old_alpha"
+    "type": "old_alpha",
+    "version": "rd-161348"
 }

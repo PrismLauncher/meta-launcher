@@ -6,7 +6,6 @@
         "totalSize": 111220701,
         "url": "https://launchermeta.mojang.com/mc/assets/legacy/c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729/legacy.json"
     },
-    "assets": "legacy",
     "downloads": {
         "client": {
             "sha1": "7d9d85eaca9627d3a40e6d122182f2d22d39dbf9",
@@ -14,7 +13,7 @@
             "url": "https://launcher.mojang.com/mc/game/a1.2.2a/client/7d9d85eaca9627d3a40e6d122182f2d22d39dbf9/client.jar"
         }
     },
-    "id": "a1.2.2a",
+    "fileId": "net.minecraft",
     "libraries": [
         {
             "downloads": {
@@ -52,9 +51,8 @@
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
     "minecraftArguments": "${auth_player_name} ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
-    "minimumLauncherVersion": 7,
     "name": "Minecraft",
     "releaseTime": "2010-11-09T22:00:00+00:00",
-    "time": "2016-02-02T15:37:47+00:00",
-    "type": "old_alpha"
+    "type": "old_alpha",
+    "version": "a1.2.2a"
 }
