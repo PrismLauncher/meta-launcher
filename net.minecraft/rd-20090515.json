@@ -1,4 +1,7 @@
 {
+    "+traits": [
+        "no-texturepacks"
+    ],
     "assetIndex": {
         "id": "legacy",
         "sha1": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
@@ -14,21 +17,7 @@
         }
     },
     "fileId": "net.minecraft",
-    "libraries": [
-        {
-            "downloads": {
-                "artifact": {
-                    "path": "net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar",
-                    "sha1": "6065cc95c661255349c1d0756657be17c29a4fd3",
-                    "size": 61311,
-                    "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
-                }
-            },
-            "name": "net.sf.jopt-simple:jopt-simple:4.5"
-        }
-    ],
-    "mainClass": "com.mojang.minecraft.RubyDung",
-    "minecraftArguments": "${auth_player_name} ${auth_session}",
+    "mainClass": "com.mojang.rubydung.RubyDung",
     "name": "Minecraft",
     "releaseTime": "2009-05-14T22:00:00+00:00",
     "type": "old_alpha",
