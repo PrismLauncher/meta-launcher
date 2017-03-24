@@ -312,6 +312,9 @@
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "releaseTime": "2017-02-08T13:16:29+00:00",
+    "requires": {
+        "org.lwjgl": ".*"
+    },
     "type": "snapshot",
     "uid": "net.minecraft",
     "version": "17w06a"

@@ -3,7 +3,7 @@
     "packages": [
         {
             "name": "Minecraft",
-            "sha256": "06c165ad246b888dab060467376da8e263c77ccdf2a1622cacb732588069e83e",
+            "sha256": "7b68e6c093f740354b58ffd9c596ca273e4cde9a39bf3e9f0da0d1ada5c3518f",
             "uid": "net.minecraft"
         },
         {
@@ -13,7 +13,8 @@
         },
         {
             "name": "Forge",
-            "sha256": "1bf18f2254c5059d8ea9aaa10caf0dc5ee1ca66dfd43dd4dd485b9d5e4356a83",
+            "parentUid": "net.minecraft",
+            "sha256": "31b310c40aad022da3630ef298ea107aaefb8cbeefa1bc0afd760e4a2be32ddf",
             "uid": "net.minecraftforge"
         }
     ]

@@ -74,9 +74,12 @@
         }
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
-    "mcVersion": "1.8",
     "name": "Forge",
+    "parentUid": "net.minecraft",
     "releaseTime": "2015-02-02T16:11:44-05:00",
+    "requires": {
+        "net.minecraft": "1.8"
+    },
     "uid": "net.minecraftforge",
     "version": "1.8-11.14.0.1298"
 }

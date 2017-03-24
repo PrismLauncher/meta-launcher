@@ -23,6 +23,9 @@
     "mainClass": "com.mojang.minecraft.l",
     "name": "Minecraft",
     "releaseTime": "2009-12-22T00:00:00+02:00",
+    "requires": {
+        "org.lwjgl": ".*"
+    },
     "type": "old_alpha",
     "uid": "net.minecraft",
     "version": "c0.30_01c"

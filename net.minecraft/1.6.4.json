@@ -163,6 +163,9 @@
     "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --version ${version_name} --gameDir ${game_directory} --assetsDir ${game_assets}",
     "name": "Minecraft",
     "releaseTime": "2013-09-19T15:52:37+00:00",
+    "requires": {
+        "org.lwjgl": ".*"
+    },
     "type": "release",
     "uid": "net.minecraft",
     "version": "1.6.4"
