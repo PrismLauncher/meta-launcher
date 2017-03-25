@@ -20,9 +20,10 @@
     "id": "rd-20090515",
     "mainClass": "com.mojang.rubydung.RubyDung",
     "name": "Minecraft",
+    "order": -2,
     "releaseTime": "2009-05-14T22:00:00+00:00",
     "requires": {
-        "org.lwjgl": ".*"
+        "org.lwjgl": "*"
     },
     "type": "old_alpha",
     "uid": "net.minecraft",

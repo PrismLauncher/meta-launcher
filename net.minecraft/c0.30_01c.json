@@ -22,9 +22,10 @@
     "id": "c0.30_01c",
     "mainClass": "com.mojang.minecraft.l",
     "name": "Minecraft",
+    "order": -2,
     "releaseTime": "2009-12-22T00:00:00+02:00",
     "requires": {
-        "org.lwjgl": ".*"
+        "org.lwjgl": "*"
     },
     "type": "old_alpha",
     "uid": "net.minecraft",

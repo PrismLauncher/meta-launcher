@@ -228,9 +228,10 @@
     "mainClass": "net.minecraft.client.main.Main",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${game_assets} --uuid ${auth_uuid} --accessToken ${auth_access_token}",
     "name": "Minecraft",
+    "order": -2,
     "releaseTime": "2013-10-25T13:00:00+00:00",
     "requires": {
-        "org.lwjgl": ".*"
+        "org.lwjgl": "*"
     },
     "type": "release",
     "uid": "net.minecraft",
