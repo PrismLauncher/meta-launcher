@@ -1,0 +1,24 @@
+{
+    "+tweakers": [
+        "com.mumfrey.liteloader.launch.LiteLoaderTweaker"
+    ],
+    "formatVersion": 0,
+    "libraries": [
+        {
+            "name": "net.minecraft:launchwrapper:1.8"
+        },
+        {
+            "name": "com.mumfrey:liteloader:1.6.4_01",
+            "url": "http://dl.liteloader.com/versions/"
+        }
+    ],
+    "name": "LiteLoader",
+    "order": 10,
+    "releaseTime": "2013-10-03T10:41:56",
+    "requires": {
+        "net.minecraft": "1.6.4"
+    },
+    "type": "release",
+    "uid": "com.mumfrey.liteloader",
+    "version": "1.6.4_01"
+}
