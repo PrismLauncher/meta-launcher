@@ -10,15 +10,18 @@
         "totalSize": 111220701,
         "url": "https://launchermeta.mojang.com/mc/assets/legacy/c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729/legacy.json"
     },
-    "downloads": {
-        "client": {
-            "sha1": "9b4b90d8def2a680b7c9eca40dd03e2266c8977a",
-            "size": 852870,
-            "url": "https://launcher.mojang.com/mc/game/a1.0.14/client/9b4b90d8def2a680b7c9eca40dd03e2266c8977a/client.jar"
-        }
-    },
     "formatVersion": 0,
-    "id": "a1.0.14",
+    "mainJar": {
+        "downloads": {
+            "artifact": {
+                "path": "com/mojang/minecraft/a1.0.14/minecraft-a1.0.14-client.jar",
+                "sha1": "9b4b90d8def2a680b7c9eca40dd03e2266c8977a",
+                "size": 852870,
+                "url": "https://launcher.mojang.com/mc/game/a1.0.14/client/9b4b90d8def2a680b7c9eca40dd03e2266c8977a/client.jar"
+            }
+        },
+        "name": "com.mojang:minecraft:a1.0.14:client"
+    },
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2010-07-30T00:00:00+02:00",

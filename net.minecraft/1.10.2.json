@@ -6,20 +6,7 @@
         "totalSize": 122198775,
         "url": "https://launchermeta.mojang.com/mc/assets/1.10/72241db3c0bdc39e39b202182ff0000da5271a1d/1.10.json"
     },
-    "downloads": {
-        "client": {
-            "sha1": "dc8e75ac7274ff6af462b0dcec43c307de668e40",
-            "size": 8857653,
-            "url": "https://launcher.mojang.com/mc/game/1.10.2/client/dc8e75ac7274ff6af462b0dcec43c307de668e40/client.jar"
-        },
-        "server": {
-            "sha1": "3d501b23df53c548254f5e3f66492d178a48db63",
-            "size": 9459897,
-            "url": "https://launcher.mojang.com/mc/game/1.10.2/server/3d501b23df53c548254f5e3f66492d178a48db63/server.jar"
-        }
-    },
     "formatVersion": 0,
-    "id": "1.10.2",
     "libraries": [
         {
             "downloads": {
@@ -298,6 +285,17 @@
         }
     ],
     "mainClass": "net.minecraft.client.main.Main",
+    "mainJar": {
+        "downloads": {
+            "artifact": {
+                "path": "com/mojang/minecraft/1.10.2/minecraft-1.10.2-client.jar",
+                "sha1": "dc8e75ac7274ff6af462b0dcec43c307de668e40",
+                "size": 8857653,
+                "url": "https://launcher.mojang.com/mc/game/1.10.2/client/dc8e75ac7274ff6af462b0dcec43c307de668e40/client.jar"
+            }
+        },
+        "name": "com.mojang:minecraft:1.10.2:client"
+    },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,

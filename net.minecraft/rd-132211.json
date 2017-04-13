@@ -9,16 +9,19 @@
         "totalSize": 111220701,
         "url": "https://launchermeta.mojang.com/mc/assets/legacy/c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729/legacy.json"
     },
-    "downloads": {
-        "client": {
-            "sha1": "393e8d4b4d708587e2accd7c5221db65365e1075",
-            "size": 26704,
-            "url": "https://launcher.mojang.com/mc/game/rd-132211/client/393e8d4b4d708587e2accd7c5221db65365e1075/client.jar"
-        }
-    },
     "formatVersion": 0,
-    "id": "rd-132211",
     "mainClass": "com.mojang.rubydung.RubyDung",
+    "mainJar": {
+        "downloads": {
+            "artifact": {
+                "path": "com/mojang/minecraft/rd-132211/minecraft-rd-132211-client.jar",
+                "sha1": "393e8d4b4d708587e2accd7c5221db65365e1075",
+                "size": 26704,
+                "url": "https://launcher.mojang.com/mc/game/rd-132211/client/393e8d4b4d708587e2accd7c5221db65365e1075/client.jar"
+            }
+        },
+        "name": "com.mojang:minecraft:rd-132211:client"
+    },
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2009-05-13T22:11:00+02:00",

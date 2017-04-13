@@ -6,25 +6,7 @@
         "totalSize": 112200001,
         "url": "https://launchermeta.mojang.com/mc/assets/1.7.4/bb71fd461aca9a9bc18e2d1ab659122b05618a8e/1.7.4.json"
     },
-    "downloads": {
-        "client": {
-            "sha1": "6b2c5827994e17f904f0852f962dd6fccfbb8bdc",
-            "size": 5341288,
-            "url": "https://launcher.mojang.com/mc/game/1.7.6/client/6b2c5827994e17f904f0852f962dd6fccfbb8bdc/client.jar"
-        },
-        "server": {
-            "sha1": "41ea7757d4d7f74b95fc1ac20f919a8e521e910c",
-            "size": 9482170,
-            "url": "https://launcher.mojang.com/mc/game/1.7.6/server/41ea7757d4d7f74b95fc1ac20f919a8e521e910c/server.jar"
-        },
-        "windows_server": {
-            "sha1": "99615bc71d0a6e178961edc13be57cf4b7d0ef75",
-            "size": 9876410,
-            "url": "https://launcher.mojang.com/mc/game/1.7.6/windows_server/99615bc71d0a6e178961edc13be57cf4b7d0ef75/windows_server.exe"
-        }
-    },
     "formatVersion": 0,
-    "id": "1.7.6",
     "libraries": [
         {
             "downloads": {
@@ -318,6 +300,17 @@
         }
     ],
     "mainClass": "net.minecraft.client.main.Main",
+    "mainJar": {
+        "downloads": {
+            "artifact": {
+                "path": "com/mojang/minecraft/1.7.6/minecraft-1.7.6-client.jar",
+                "sha1": "6b2c5827994e17f904f0852f962dd6fccfbb8bdc",
+                "size": 5341288,
+                "url": "https://launcher.mojang.com/mc/game/1.7.6/client/6b2c5827994e17f904f0852f962dd6fccfbb8bdc/client.jar"
+            }
+        },
+        "name": "com.mojang:minecraft:1.7.6:client"
+    },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type}",
     "name": "Minecraft",
     "order": -2,

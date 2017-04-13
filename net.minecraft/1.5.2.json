@@ -10,25 +10,18 @@
         "totalSize": 111220701,
         "url": "https://launchermeta.mojang.com/mc/assets/legacy/c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729/legacy.json"
     },
-    "downloads": {
-        "client": {
-            "sha1": "465378c9dc2f779ae1d6e8046ebc46fb53a57968",
-            "size": 5564661,
-            "url": "https://launcher.mojang.com/mc/game/1.5.2/client/465378c9dc2f779ae1d6e8046ebc46fb53a57968/client.jar"
-        },
-        "server": {
-            "sha1": "f9ae3f651319151ce99a0bfad6b34fa16eb6775f",
-            "size": 2360903,
-            "url": "https://launcher.mojang.com/mc/game/1.5.2/server/f9ae3f651319151ce99a0bfad6b34fa16eb6775f/server.jar"
-        },
-        "windows_server": {
-            "sha1": "49fded489aae76e012048c3c81dcc323384ef781",
-            "size": 2542151,
-            "url": "https://launcher.mojang.com/mc/game/1.5.2/windows_server/49fded489aae76e012048c3c81dcc323384ef781/windows_server.exe"
-        }
-    },
     "formatVersion": 0,
-    "id": "1.5.2",
+    "mainJar": {
+        "downloads": {
+            "artifact": {
+                "path": "com/mojang/minecraft/1.5.2/minecraft-1.5.2-client.jar",
+                "sha1": "465378c9dc2f779ae1d6e8046ebc46fb53a57968",
+                "size": 5564661,
+                "url": "https://launcher.mojang.com/mc/game/1.5.2/client/465378c9dc2f779ae1d6e8046ebc46fb53a57968/client.jar"
+            }
+        },
+        "name": "com.mojang:minecraft:1.5.2:client"
+    },
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2013-04-25T17:45:00+02:00",

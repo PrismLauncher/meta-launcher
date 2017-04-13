@@ -10,15 +10,18 @@
         "totalSize": 111220701,
         "url": "https://launchermeta.mojang.com/mc/assets/legacy/c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729/legacy.json"
     },
-    "downloads": {
-        "client": {
-            "sha1": "6b562463ccc2c7ff12ff350a2b04a67b3adcd37b",
-            "size": 1995166,
-            "url": "https://launcher.mojang.com/mc/game/b1.8.1/client/6b562463ccc2c7ff12ff350a2b04a67b3adcd37b/client.jar"
-        }
-    },
     "formatVersion": 0,
-    "id": "b1.8.1",
+    "mainJar": {
+        "downloads": {
+            "artifact": {
+                "path": "com/mojang/minecraft/b1.8.1/minecraft-b1.8.1-client.jar",
+                "sha1": "6b562463ccc2c7ff12ff350a2b04a67b3adcd37b",
+                "size": 1995166,
+                "url": "https://launcher.mojang.com/mc/game/b1.8.1/client/6b562463ccc2c7ff12ff350a2b04a67b3adcd37b/client.jar"
+            }
+        },
+        "name": "com.mojang:minecraft:b1.8.1:client"
+    },
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2011-09-19T00:00:00+02:00",

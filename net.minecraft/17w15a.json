@@ -211,13 +211,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/authlib/1.5.26/authlib-1.5.26.jar",
-                    "sha1": "a0e1fc6974f5602d0dd3c6fb77df961a80b325f1",
-                    "size": 65322,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/1.5.26/authlib-1.5.26.jar"
+                    "path": "com/mojang/authlib/1.5.25/authlib-1.5.25.jar",
+                    "sha1": "9834cdf236c22e84b946bba989e2f94ef5897c3c",
+                    "size": 65621,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.jar"
                 }
             },
-            "name": "com.mojang:authlib:1.5.26"
+            "name": "com.mojang:authlib:1.5.25"
         },
         {
             "downloads": {
@@ -288,70 +288,86 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar",
-                    "sha1": "1dd66e68cccd907880229f9e2de1314bd13ff785",
-                    "size": 108161,
-                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar"
-                }
-            },
-            "name": "org.apache.logging.log4j:log4j-api:2.0-beta9"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "path": "org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar",
-                    "sha1": "678861ba1b2e1fccb594bb0ca03114bb05da9695",
-                    "size": 681134,
-                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar"
-                }
-            },
-            "name": "org.apache.logging.log4j:log4j-core:2.0-beta9"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "path": "com/mojang/text2speech/1.5/text2speech-1.5.jar",
-                    "sha1": "a6b8753fc8f62de087ad73cc7462dcb5cce18db8",
-                    "size": 10204,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.5/text2speech-1.5.jar"
+                    "path": "org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar",
+                    "sha1": "e801d13612e22cad62a3f4f3fe7fdbe6334a8e72",
+                    "size": 228859,
+                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"
                 },
                 "classifiers": {
-                    "natives-linux": {
-                        "path": "com/mojang/text2speech/1.5/text2speech-1.5-natives-linux.jar",
-                        "sha1": "c915cdcdfac56d9b55f498d60c36eec4c8288dbf",
-                        "size": 7833,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.5/text2speech-1.5-natives-linux.jar"
-                    },
-                    "natives-windows": {
-                        "path": "com/mojang/text2speech/1.5/text2speech-1.5-natives-windows.jar",
-                        "sha1": "6dbc2362b571a63792708e0ab7aad77c436cfeda",
-                        "size": 9634,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.5/text2speech-1.5-natives-windows.jar"
+                    "tests": {
+                        "path": "org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1-tests.jar",
+                        "sha1": "9d0c48c6186ea7f7f443803801ee7c9469129b85",
+                        "size": 192791,
+                        "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1-tests.jar"
                     }
                 }
             },
-            "name": "com.mojang:text2speech:1.5"
+            "name": "org.apache.logging.log4j:log4j-api:2.8.1"
         },
         {
             "downloads": {
                 "artifact": {
-                    "path": "com/mojang/text2speech/1.5/text2speech-1.5.jar",
-                    "sha1": "a6b8753fc8f62de087ad73cc7462dcb5cce18db8",
-                    "size": 10204,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.5/text2speech-1.5.jar"
+                    "path": "org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar",
+                    "sha1": "4ac28ff2f1ddf05dae3043a190451e8c46b73c31",
+                    "size": 1402925,
+                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"
+                },
+                "classifiers": {
+                    "tests": {
+                        "path": "org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1-tests.jar",
+                        "sha1": "ef19122d4ad5de8da81fafabd007403007c8a832",
+                        "size": 1412295,
+                        "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1-tests.jar"
+                    }
+                }
+            },
+            "name": "org.apache.logging.log4j:log4j-core:2.8.1"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "com/mojang/text2speech/1.6/text2speech-1.6.jar",
+                    "sha1": "bb10fd127259f19ade452d20049de969eee6bb8f",
+                    "size": 10402,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6.jar"
                 },
                 "classifiers": {
                     "natives-linux": {
-                        "path": "com/mojang/text2speech/1.5/text2speech-1.5-natives-linux.jar",
-                        "sha1": "c915cdcdfac56d9b55f498d60c36eec4c8288dbf",
+                        "path": "com/mojang/text2speech/1.6/text2speech-1.6-natives-linux.jar",
+                        "sha1": "bc92446593a565db02494cea6c5048ad0681f3d0",
                         "size": 7833,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.5/text2speech-1.5-natives-linux.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6-natives-linux.jar"
                     },
                     "natives-windows": {
-                        "path": "com/mojang/text2speech/1.5/text2speech-1.5-natives-windows.jar",
-                        "sha1": "6dbc2362b571a63792708e0ab7aad77c436cfeda",
+                        "path": "com/mojang/text2speech/1.6/text2speech-1.6-natives-windows.jar",
+                        "sha1": "0537943b8ae192ba211c8e0daf85fef60aecd7fe",
                         "size": 9634,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.5/text2speech-1.5-natives-windows.jar"
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6-natives-windows.jar"
+                    }
+                }
+            },
+            "name": "com.mojang:text2speech:1.6"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "com/mojang/text2speech/1.6/text2speech-1.6.jar",
+                    "sha1": "bb10fd127259f19ade452d20049de969eee6bb8f",
+                    "size": 10402,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6.jar"
+                },
+                "classifiers": {
+                    "natives-linux": {
+                        "path": "com/mojang/text2speech/1.6/text2speech-1.6-natives-linux.jar",
+                        "sha1": "bc92446593a565db02494cea6c5048ad0681f3d0",
+                        "size": 7833,
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6-natives-linux.jar"
+                    },
+                    "natives-windows": {
+                        "path": "com/mojang/text2speech/1.6/text2speech-1.6-natives-windows.jar",
+                        "sha1": "0537943b8ae192ba211c8e0daf85fef60aecd7fe",
+                        "size": 9634,
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6-natives-windows.jar"
                     }
                 }
             },
@@ -360,7 +376,7 @@
                     "META-INF/"
                 ]
             },
-            "name": "com.mojang:text2speech:1.5",
+            "name": "com.mojang:text2speech:1.6",
             "natives": {
                 "linux": "natives-linux",
                 "windows": "natives-windows"
@@ -433,22 +449,22 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "path": "com/mojang/minecraft/17w14a/minecraft-17w14a-client.jar",
-                "sha1": "23500be7cee6c8a4519d475a7c8f2b8493a3336f",
-                "size": 9895086,
-                "url": "https://launcher.mojang.com/mc/game/17w14a/client/23500be7cee6c8a4519d475a7c8f2b8493a3336f/client.jar"
+                "path": "com/mojang/minecraft/17w15a/minecraft-17w15a-client.jar",
+                "sha1": "243f42af3ecff89646d001d781ed42c7c736c74d",
+                "size": 10000532,
+                "url": "https://launcher.mojang.com/mc/game/17w15a/client/243f42af3ecff89646d001d781ed42c7c736c74d/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:17w14a:client"
+        "name": "com.mojang:minecraft:17w15a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2017-04-05T13:58:01+00:00",
+    "releaseTime": "2017-04-12T09:30:50+00:00",
     "requires": {
         "org.lwjgl": "2.*"
     },
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "17w14a"
+    "version": "17w15a"
 }
