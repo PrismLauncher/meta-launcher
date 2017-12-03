@@ -194,9 +194,12 @@
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2013-10-25T13:00:00+00:00",
-    "requires": {
-        "org.lwjgl": "*"
-    },
+    "requires": [
+        {
+            "suggests": "2.9.0",
+            "uid": "org.lwjgl"
+        }
+    ],
     "type": "release",
     "uid": "net.minecraft",
     "version": "1.7.2"

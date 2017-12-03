@@ -420,9 +420,12 @@
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2017-06-02T13:50:27+00:00",
-    "requires": {
-        "org.lwjgl": "*"
-    },
+    "requires": [
+        {
+            "suggests": "2.9.4-nightly-20150209",
+            "uid": "org.lwjgl"
+        }
+    ],
     "type": "release",
     "uid": "net.minecraft",
     "version": "1.12"

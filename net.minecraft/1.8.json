@@ -340,9 +340,12 @@
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2014-09-02T08:24:35+00:00",
-    "requires": {
-        "org.lwjgl": "*"
-    },
+    "requires": [
+        {
+            "suggests": "2.9.1",
+            "uid": "org.lwjgl"
+        }
+    ],
     "type": "release",
     "uid": "net.minecraft",
     "version": "1.8"

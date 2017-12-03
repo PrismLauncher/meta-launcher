@@ -26,9 +26,12 @@
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2009-05-17T00:00:00+02:00",
-    "requires": {
-        "org.lwjgl": "*"
-    },
+    "requires": [
+        {
+            "suggests": "2.9.0",
+            "uid": "org.lwjgl"
+        }
+    ],
     "type": "old_alpha",
     "uid": "net.minecraft",
     "version": "c0.0.11a"

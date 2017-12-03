@@ -21,9 +21,12 @@
     "name": "LiteLoader",
     "order": 10,
     "releaseTime": "2016-07-28T08:42:26",
-    "requires": {
-        "net.minecraft": "1.10"
-    },
+    "requires": [
+        {
+            "equals": "1.10",
+            "uid": "net.minecraft"
+        }
+    ],
     "type": "snapshot",
     "uid": "com.mumfrey.liteloader",
     "version": "1.10-SNAPSHOT"

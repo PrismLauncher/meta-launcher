@@ -280,9 +280,12 @@
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2013-12-06T13:55:34+00:00",
-    "requires": {
-        "org.lwjgl": "*"
-    },
+    "requires": [
+        {
+            "suggests": "2.9.1-nightly-20131120",
+            "uid": "org.lwjgl"
+        }
+    ],
     "type": "release",
     "uid": "net.minecraft",
     "version": "1.7.3"

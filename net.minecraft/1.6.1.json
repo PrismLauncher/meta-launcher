@@ -144,9 +144,12 @@
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2013-06-28T14:48:41+00:00",
-    "requires": {
-        "org.lwjgl": "*"
-    },
+    "requires": [
+        {
+            "suggests": "2.9.0",
+            "uid": "org.lwjgl"
+        }
+    ],
     "type": "release",
     "uid": "net.minecraft",
     "version": "1.6.1"

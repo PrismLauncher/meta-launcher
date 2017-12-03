@@ -16,9 +16,12 @@
     "name": "LiteLoader",
     "order": 10,
     "releaseTime": "2013-07-30T23:59:54",
-    "requires": {
-        "net.minecraft": "1.6.2"
-    },
+    "requires": [
+        {
+            "equals": "1.6.2",
+            "uid": "net.minecraft"
+        }
+    ],
     "type": "release",
     "uid": "com.mumfrey.liteloader",
     "version": "1.6.2_03"

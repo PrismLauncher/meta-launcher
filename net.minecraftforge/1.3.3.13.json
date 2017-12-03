@@ -16,9 +16,12 @@
     "order": 5,
     "parentUid": "net.minecraft",
     "releaseTime": "2012-02-16T20:12:54+00:00",
-    "requires": {
-        "net.minecraft": "1.1"
-    },
+    "requires": [
+        {
+            "equals": "1.1",
+            "uid": "net.minecraft"
+        }
+    ],
     "uid": "net.minecraftforge",
     "version": "1.3.3.13"
 }

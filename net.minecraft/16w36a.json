@@ -274,9 +274,12 @@
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2016-09-08T14:55:10+00:00",
-    "requires": {
-        "org.lwjgl": "*"
-    },
+    "requires": [
+        {
+            "suggests": "2.9.4-nightly-20150209",
+            "uid": "org.lwjgl"
+        }
+    ],
     "type": "snapshot",
     "uid": "net.minecraft",
     "version": "16w36a"

@@ -1,4 +1,9 @@
 {
+    "conflicts": [
+        {
+            "uid": "org.lwjgl3"
+        }
+    ],
     "formatVersion": 0,
     "libraries": [
         {
@@ -116,5 +121,6 @@
     "releaseTime": "2015-02-19T15:47:29+00:00",
     "type": "release",
     "uid": "org.lwjgl",
-    "version": "2.9.4-nightly-20150209"
+    "version": "2.9.4-nightly-20150209",
+    "volatile": true
 }

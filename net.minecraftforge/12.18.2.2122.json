@@ -88,9 +88,12 @@
     "order": 5,
     "parentUid": "net.minecraft",
     "releaseTime": "2016-11-05T20:12:36+00:00",
-    "requires": {
-        "net.minecraft": "1.10.2"
-    },
+    "requires": [
+        {
+            "equals": "1.10.2",
+            "uid": "net.minecraft"
+        }
+    ],
     "uid": "net.minecraftforge",
     "version": "12.18.2.2122"
 }
