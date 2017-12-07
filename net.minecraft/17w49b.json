@@ -1,4 +1,7 @@
 {
+    "+traits": [
+        "FirstThreadOnMacOS"
+    ],
     "assetIndex": {
         "id": "1.12",
         "sha1": "3b666765bafa02e84e24b371d9efd7a4d1b6e188",
@@ -91,16 +94,6 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "73e80d0794c39665aec3f62eee88ca91676674ef",
-                    "size": 18981,
-                    "url": "https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar"
-                }
-            },
-            "name": "com.paulscode:librarylwjglopenal:20100824"
-        },
-        {
-            "downloads": {
-                "artifact": {
                     "sha1": "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
                     "size": 65020,
                     "url": "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar"
@@ -182,6 +175,16 @@
         {
             "downloads": {
                 "artifact": {
+                    "sha1": "79f393a776bfde2d5fc72f968e061dcf124558b3",
+                    "size": 59532,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/0.1.13/brigadier-0.1.13.jar"
+                }
+            },
+            "name": "com.mojang:brigadier:0.1.13"
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "sha1": "c4ba5371a29ac9b2ad6129b1d39ea38750043eff",
                     "size": 231952,
                     "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"
@@ -198,16 +201,6 @@
                 }
             },
             "name": "com.mojang:authlib:1.5.25"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "e6a623bf93a230b503b0e3ae18c196fcd5aa3299",
-                    "size": 3257404,
-                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.10.17/realms-1.10.17.jar"
-                }
-            },
-            "name": "com.mojang:realms:1.10.17"
         },
         {
             "downloads": {
@@ -409,24 +402,24 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "83385d346cf7f97d1e447b888750fb88e9928b93",
-                "size": 10178558,
-                "url": "https://launcher.mojang.com/mc/game/1.12.1/client/83385d346cf7f97d1e447b888750fb88e9928b93/client.jar"
+                "sha1": "bb28e11e5b6ca4c0678d00bf82d061d282ab6445",
+                "size": 10706106,
+                "url": "https://launcher.mojang.com/mc/game/17w49b/client/bb28e11e5b6ca4c0678d00bf82d061d282ab6445/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.12.1:client"
+        "name": "com.mojang:minecraft:17w49b:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2017-08-03T12:40:39+00:00",
+    "releaseTime": "2017-12-07T15:29:54+00:00",
     "requires": [
         {
-            "suggests": "2.9.4-nightly-20150209",
-            "uid": "org.lwjgl"
+            "suggests": "3.1.2",
+            "uid": "org.lwjgl3"
         }
     ],
-    "type": "release",
+    "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.12.1"
+    "version": "17w49b"
 }
