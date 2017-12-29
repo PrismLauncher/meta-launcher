@@ -2,7 +2,7 @@
     "+tweakers": [
         "net.minecraftforge.fml.common.launcher.FMLTweaker"
     ],
-    "formatVersion": 0,
+    "formatVersion": 1,
     "libraries": [
         {
             "name": "net.minecraftforge:forge:1.9-12.16.0.1874-1.9:universal",
@@ -86,7 +86,6 @@
     "mainClass": "net.minecraft.launchwrapper.Launch",
     "name": "Forge",
     "order": 5,
-    "parentUid": "net.minecraft",
     "releaseTime": "2016-05-02T17:46:13-04:00",
     "requires": [
         {
