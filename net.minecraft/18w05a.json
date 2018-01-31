@@ -175,12 +175,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "0c94a878d143ea5e77f00e1d8f05fc6d96814920",
-                    "size": 61789,
-                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/0.1.20/brigadier-0.1.20.jar"
+                    "sha1": "3538fe59ae610b105be9f4ae5f6a5a3b9c5fd070",
+                    "size": 64422,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/0.1.23/brigadier-0.1.23.jar"
                 }
             },
-            "name": "com.mojang:brigadier:0.1.20"
+            "name": "com.mojang:brigadier:0.1.23"
         },
         {
             "downloads": {
@@ -402,17 +402,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "39b958dd8e4ab25c6b6522ce9c83d4bd45173738",
-                "size": 10788746,
-                "url": "https://launcher.mojang.com/mc/game/18w03b/client/39b958dd8e4ab25c6b6522ce9c83d4bd45173738/client.jar"
+                "sha1": "bc3c321006bd1864a9e3dfea8c351927c44519c6",
+                "size": 10808534,
+                "url": "https://launcher.mojang.com/mc/game/18w05a/client/bc3c321006bd1864a9e3dfea8c351927c44519c6/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:18w03b:client"
+        "name": "com.mojang:minecraft:18w05a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2018-01-17T15:09:14+00:00",
+    "releaseTime": "2018-01-31T13:32:09+00:00",
     "requires": [
         {
             "suggests": "3.1.2",
@@ -421,5 +421,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "18w03b"
+    "version": "18w05a"
 }
