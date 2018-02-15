@@ -402,17 +402,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "78ed8d3359453614d8f69bd982111e8aa6c8f612",
-                "size": 11163926,
-                "url": "https://launcher.mojang.com/mc/game/18w06a/client/78ed8d3359453614d8f69bd982111e8aa6c8f612/client.jar"
+                "sha1": "e1aeafe25aa454e35e53bd489523bed51aa5e826",
+                "size": 11318009,
+                "url": "https://launcher.mojang.com/mc/game/18w07b/client/e1aeafe25aa454e35e53bd489523bed51aa5e826/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:18w06a:client"
+        "name": "com.mojang:minecraft:18w07b:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2018-02-09T12:09:55+00:00",
+    "releaseTime": "2018-02-15T14:28:42+00:00",
     "requires": [
         {
             "suggests": "3.1.2",
@@ -421,5 +421,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "18w06a"
+    "version": "18w07b"
 }
