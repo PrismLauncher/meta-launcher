@@ -195,12 +195,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "01a4116d32496d5d5cc57f8c40f3635438d77656",
-                    "size": 429749,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/1.0.12/datafixerupper-1.0.12.jar"
+                    "sha1": "963a1367041aa1394154092fb8c01f9c2b918841",
+                    "size": 430750,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/1.0.16/datafixerupper-1.0.16.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:1.0.12"
+            "name": "com.mojang:datafixerupper:1.0.16"
         },
         {
             "downloads": {
@@ -305,6 +305,16 @@
                 }
             },
             "name": "org.apache.logging.log4j:log4j-core:2.8.1"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "dc572f4a2b51ef5ee31ff1dee2840230ecfcfccb",
+                    "size": 6383503,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.13.0/realms-1.13.0.jar"
+                }
+            },
+            "name": "com.mojang:realms:1.13.0"
         },
         {
             "downloads": {
@@ -422,17 +432,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "9405570c459c0803da2754b34e5ffeb74413a904",
-                "size": 15911764,
-                "url": "https://launcher.mojang.com/mc/game/1.13-pre6/client/9405570c459c0803da2754b34e5ffeb74413a904/client.jar"
+                "sha1": "c0b970952cdd279912da384cdbfc0c26e6c6090b",
+                "size": 16033625,
+                "url": "https://launcher.mojang.com/mc/game/1.13/client/c0b970952cdd279912da384cdbfc0c26e6c6090b/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.13-pre6:client"
+        "name": "com.mojang:minecraft:1.13:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2018-07-04T12:36:00+00:00",
+    "releaseTime": "2018-07-18T15:11:46+00:00",
     "requires": [
         {
             "equals": "3.1.6",
@@ -440,7 +450,7 @@
             "uid": "org.lwjgl3"
         }
     ],
-    "type": "snapshot",
+    "type": "release",
     "uid": "net.minecraft",
-    "version": "1.13-pre6"
+    "version": "1.13"
 }
