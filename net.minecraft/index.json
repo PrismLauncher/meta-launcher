@@ -4,6 +4,19 @@
     "uid": "net.minecraft",
     "versions": [
         {
+            "releaseTime": "2018-08-15T14:28:56+00:00",
+            "requires": [
+                {
+                    "equals": "3.1.6",
+                    "suggests": "3.1.6",
+                    "uid": "org.lwjgl3"
+                }
+            ],
+            "sha256": "3372f9a1e962330f740d0d0e1cb635dd4e5276beef731f765b8e06e39266dd17",
+            "type": "snapshot",
+            "version": "18w33a"
+        },
+        {
             "releaseTime": "2018-08-08T13:16:57+00:00",
             "requires": [
                 {
@@ -12,7 +25,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "e8a406bb4d22305b7df1d3a9a85d9ea91ba4549b68cff606d7f8e17601617f43",
+            "sha256": "956457c45c7b607e709a18eb33d086de7f391dc8342633fdc573bcb44e945989",
             "type": "snapshot",
             "version": "18w32a"
         },
@@ -25,7 +38,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "73b25f894b78a1fb9e60d7f714797da55b11eab4244c98bd8f3ca59d753c6691",
+            "sha256": "4f43e95142e99c5bb97eb099a9d995a97d046402cf7acbe388d2f48f72bea4c7",
             "type": "snapshot",
             "version": "18w31a"
         },
@@ -38,7 +51,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "56ba9b3cb828c22f49c7ed00c885bd484f8d050f104e7c1ead23659a48b29753",
+            "sha256": "d8224ec1ff1cb85a1fb5c1be00d8ab3184967351002718d4310c51511d4447b2",
             "type": "snapshot",
             "version": "18w30b"
         },
