@@ -3,11 +3,11 @@
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
-        "id": "1.13",
-        "sha1": "08eaf465b2a3da266ad485781bc93529444f023c",
+        "id": "1.13.1",
+        "sha1": "55381e1f1d4130a349fa529c8fc2745e1ccbe65a",
         "size": 217445,
-        "totalSize": 185334118,
-        "url": "https://launchermeta.mojang.com/mc/assets/1.13/08eaf465b2a3da266ad485781bc93529444f023c/1.13.json"
+        "totalSize": 185631225,
+        "url": "https://launchermeta.mojang.com/mc/assets/1.13.1/55381e1f1d4130a349fa529c8fc2745e1ccbe65a/1.13.1.json"
     },
     "formatVersion": 1,
     "libraries": [
@@ -114,12 +114,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "0097860965d6a0a6b98e7f569f3f966727b8db75",
-                    "size": 3511093,
-                    "url": "https://libraries.minecraft.net/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar"
+                    "sha1": "d0626cd3108294d1d58c05859add27b4ef21f83b",
+                    "size": 3823147,
+                    "url": "https://libraries.minecraft.net/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar"
                 }
             },
-            "name": "io.netty:netty-all:4.1.9.Final"
+            "name": "io.netty:netty-all:4.1.25.Final"
         },
         {
             "downloads": {
@@ -185,12 +185,22 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "35d7c19d331f2153e72a7384d452207a94c98b19",
-                    "size": 66676,
-                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/0.1.25/brigadier-0.1.25.jar"
+                    "sha1": "a18df0522b577ca364b87019c1efa0b8faa12fe5",
+                    "size": 73350,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.14/brigadier-1.0.14.jar"
                 }
             },
-            "name": "com.mojang:brigadier:0.1.25"
+            "name": "com.mojang:brigadier:1.0.14"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "963a1367041aa1394154092fb8c01f9c2b918841",
+                    "size": 430750,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/1.0.16/datafixerupper-1.0.16.jar"
+                }
+            },
+            "name": "com.mojang:datafixerupper:1.0.16"
         },
         {
             "downloads": {
@@ -255,12 +265,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "9835253257524c1be7ab50c057aa2d418fb72082",
-                    "size": 17655579,
-                    "url": "https://libraries.minecraft.net/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar"
+                    "sha1": "5ad88f325e424f8dbc2be5459e21ea5cab3864e9",
+                    "size": 18800417,
+                    "url": "https://libraries.minecraft.net/it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar"
                 }
             },
-            "name": "it.unimi.dsi:fastutil:7.1.0"
+            "name": "it.unimi.dsi:fastutil:8.2.1"
         },
         {
             "downloads": {
@@ -295,6 +305,16 @@
                 }
             },
             "name": "org.apache.logging.log4j:log4j-core:2.8.1"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "117db94ce2d7726275000df2b6dd60ac0f76e480",
+                    "size": 6384965,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.13.3/realms-1.13.3.jar"
+                }
+            },
+            "name": "com.mojang:realms:1.13.3"
         },
         {
             "downloads": {
@@ -412,25 +432,25 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "6e5306869f9644e0a91f23345b4f445742daf5cc",
-                "size": 12247833,
-                "url": "https://launcher.mojang.com/mc/game/18w19b/client/6e5306869f9644e0a91f23345b4f445742daf5cc/client.jar"
+                "sha1": "7f7ae07cc319346b632f6c9f26ff8c67728b203c",
+                "size": 16086871,
+                "url": "https://launcher.mojang.com/mc/game/1.13.1-pre1/client/7f7ae07cc319346b632f6c9f26ff8c67728b203c/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:18w19b:client"
+        "name": "com.mojang:minecraft:1.13.1-pre1:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2018-05-09T10:00:51+00:00",
+    "releaseTime": "2018-08-16T13:08:44+00:00",
     "requires": [
         {
-            "equals": "3.1.2",
-            "suggests": "3.1.2",
+            "equals": "3.1.6",
+            "suggests": "3.1.6",
             "uid": "org.lwjgl3"
         }
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "18w19b"
+    "version": "1.13.1-pre1"
 }
