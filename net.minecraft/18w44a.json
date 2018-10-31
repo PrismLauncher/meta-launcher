@@ -274,12 +274,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "117db94ce2d7726275000df2b6dd60ac0f76e480",
-                    "size": 6384965,
-                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.13.3/realms-1.13.3.jar"
+                    "sha1": "92c452fbfe1e203779d0c044ee81c0bdebebfa0b",
+                    "size": 6384622,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.0/realms-1.14.0.jar"
                 }
             },
-            "name": "com.mojang:realms:1.13.3"
+            "name": "com.mojang:realms:1.14.0"
         },
         {
             "downloads": {
@@ -393,17 +393,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "6f0fa604e9c8b1996c985aceb9b589fa4e583671",
-                "size": 16828251,
-                "url": "https://launcher.mojang.com/v1/objects/6f0fa604e9c8b1996c985aceb9b589fa4e583671/client.jar"
+                "sha1": "20ea61f07e34b3e81ca356b6a71cc98cc4e571a9",
+                "size": 16972378,
+                "url": "https://launcher.mojang.com/v1/objects/20ea61f07e34b3e81ca356b6a71cc98cc4e571a9/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:18w43a:client"
+        "name": "com.mojang:minecraft:18w44a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2018-10-24T10:52:16+00:00",
+    "releaseTime": "2018-10-31T15:29:16+00:00",
     "requires": [
         {
             "equals": "3.1.6",
@@ -413,5 +413,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "18w43a"
+    "version": "18w44a"
 }
