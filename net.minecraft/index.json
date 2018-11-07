@@ -4,6 +4,19 @@
     "uid": "net.minecraft",
     "versions": [
         {
+            "releaseTime": "2018-11-07T14:40:06+00:00",
+            "requires": [
+                {
+                    "equals": "3.1.6",
+                    "suggests": "3.1.6",
+                    "uid": "org.lwjgl3"
+                }
+            ],
+            "sha256": "1b19bec3ea7dea3b62e6676fe448b122646075245570a927a0f14385c5615ea5",
+            "type": "snapshot",
+            "version": "18w45a"
+        },
+        {
             "releaseTime": "2018-10-31T15:29:16+00:00",
             "requires": [
                 {
@@ -12,7 +25,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "7b8eced594be2247bdd110f29fc826ac31d39e9e244aac112f1b2a9d43a51ea9",
+            "sha256": "1928c35e0c257938971b3ca8ef147a7d8cbd8ddbf3a872a103ab9bc451a580f4",
             "type": "snapshot",
             "version": "18w44a"
         },
@@ -25,7 +38,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "b750451992cbdbd060d228ce5a6517509eda4858e6f326270239a2a1ec7ca3eb",
+            "sha256": "a6b362812db8f8938589ac9fff4be44c5b9e7f8e932729ff5afbffa8e7f8443c",
             "type": "snapshot",
             "version": "18w43c"
         },
@@ -38,7 +51,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "ceb7ae86986ae3e6699796295f1e350186f0be370bf422a6d8d3b6f207b190fa",
+            "sha256": "022bffe7d22523f115763210a635affa5ef0515327c5a8d09bf2c44f1a1abd1d",
             "type": "snapshot",
             "version": "18w43b"
         },
@@ -51,7 +64,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "de11b9164c3e2d864a326d4ee734dc468ee1b27f6391348c701bb691427e27cc",
+            "sha256": "e5ca85daaa44a59f52611b96d93aa73dadae86a61beb84a41f01ab84b125e614",
             "type": "snapshot",
             "version": "18w43a"
         },
@@ -65,7 +78,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "2080cc6cba5d9063be33c45d6879e969b20c00b1d8c4c6ff73c27407f4014a0c",
+            "sha256": "be69b350b2170d24346606a759913dfe9a12e86ef79a59aadc9fc51eb01832bf",
             "type": "release",
             "version": "1.13.2"
         },
