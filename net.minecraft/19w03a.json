@@ -64,6 +64,16 @@
         {
             "downloads": {
                 "artifact": {
+                    "sha1": "6aa6453aa99a52a5cd91749da1af6ab70e082ab3",
+                    "size": 5111,
+                    "url": "https://libraries.minecraft.net/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar"
+                }
+            },
+            "name": "com.mojang:javabridge:1.0.22"
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "sha1": "cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a",
                     "size": 78175,
                     "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
@@ -174,12 +184,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "1b6555e15d9ee9d96dd1dd354d629972bc92e009",
-                    "size": 432133,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/1.0.21/datafixerupper-1.0.21.jar"
+                    "sha1": "dfd38f37b52df28f056726c765c547a42f966b0f",
+                    "size": 437308,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/2.0.23/datafixerupper-2.0.23.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:1.0.21"
+            "name": "com.mojang:datafixerupper:2.0.23"
         },
         {
             "downloads": {
@@ -274,12 +284,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "117db94ce2d7726275000df2b6dd60ac0f76e480",
-                    "size": 6384965,
-                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.13.3/realms-1.13.3.jar"
+                    "sha1": "4b5fabbdf723522e998c7498219d1e5a547428a9",
+                    "size": 6383869,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.1/realms-1.14.1.jar"
                 }
             },
-            "name": "com.mojang:realms:1.13.3"
+            "name": "com.mojang:realms:1.14.1"
         },
         {
             "downloads": {
@@ -393,17 +403,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "6f0fa604e9c8b1996c985aceb9b589fa4e583671",
-                "size": 16828251,
-                "url": "https://launcher.mojang.com/v1/objects/6f0fa604e9c8b1996c985aceb9b589fa4e583671/client.jar"
+                "sha1": "7280ee42cce1c0371c96c95c22170d3aea7068bb",
+                "size": 17842319,
+                "url": "https://launcher.mojang.com/v1/objects/7280ee42cce1c0371c96c95c22170d3aea7068bb/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:18w43a:client"
+        "name": "com.mojang:minecraft:19w03a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2018-10-24T10:52:16+00:00",
+    "releaseTime": "2019-01-16T16:45:02+00:00",
     "requires": [
         {
             "equals": "3.1.6",
@@ -413,5 +423,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "18w43a"
+    "version": "19w03a"
 }
