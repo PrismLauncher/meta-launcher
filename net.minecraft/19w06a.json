@@ -403,25 +403,25 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "1db2550289499e9611fb03744a63adc50d8ac811",
-                "size": 18120774,
-                "url": "https://launcher.mojang.com/v1/objects/1db2550289499e9611fb03744a63adc50d8ac811/client.jar"
+                "sha1": "10c8f97e8d9d32a6d0a951a7db6f51818d5d258a",
+                "size": 18235337,
+                "url": "https://launcher.mojang.com/v1/objects/10c8f97e8d9d32a6d0a951a7db6f51818d5d258a/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:19w04b:client"
+        "name": "com.mojang:minecraft:19w06a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2019-01-25T12:20:15+00:00",
+    "releaseTime": "2019-02-06T16:24:13+00:00",
     "requires": [
         {
-            "equals": "3.1.6",
-            "suggests": "3.1.6",
+            "equals": "3.2.1",
+            "suggests": "3.2.1",
             "uid": "org.lwjgl3"
         }
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "19w04b"
+    "version": "19w06a"
 }
