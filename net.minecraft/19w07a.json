@@ -184,12 +184,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "1b6555e15d9ee9d96dd1dd354d629972bc92e009",
-                    "size": 432133,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/1.0.21/datafixerupper-1.0.21.jar"
+                    "sha1": "dfd38f37b52df28f056726c765c547a42f966b0f",
+                    "size": 437308,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/2.0.23/datafixerupper-2.0.23.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:1.0.21"
+            "name": "com.mojang:datafixerupper:2.0.23"
         },
         {
             "downloads": {
@@ -284,12 +284,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "92c452fbfe1e203779d0c044ee81c0bdebebfa0b",
-                    "size": 6384622,
-                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.0/realms-1.14.0.jar"
+                    "sha1": "4b5fabbdf723522e998c7498219d1e5a547428a9",
+                    "size": 6383869,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.1/realms-1.14.1.jar"
                 }
             },
-            "name": "com.mojang:realms:1.14.0"
+            "name": "com.mojang:realms:1.14.1"
         },
         {
             "downloads": {
@@ -403,25 +403,25 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "2a0b27ad8bd6cd2bb09e3a2210170fd0b5424c54",
-                "size": 17504571,
-                "url": "https://launcher.mojang.com/v1/objects/2a0b27ad8bd6cd2bb09e3a2210170fd0b5424c54/client.jar"
+                "sha1": "656fcedd90336e82678d260e4fa20df958926474",
+                "size": 18525015,
+                "url": "https://launcher.mojang.com/v1/objects/656fcedd90336e82678d260e4fa20df958926474/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:18w49a:client"
+        "name": "com.mojang:minecraft:19w07a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2018-12-05T12:24:30+00:00",
+    "releaseTime": "2019-02-13T16:12:08+00:00",
     "requires": [
         {
-            "equals": "3.1.6",
-            "suggests": "3.1.6",
+            "equals": "3.2.1",
+            "suggests": "3.2.1",
             "uid": "org.lwjgl3"
         }
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "18w49a"
+    "version": "19w07a"
 }
