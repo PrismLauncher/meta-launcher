@@ -174,12 +174,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "a18df0522b577ca364b87019c1efa0b8faa12fe5",
-                    "size": 73350,
-                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.14/brigadier-1.0.14.jar"
+                    "sha1": "c6b7dc51dd44379cc751b7504816006e9be4b1e6",
+                    "size": 77392,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar"
                 }
             },
-            "name": "com.mojang:brigadier:1.0.14"
+            "name": "com.mojang:brigadier:1.0.17"
         },
         {
             "downloads": {
@@ -403,25 +403,25 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "26f8cdc6354884a4564a6d4e9dceb4e4440dfb54",
-                "size": 18142795,
-                "url": "https://launcher.mojang.com/v1/objects/26f8cdc6354884a4564a6d4e9dceb4e4440dfb54/client.jar"
+                "sha1": "cc17b46768c36095f2bf2f621bea12dc307b57d0",
+                "size": 18563680,
+                "url": "https://launcher.mojang.com/v1/objects/cc17b46768c36095f2bf2f621bea12dc307b57d0/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:19w05a:client"
+        "name": "com.mojang:minecraft:19w08b:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2019-01-30T15:16:49+00:00",
+    "releaseTime": "2019-02-21T13:38:09+00:00",
     "requires": [
         {
-            "equals": "3.1.6",
-            "suggests": "3.1.6",
+            "equals": "3.2.1",
+            "suggests": "3.2.1",
             "uid": "org.lwjgl3"
         }
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "19w05a"
+    "version": "19w08b"
 }
