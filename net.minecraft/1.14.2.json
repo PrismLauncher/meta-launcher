@@ -244,12 +244,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "b487963937a2e574ba17b568b834b3d4945a721d",
-                    "size": 6358394,
-                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.6/realms-1.14.6.jar"
+                    "sha1": "c471ed4220097ec622a6b035395a5ad4abedec9e",
+                    "size": 6364656,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.16/realms-1.14.16.jar"
                 }
             },
-            "name": "com.mojang:realms:1.14.6"
+            "name": "com.mojang:realms:1.14.16"
         },
         {
             "downloads": {
@@ -363,17 +363,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "7d41669ddd780baecab2926d6ea6b08dac7d834f",
-                "size": 18735942,
-                "url": "https://launcher.mojang.com/v1/objects/7d41669ddd780baecab2926d6ea6b08dac7d834f/client.jar"
+                "sha1": "ca6c5a139045967229975c0c0b7f93e78b4314c2",
+                "size": 18794327,
+                "url": "https://launcher.mojang.com/v1/objects/ca6c5a139045967229975c0c0b7f93e78b4314c2/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.14 Pre-Release 2:client"
+        "name": "com.mojang:minecraft:1.14.2:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2019-04-12T11:38:53+00:00",
+    "releaseTime": "2019-05-27T11:48:25+00:00",
     "requires": [
         {
             "equals": "3.2.1",
@@ -381,7 +381,7 @@
             "uid": "org.lwjgl3"
         }
     ],
-    "type": "snapshot",
+    "type": "release",
     "uid": "net.minecraft",
-    "version": "1.14 Pre-Release 2"
+    "version": "1.14.2"
 }

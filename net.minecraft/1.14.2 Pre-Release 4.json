@@ -4,10 +4,10 @@
     ],
     "assetIndex": {
         "id": "1.14",
-        "sha1": "702d433ca9a27a2b75dc4e95ac57921a34d82bd3",
+        "sha1": "94c450ec7e65fbc9bc24fb95b2315291b58e9815",
         "size": 226168,
-        "totalSize": 207233561,
-        "url": "https://launchermeta.mojang.com/v1/packages/702d433ca9a27a2b75dc4e95ac57921a34d82bd3/1.14.json"
+        "totalSize": 207310640,
+        "url": "https://launchermeta.mojang.com/v1/packages/94c450ec7e65fbc9bc24fb95b2315291b58e9815/1.14.json"
     },
     "formatVersion": 1,
     "libraries": [
@@ -363,9 +363,9 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "f14e1ab15fb7455c81c487b2d82b29773e7cf4f6",
-                "size": 18794301,
-                "url": "https://launcher.mojang.com/v1/objects/f14e1ab15fb7455c81c487b2d82b29773e7cf4f6/client.jar"
+                "sha1": "60783b7bab4125d55f187c859e4b41418ebc8719",
+                "size": 18794361,
+                "url": "https://launcher.mojang.com/v1/objects/60783b7bab4125d55f187c859e4b41418ebc8719/client.jar"
             }
         },
         "name": "com.mojang:minecraft:1.14.2 Pre-Release 4:client"
@@ -373,7 +373,7 @@
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2019-05-24T15:48:24+00:00",
+    "releaseTime": "2019-05-27T07:21:11+00:00",
     "requires": [
         {
             "equals": "3.2.1",
