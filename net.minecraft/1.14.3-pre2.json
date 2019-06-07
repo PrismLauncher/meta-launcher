@@ -244,12 +244,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "b414341661ed1b32899beb9787f08927ffee634f",
+                    "sha1": "c471ed4220097ec622a6b035395a5ad4abedec9e",
                     "size": 6364656,
-                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.15/realms-1.14.15.jar"
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.14.16/realms-1.14.16.jar"
                 }
             },
-            "name": "com.mojang:realms:1.14.15"
+            "name": "com.mojang:realms:1.14.16"
         },
         {
             "downloads": {
@@ -363,25 +363,25 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "55ba86ddcbc3579397f41910463ffd4056e1e523",
-                "size": 18814947,
-                "url": "https://launcher.mojang.com/v1/objects/55ba86ddcbc3579397f41910463ffd4056e1e523/client.jar"
+                "sha1": "a9358d6b2ac6025923155b46dc26cc74523ac130",
+                "size": 18809597,
+                "url": "https://launcher.mojang.com/v1/objects/a9358d6b2ac6025923155b46dc26cc74523ac130/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.14.1:client"
+        "name": "com.mojang:minecraft:1.14.3-pre2:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2019-05-13T11:10:12+00:00",
+    "releaseTime": "2019-06-07T09:11:29+00:00",
     "requires": [
         {
-            "equals": "3.2.1",
-            "suggests": "3.2.1",
+            "equals": "3.2.2",
+            "suggests": "3.2.2",
             "uid": "org.lwjgl3"
         }
     ],
-    "type": "release",
+    "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.14.1"
+    "version": "1.14.3-pre2"
 }
