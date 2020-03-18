@@ -3,11 +3,11 @@
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
-        "id": "1.15",
-        "sha1": "93f435ca0c67eff15eb81a0f4aa234708d6b34c9",
-        "size": 235357,
-        "totalSize": 217256613,
-        "url": "https://launchermeta.mojang.com/v1/packages/93f435ca0c67eff15eb81a0f4aa234708d6b34c9/1.15.json"
+        "id": "1.16",
+        "sha1": "86ff91e00a15859e37989c59aac2b8eea92f3da3",
+        "size": 279178,
+        "totalSize": 252222758,
+        "url": "https://launchermeta.mojang.com/v1/packages/86ff91e00a15859e37989c59aac2b8eea92f3da3/1.16.json"
     },
     "formatVersion": 1,
     "libraries": [
@@ -353,17 +353,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "bf60be81bb0902fdeb221d0d09870112d31df0b7",
-                "size": 15481924,
-                "url": "https://launcher.mojang.com/v1/objects/bf60be81bb0902fdeb221d0d09870112d31df0b7/client.jar"
+                "sha1": "8ffb3d6807ede557ca7e114b4b6c3fb797d6e432",
+                "size": 16049329,
+                "url": "https://launcher.mojang.com/v1/objects/8ffb3d6807ede557ca7e114b4b6c3fb797d6e432/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:19w45b:client"
+        "name": "com.mojang:minecraft:20w12a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2019-11-08T12:42:44+00:00",
+    "releaseTime": "2020-03-18T16:42:06+00:00",
     "requires": [
         {
             "equals": "3.2.2",
@@ -373,5 +373,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "19w45b"
+    "version": "20w12a"
 }
