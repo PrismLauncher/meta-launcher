@@ -54,12 +54,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "63d216a9311cca6be337c1e458e587f99d382b84",
-                    "size": 1634692,
-                    "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar"
+                    "sha1": "72c7519b6d91f7a1f993bd44a99fe95d67211b27",
+                    "size": 12935630,
+                    "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar"
                 }
             },
-            "name": "com.ibm.icu:icu4j-core-mojang:51.2"
+            "name": "com.ibm.icu:icu4j:66.1"
         },
         {
             "downloads": {
@@ -164,12 +164,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "9834cdf236c22e84b946bba989e2f94ef5897c3c",
-                    "size": 65621,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.jar"
+                    "sha1": "5bd0ce00c1e1f483641f85bccb02d1956dd77ec0",
+                    "size": 70197,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/1.6.25/authlib-1.6.25.jar"
                 }
             },
-            "name": "com.mojang:authlib:1.5.25"
+            "name": "com.mojang:authlib:1.6.25"
         },
         {
             "downloads": {
@@ -353,17 +353,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "8ffb3d6807ede557ca7e114b4b6c3fb797d6e432",
-                "size": 16049329,
-                "url": "https://launcher.mojang.com/v1/objects/8ffb3d6807ede557ca7e114b4b6c3fb797d6e432/client.jar"
+                "sha1": "ff70a84c9cdc99a866c4b06410ec46f541dcf988",
+                "size": 17234567,
+                "url": "https://launcher.mojang.com/v1/objects/ff70a84c9cdc99a866c4b06410ec46f541dcf988/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:20w12a:client"
+        "name": "com.mojang:minecraft:20w20b:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2020-03-18T16:42:06+00:00",
+    "releaseTime": "2020-05-14T08:16:26+00:00",
     "requires": [
         {
             "equals": "3.2.2",
@@ -373,5 +373,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "20w12a"
+    "version": "20w20b"
 }
