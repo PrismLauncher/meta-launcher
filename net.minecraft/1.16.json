@@ -353,17 +353,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "96efb012b75620e881d5b97deb6fd9f02caab4e5",
-                "size": 17333131,
-                "url": "https://launcher.mojang.com/v1/objects/96efb012b75620e881d5b97deb6fd9f02caab4e5/client.jar"
+                "sha1": "d3b551b100080ea7943e653268bb7f5a479ce618",
+                "size": 17492029,
+                "url": "https://launcher.mojang.com/v1/objects/d3b551b100080ea7943e653268bb7f5a479ce618/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:20w21a:client"
+        "name": "com.mojang:minecraft:1.16:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2020-05-20T12:07:18+00:00",
+    "releaseTime": "2020-06-22T13:49:27+00:00",
     "requires": [
         {
             "equals": "3.2.2",
@@ -371,7 +371,7 @@
             "uid": "org.lwjgl3"
         }
     ],
-    "type": "snapshot",
+    "type": "release",
     "uid": "net.minecraft",
-    "version": "20w21a"
+    "version": "1.16"
 }
