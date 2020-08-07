@@ -144,12 +144,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "0944c24a8519981847ffb36c6dcd059d96fcb4b0",
-                    "size": 436066,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/2.0.24/datafixerupper-2.0.24.jar"
+                    "sha1": "ebd6690f33871ccee9b6132c6480668ee2e35020",
+                    "size": 673183,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:2.0.24"
+            "name": "com.mojang:datafixerupper:4.0.26"
         },
         {
             "downloads": {
@@ -353,17 +353,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "ff70a84c9cdc99a866c4b06410ec46f541dcf988",
-                "size": 17234567,
-                "url": "https://launcher.mojang.com/v1/objects/ff70a84c9cdc99a866c4b06410ec46f541dcf988/client.jar"
+                "sha1": "dd4982bb447c1d2c7c03419b90dbe8f017c47311",
+                "size": 17505290,
+                "url": "https://launcher.mojang.com/v1/objects/dd4982bb447c1d2c7c03419b90dbe8f017c47311/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:20w20b:client"
+        "name": "com.mojang:minecraft:1.16.2-rc1:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2020-05-14T08:16:26+00:00",
+    "releaseTime": "2020-08-07T14:35:39+00:00",
     "requires": [
         {
             "equals": "3.2.2",
@@ -373,5 +373,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "20w20b"
+    "version": "1.16.2-rc1"
 }
