@@ -1,13 +1,14 @@
 {
     "+traits": [
+        "XR:Initial",
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
-        "id": "1.16",
-        "sha1": "f8e11ca03b475dd655755b945334c7a0ac2c3b43",
-        "size": 295419,
-        "totalSize": 330372979,
-        "url": "https://launchermeta.mojang.com/v1/packages/f8e11ca03b475dd655755b945334c7a0ac2c3b43/1.16.json"
+        "id": "1.17",
+        "sha1": "ecd216d8188230180af4163ee4f4901e28acee29",
+        "size": 319072,
+        "totalSize": 337149961,
+        "url": "https://launchermeta.mojang.com/v1/packages/ecd216d8188230180af4163ee4f4901e28acee29/1.17.json"
     },
     "formatVersion": 1,
     "libraries": [
@@ -64,12 +65,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "6aa6453aa99a52a5cd91749da1af6ab70e082ab3",
-                    "size": 5111,
-                    "url": "https://libraries.minecraft.net/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar"
+                    "sha1": "3e5084d916ba393dfd82928ec97663aeb10b2e2c",
+                    "size": 6014,
+                    "url": "https://libraries.minecraft.net/com/mojang/javabridge/1.1.23/javabridge-1.1.23.jar"
                 }
             },
-            "name": "com.mojang:javabridge:1.0.22"
+            "name": "com.mojang:javabridge:1.1.23"
         },
         {
             "downloads": {
@@ -144,12 +145,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "b3e9ae66d5a69b4aa43d9dbe1e2b2d1401251343",
-                    "size": 672421,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/3.0.25/datafixerupper-3.0.25.jar"
+                    "sha1": "ebd6690f33871ccee9b6132c6480668ee2e35020",
+                    "size": 673183,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:3.0.25"
+            "name": "com.mojang:datafixerupper:4.0.26"
         },
         {
             "downloads": {
@@ -164,12 +165,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "5bd0ce00c1e1f483641f85bccb02d1956dd77ec0",
-                    "size": 70197,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/1.6.25/authlib-1.6.25.jar"
+                    "sha1": "cc36c2be8b0de3e200efbb23f0eb2d28055cd98f",
+                    "size": 76014,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.0.27/authlib-2.0.27.jar"
                 }
             },
-            "name": "com.mojang:authlib:1.6.25"
+            "name": "com.mojang:authlib:2.0.27"
         },
         {
             "downloads": {
@@ -353,17 +354,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "a056316b66aea50c0555d5f438cf839b6cdde000",
-                "size": 17491971,
-                "url": "https://launcher.mojang.com/v1/objects/a056316b66aea50c0555d5f438cf839b6cdde000/client.jar"
+                "sha1": "818705401f58ee4df2267bf97fa2e0fb6e78ce28",
+                "size": 18229756,
+                "url": "https://launcher.mojang.com/v1/objects/818705401f58ee4df2267bf97fa2e0fb6e78ce28/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.16-rc1:client"
+        "name": "com.mojang:minecraft:20w49a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2020-06-18T12:49:28+00:00",
+    "releaseTime": "2020-12-02T16:47:20+00:00",
     "requires": [
         {
             "equals": "3.2.2",
@@ -373,5 +374,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.16-rc1"
+    "version": "20w49a"
 }
