@@ -1,5 +1,6 @@
 {
     "+traits": [
+        "XR:Initial",
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
@@ -164,12 +165,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "5bd0ce00c1e1f483641f85bccb02d1956dd77ec0",
-                    "size": 70197,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/1.6.25/authlib-1.6.25.jar"
+                    "sha1": "cc36c2be8b0de3e200efbb23f0eb2d28055cd98f",
+                    "size": 76014,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.0.27/authlib-2.0.27.jar"
                 }
             },
-            "name": "com.mojang:authlib:1.6.25"
+            "name": "com.mojang:authlib:2.0.27"
         },
         {
             "downloads": {
@@ -353,17 +354,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "8cfa861961862c263ff80f2f6478535fd1ed7d8b",
-                "size": 17503666,
-                "url": "https://launcher.mojang.com/v1/objects/8cfa861961862c263ff80f2f6478535fd1ed7d8b/client.jar"
+                "sha1": "2bbd201c34b43fa50a71c5865b92759b36ab632b",
+                "size": 17547272,
+                "url": "https://launcher.mojang.com/v1/objects/2bbd201c34b43fa50a71c5865b92759b36ab632b/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.16.2-pre3:client"
+        "name": "com.mojang:minecraft:1.16.5-rc1:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2020-08-06T16:44:52+00:00",
+    "releaseTime": "2021-01-13T10:05:57+00:00",
     "requires": [
         {
             "equals": "3.2.2",
@@ -373,5 +374,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.16.2-pre3"
+    "version": "1.16.5-rc1"
 }
