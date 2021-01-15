@@ -4,6 +4,20 @@
     "uid": "net.minecraft",
     "versions": [
         {
+            "recommended": true,
+            "releaseTime": "2021-01-14T16:05:32+00:00",
+            "requires": [
+                {
+                    "equals": "3.2.2",
+                    "suggests": "3.2.2",
+                    "uid": "org.lwjgl3"
+                }
+            ],
+            "sha256": "eb19ae4f19676d696704065190316eb52be08634856fe37344901dc680520d9e",
+            "type": "release",
+            "version": "1.16.5"
+        },
+        {
             "releaseTime": "2021-01-13T15:58:55+00:00",
             "requires": [
                 {
@@ -82,7 +96,6 @@
             "version": "20w45a"
         },
         {
-            "recommended": true,
             "releaseTime": "2020-10-29T15:49:37+00:00",
             "requires": [
                 {
