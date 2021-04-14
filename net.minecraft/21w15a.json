@@ -15,12 +15,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "aef610b34a1be37fa851825f12372b78424d8903",
-                    "size": 15817,
-                    "url": "https://libraries.minecraft.net/com/mojang/patchy/1.1/patchy-1.1.jar"
+                    "sha1": "e3107ca512d704a434076a153a6e1149e3787275",
+                    "size": 22340,
+                    "url": "https://libraries.minecraft.net/com/mojang/patchy/1.2.3/patchy-1.2.3.jar"
                 }
             },
-            "name": "com.mojang:patchy:1.1"
+            "name": "com.mojang:patchy:1.2.3"
         },
         {
             "downloads": {
@@ -135,12 +135,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "c6b7dc51dd44379cc751b7504816006e9be4b1e6",
-                    "size": 77392,
-                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar"
+                    "sha1": "c1ef1234282716483c92183f49bef47b1a89bfa9",
+                    "size": 77116,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar"
                 }
             },
-            "name": "com.mojang:brigadier:1.0.17"
+            "name": "com.mojang:brigadier:1.0.18"
         },
         {
             "downloads": {
@@ -354,17 +354,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "f4c56c2b7218599b78074a500ab2a89a04db5b36",
-                "size": 18091138,
-                "url": "https://launcher.mojang.com/v1/objects/f4c56c2b7218599b78074a500ab2a89a04db5b36/client.jar"
+                "sha1": "749805abb797f201a76e2c6ad2e7ff6f790bb53c",
+                "size": 19341384,
+                "url": "https://launcher.mojang.com/v1/objects/749805abb797f201a76e2c6ad2e7ff6f790bb53c/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:20w46a:client"
+        "name": "com.mojang:minecraft:21w15a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2020-11-11T15:30:32+00:00",
+    "releaseTime": "2021-04-14T13:41:34+00:00",
     "requires": [
         {
             "equals": "3.2.2",
@@ -374,5 +374,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "20w46a"
+    "version": "21w15a"
 }
