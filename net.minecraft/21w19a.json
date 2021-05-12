@@ -15,12 +15,22 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "e3107ca512d704a434076a153a6e1149e3787275",
-                    "size": 22340,
-                    "url": "https://libraries.minecraft.net/com/mojang/patchy/1.2.3/patchy-1.2.3.jar"
+                    "sha1": "9da540f21c9a8d5ed7c029e1f88d1a6dabb0d6ad",
+                    "size": 964,
+                    "url": "https://libraries.minecraft.net/com/mojang/blocklist/1.0.5/blocklist-1.0.5.jar"
                 }
             },
-            "name": "com.mojang:patchy:1.2.3"
+            "name": "com.mojang:blocklist:1.0.5"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "147f3989fa1db4412bf00167c5cd44d1ade2d9b9",
+                    "size": 10090,
+                    "url": "https://libraries.minecraft.net/com/mojang/patchy/2.0.5/patchy-2.0.5.jar"
+                }
+            },
+            "name": "com.mojang:patchy:2.0.5"
         },
         {
             "downloads": {
@@ -165,12 +175,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "ad54da276bf59983d02d5ed16fc14541354c71fd",
-                    "size": 76328,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.1.28/authlib-2.1.28.jar"
+                    "sha1": "cf8922b78a78492729f8dcc8ba878c1e7547f15b",
+                    "size": 86202,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.1.29/authlib-2.1.29.jar"
                 }
             },
-            "name": "com.mojang:authlib:2.1.28"
+            "name": "com.mojang:authlib:2.1.29"
         },
         {
             "downloads": {
@@ -354,17 +364,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "749805abb797f201a76e2c6ad2e7ff6f790bb53c",
-                "size": 19341384,
-                "url": "https://launcher.mojang.com/v1/objects/749805abb797f201a76e2c6ad2e7ff6f790bb53c/client.jar"
+                "sha1": "ec029994171ba8e3d9a68458d7d307a67a84faac",
+                "size": 19346626,
+                "url": "https://launcher.mojang.com/v1/objects/ec029994171ba8e3d9a68458d7d307a67a84faac/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:21w15a:client"
+        "name": "com.mojang:minecraft:21w19a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2021-04-14T13:41:34+00:00",
+    "releaseTime": "2021-05-12T11:19:15+00:00",
     "requires": [
         {
             "equals": "3.2.2",
@@ -374,5 +384,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "21w15a"
+    "version": "21w19a"
 }
