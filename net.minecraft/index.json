@@ -4,6 +4,19 @@
     "uid": "net.minecraft",
     "versions": [
         {
+            "releaseTime": "2021-08-10T12:42:45+00:00",
+            "requires": [
+                {
+                    "equals": "3.2.2",
+                    "suggests": "3.2.2",
+                    "uid": "org.lwjgl3"
+                }
+            ],
+            "sha256": "9acff5c63f6fc54d977a7d8e4d4d2aadffd0badcaa2668cbf69b96a6166b1cb0",
+            "type": "experiment",
+            "version": "1.18_experimental-snapshot-3"
+        },
+        {
             "releaseTime": "2021-07-20T13:35:08+00:00",
             "requires": [
                 {
