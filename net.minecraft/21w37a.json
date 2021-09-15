@@ -4,11 +4,11 @@
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
-        "id": "1.17",
-        "sha1": "dc07b2e194e5a7e6e6f6dd54a7ace9e66238c30b",
-        "size": 346003,
-        "totalSize": 346259936,
-        "url": "https://launchermeta.mojang.com/v1/packages/dc07b2e194e5a7e6e6f6dd54a7ace9e66238c30b/1.17.json"
+        "id": "1.18",
+        "sha1": "dd8470a5aa92faee06ab9e7c226c032ac6349340",
+        "size": 346673,
+        "totalSize": 345185728,
+        "url": "https://launchermeta.mojang.com/v1/packages/dd8470a5aa92faee06ab9e7c226c032ac6349340/1.18.json"
     },
     "formatVersion": 1,
     "libraries": [
@@ -35,32 +35,32 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "ce532d48516e93d6a1e4f67048b970dc3ec9a2b7",
-                    "size": 744585,
-                    "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/5.3.4/oshi-core-5.3.4.jar"
+                    "sha1": "725374463734aacde70a3b20f018aca3f922655f",
+                    "size": 835738,
+                    "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/5.7.5/oshi-core-5.7.5.jar"
                 }
             },
-            "name": "com.github.oshi:oshi-core:5.3.4"
+            "name": "com.github.oshi:oshi-core:5.7.5"
         },
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "330f2244e9030119ab3030fc3fededc86713d9cc",
-                    "size": 1509440,
-                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/5.6.0/jna-5.6.0.jar"
+                    "sha1": "3551d8d827e54858214107541d3aff9c615cb615",
+                    "size": 1729586,
+                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar"
                 }
             },
-            "name": "net.java.dev.jna:jna:5.6.0"
+            "name": "net.java.dev.jna:jna:5.8.0"
         },
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "d18424ffb8bbfd036d71bcaab9b546858f2ef986",
-                    "size": 2735878,
-                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.6.0/jna-platform-5.6.0.jar"
+                    "sha1": "2f12f6d7f7652270d13624cef1b82d8cd9a5398e",
+                    "size": 1338206,
+                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.8.0/jna-platform-5.8.0.jar"
                 }
             },
-            "name": "net.java.dev.jna:jna-platform:5.6.0"
+            "name": "net.java.dev.jna:jna-platform:5.8.0"
         },
         {
             "downloads": {
@@ -95,12 +95,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "3e5084d916ba393dfd82928ec97663aeb10b2e2c",
-                    "size": 6014,
-                    "url": "https://libraries.minecraft.net/com/mojang/javabridge/1.1.23/javabridge-1.1.23.jar"
+                    "sha1": "0c876796229b2ef5120f186eab5acc870699d3b9",
+                    "size": 6053,
+                    "url": "https://libraries.minecraft.net/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar"
                 }
             },
-            "name": "com.mojang:javabridge:1.1.23"
+            "name": "com.mojang:javabridge:1.2.24"
         },
         {
             "downloads": {
@@ -195,12 +195,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "d6e677199aa6b19c4a9a2e725034149eb3e746f8",
-                    "size": 87497,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.2.30/authlib-2.2.30.jar"
+                    "sha1": "bbd00ca33b052f73a6312254780fc580d2da3535",
+                    "size": 87662,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.3.31/authlib-2.3.31.jar"
                 }
             },
-            "name": "com.mojang:authlib:2.2.30"
+            "name": "com.mojang:authlib:2.3.31"
         },
         {
             "downloads": {
@@ -384,17 +384,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "940af6eda421da56e3bf9c390df65ba713cc8f7f",
-                "size": 19514494,
-                "url": "https://launcher.mojang.com/v1/objects/940af6eda421da56e3bf9c390df65ba713cc8f7f/client.jar"
+                "sha1": "be41b4e18f4a600365fd7a2b8eeac49232304ced",
+                "size": 19783374,
+                "url": "https://launcher.mojang.com/v1/objects/be41b4e18f4a600365fd7a2b8eeac49232304ced/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.17-pre1:client"
+        "name": "com.mojang:minecraft:21w37a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2021-05-27T09:39:21+00:00",
+    "releaseTime": "2021-09-15T16:04:30+00:00",
     "requires": [
         {
             "equals": "3.2.2",
@@ -404,5 +404,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.17-pre1"
+    "version": "21w37a"
 }
