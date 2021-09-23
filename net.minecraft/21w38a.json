@@ -1,55 +1,86 @@
 {
     "+traits": [
+        "XR:Initial",
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
-        "id": "1.16",
-        "sha1": "ad75fb46ff5c89aa5f9c90e12481e963854f9a6e",
-        "size": 294843,
-        "totalSize": 332467385,
-        "url": "https://launchermeta.mojang.com/v1/packages/ad75fb46ff5c89aa5f9c90e12481e963854f9a6e/1.16.json"
+        "id": "1.18",
+        "sha1": "207ea70b030a7074bbd2b55b26fe018eb977da91",
+        "size": 347053,
+        "totalSize": 346601081,
+        "url": "https://launchermeta.mojang.com/v1/packages/207ea70b030a7074bbd2b55b26fe018eb977da91/1.18.json"
     },
     "formatVersion": 1,
     "libraries": [
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "e3107ca512d704a434076a153a6e1149e3787275",
-                    "size": 22340,
-                    "url": "https://libraries.minecraft.net/com/mojang/patchy/1.2.3/patchy-1.2.3.jar"
+                    "sha1": "9da540f21c9a8d5ed7c029e1f88d1a6dabb0d6ad",
+                    "size": 964,
+                    "url": "https://libraries.minecraft.net/com/mojang/blocklist/1.0.5/blocklist-1.0.5.jar"
                 }
             },
-            "name": "com.mojang:patchy:1.2.3"
+            "name": "com.mojang:blocklist:1.0.5"
         },
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "9ddf7b048a8d701be231c0f4f95fd986198fd2d8",
-                    "size": 30973,
-                    "url": "https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.jar"
+                    "sha1": "ce112c16c6275fdfff2d30208533ec906a191f71",
+                    "size": 10090,
+                    "url": "https://libraries.minecraft.net/com/mojang/patchy/2.1.6/patchy-2.1.6.jar"
                 }
             },
-            "name": "oshi-project:oshi-core:1.1"
+            "name": "com.mojang:patchy:2.1.6"
         },
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "cb208278274bf12ebdb56c61bd7407e6f774d65a",
-                    "size": 1091208,
-                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar"
+                    "sha1": "725374463734aacde70a3b20f018aca3f922655f",
+                    "size": 835738,
+                    "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/5.7.5/oshi-core-5.7.5.jar"
                 }
             },
-            "name": "net.java.dev.jna:jna:4.4.0"
+            "name": "com.github.oshi:oshi-core:5.7.5"
         },
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "e3f70017be8100d3d6923f50b3d2ee17714e9c13",
-                    "size": 913436,
-                    "url": "https://libraries.minecraft.net/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar"
+                    "sha1": "3551d8d827e54858214107541d3aff9c615cb615",
+                    "size": 1729586,
+                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar"
                 }
             },
-            "name": "net.java.dev.jna:platform:3.4.0"
+            "name": "net.java.dev.jna:jna:5.8.0"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "2f12f6d7f7652270d13624cef1b82d8cd9a5398e",
+                    "size": 1338206,
+                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.8.0/jna-platform-5.8.0.jar"
+                }
+            },
+            "name": "net.java.dev.jna:jna-platform:5.8.0"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "83b0359d847ee053d745be7ec0d8e9e8a44304b4",
+                    "size": 44213,
+                    "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar"
+                }
+            },
+            "name": "org.slf4j:slf4j-api:1.8.0-beta4"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "312b4d91b21160b9fab43600fa787f31e8cab930",
+                    "size": 20688,
+                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j18-impl/2.14.1/log4j-slf4j18-impl-2.14.1.jar"
+                }
+            },
+            "name": "org.apache.logging.log4j:log4j-slf4j18-impl:2.14.1"
         },
         {
             "downloads": {
@@ -64,12 +95,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "6aa6453aa99a52a5cd91749da1af6ab70e082ab3",
-                    "size": 5111,
-                    "url": "https://libraries.minecraft.net/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar"
+                    "sha1": "0c876796229b2ef5120f186eab5acc870699d3b9",
+                    "size": 6053,
+                    "url": "https://libraries.minecraft.net/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar"
                 }
             },
-            "name": "com.mojang:javabridge:1.0.22"
+            "name": "com.mojang:javabridge:1.2.24"
         },
         {
             "downloads": {
@@ -124,22 +155,22 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "4b95f4897fa13f2cd904aee711aeafc0c5295cd8",
-                    "size": 284184,
-                    "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"
+                    "sha1": "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d",
+                    "size": 353793,
+                    "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.15/commons-codec-1.15.jar"
                 }
             },
-            "name": "commons-codec:commons-codec:1.10"
+            "name": "commons-codec:commons-codec:1.15"
         },
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "c6b7dc51dd44379cc751b7504816006e9be4b1e6",
-                    "size": 77392,
-                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar"
+                    "sha1": "c1ef1234282716483c92183f49bef47b1a89bfa9",
+                    "size": 77116,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar"
                 }
             },
-            "name": "com.mojang:brigadier:1.0.17"
+            "name": "com.mojang:brigadier:1.0.18"
         },
         {
             "downloads": {
@@ -164,12 +195,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "58d76f2a7f7ae4d5d79d74460a6d4eba0de7c116",
-                    "size": 75354,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.0.26/authlib-2.0.26.jar"
+                    "sha1": "d27df83c4a55eef75f21085e6781e67a296d1737",
+                    "size": 98770,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.0.35/authlib-3.0.35.jar"
                 }
             },
-            "name": "com.mojang:authlib:2.0.26"
+            "name": "com.mojang:authlib:3.0.35"
         },
         {
             "downloads": {
@@ -224,22 +255,22 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "e801d13612e22cad62a3f4f3fe7fdbe6334a8e72",
-                    "size": 228859,
-                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"
+                    "sha1": "cd8858fbbde69f46bce8db1152c18a43328aae78",
+                    "size": 300365,
+                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar"
                 }
             },
-            "name": "org.apache.logging.log4j:log4j-api:2.8.1"
+            "name": "org.apache.logging.log4j:log4j-api:2.14.1"
         },
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "4ac28ff2f1ddf05dae3043a190451e8c46b73c31",
-                    "size": 1402925,
-                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"
+                    "sha1": "9141212b8507ab50a45525b545b39d224614528b",
+                    "size": 1745700,
+                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar"
                 }
             },
-            "name": "org.apache.logging.log4j:log4j-core:2.8.1"
+            "name": "org.apache.logging.log4j:log4j-core:2.14.1"
         },
         {
             "downloads": {
@@ -353,17 +384,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "0bc552bc3c6516a5831fd365c0cc35e65df2aa01",
-                "size": 17546674,
-                "url": "https://launcher.mojang.com/v1/objects/0bc552bc3c6516a5831fd365c0cc35e65df2aa01/client.jar"
+                "sha1": "4e7c161ec40c9928ebfcc1f96be407d71de4b50d",
+                "size": 19806049,
+                "url": "https://launcher.mojang.com/v1/objects/4e7c161ec40c9928ebfcc1f96be407d71de4b50d/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.16.4-pre2:client"
+        "name": "com.mojang:minecraft:21w38a:client"
     },
-    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
+    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --clientId ${clientid} --xuid ${auth_xuid} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2020-10-22T15:32:17+00:00",
+    "releaseTime": "2021-09-23T14:36:06+00:00",
     "requires": [
         {
             "equals": "3.2.2",
@@ -373,5 +404,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.16.4-pre2"
+    "version": "21w38a"
 }
