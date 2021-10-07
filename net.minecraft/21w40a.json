@@ -155,12 +155,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "4b95f4897fa13f2cd904aee711aeafc0c5295cd8",
-                    "size": 284184,
-                    "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"
+                    "sha1": "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d",
+                    "size": 353793,
+                    "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.15/commons-codec-1.15.jar"
                 }
             },
-            "name": "commons-codec:commons-codec:1.10"
+            "name": "commons-codec:commons-codec:1.15"
         },
         {
             "downloads": {
@@ -195,12 +195,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "bbd00ca33b052f73a6312254780fc580d2da3535",
-                    "size": 87662,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/2.3.31/authlib-2.3.31.jar"
+                    "sha1": "591072d77cb6c87514fc59ab3618e13f09b20455",
+                    "size": 98945,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.1.36/authlib-3.1.36.jar"
                 }
             },
-            "name": "com.mojang:authlib:2.3.31"
+            "name": "com.mojang:authlib:3.1.36"
         },
         {
             "downloads": {
@@ -384,17 +384,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "be41b4e18f4a600365fd7a2b8eeac49232304ced",
-                "size": 19783374,
-                "url": "https://launcher.mojang.com/v1/objects/be41b4e18f4a600365fd7a2b8eeac49232304ced/client.jar"
+                "sha1": "b88eecb40a4b522aaebe5b10dc44d235f2aef944",
+                "size": 19860412,
+                "url": "https://launcher.mojang.com/v1/objects/b88eecb40a4b522aaebe5b10dc44d235f2aef944/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:21w37a:client"
+        "name": "com.mojang:minecraft:21w40a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2021-09-15T16:04:30+00:00",
+    "releaseTime": "2021-10-07T11:17:50+00:00",
     "requires": [
         {
             "equals": "3.2.2",
@@ -404,5 +404,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "21w37a"
+    "version": "21w40a"
 }
