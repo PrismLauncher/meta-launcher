@@ -4,12 +4,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "90104e9aaa8fbedf6c3d1f6d0b90cabce080b5a9",
-                    "size": 29892,
-                    "url": "https://files.multimc.org/maven/io/github/zekerzhayard/ForgeWrapper/1.5.1/ForgeWrapper-1.5.1.jar"
+                    "sha1": "2b0e06937349a209dbb90dca6381258daa456ad7",
+                    "size": 30486,
+                    "url": "https://files.multimc.org/maven/io/github/zekerzhayard/ForgeWrapper/1.5.3/ForgeWrapper-1.5.3.jar"
                 }
             },
-            "name": "io.github.zekerzhayard:ForgeWrapper:1.5.1"
+            "name": "io.github.zekerzhayard:ForgeWrapper:1.5.3"
         },
         {
             "downloads": {
@@ -246,8 +246,14 @@
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
     "mavenFiles": [
         {
-            "name": "net.minecraftforge:forge:1.14.4-28.1.98:installer",
-            "url": "https://files.minecraftforge.net/maven/"
+            "downloads": {
+                "artifact": {
+                    "sha1": "970c5bdfa0d88606bc8af044165e597a3806a7d6",
+                    "size": 8004463,
+                    "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.14.4-28.1.98/forge-1.14.4-28.1.98-installer.jar"
+                }
+            },
+            "name": "net.minecraftforge:forge:1.14.4-28.1.98:installer"
         },
         {
             "downloads": {
