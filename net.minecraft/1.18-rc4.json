@@ -394,17 +394,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "6232765f8b87066e271ab984eccd8a8f3af03630",
-                "size": 20038520,
-                "url": "https://launcher.mojang.com/v1/objects/6232765f8b87066e271ab984eccd8a8f3af03630/client.jar"
+                "sha1": "4cf8ed5168308946275308cae955ec70b4379477",
+                "size": 20038767,
+                "url": "https://launcher.mojang.com/v1/objects/4cf8ed5168308946275308cae955ec70b4379477/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.18-rc1:client"
+        "name": "com.mojang:minecraft:1.18-rc4:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2021-11-25T14:28:49+00:00",
+    "releaseTime": "2021-11-29T13:43:42+00:00",
     "requires": [
         {
             "equals": "3.2.2",
@@ -414,5 +414,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.18-rc1"
+    "version": "1.18-rc4"
 }
