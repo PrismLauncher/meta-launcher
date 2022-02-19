@@ -1,0 +1,25 @@
+name: Build Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Move directory
+        run: |
+          to_move=$(echo *)
+          mkdir -p _site/v1
+          mv "$to_move" _site/v1
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./_site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
