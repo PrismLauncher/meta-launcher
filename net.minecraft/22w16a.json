@@ -199,12 +199,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "0a02c43824ce57c3f7a7d7e744f0d99a040398b5",
-                    "size": 672957,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/4.1.27/datafixerupper-4.1.27.jar"
+                    "sha1": "e2157e236e529aff80a5fc3ccb506e56d46b130b",
+                    "size": 684966,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:4.1.27"
+            "name": "com.mojang:datafixerupper:5.0.28"
         },
         {
             "downloads": {
@@ -365,25 +365,25 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "1d186d967576d4e6043e5b1664da242c1b686a85",
-                "size": 21219240,
-                "url": "https://launcher.mojang.com/v1/objects/1d186d967576d4e6043e5b1664da242c1b686a85/client.jar"
+                "sha1": "4e8f686a40481690d16b006bbe571f5fdbc54d05",
+                "size": 21276100,
+                "url": "https://launcher.mojang.com/v1/objects/4e8f686a40481690d16b006bbe571f5fdbc54d05/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:22w14a:client"
+        "name": "com.mojang:minecraft:22w16a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2022-04-06T13:37:12+00:00",
+    "releaseTime": "2022-04-20T14:37:07+00:00",
     "requires": [
         {
-            "equals": "3.2.2",
-            "suggests": "3.2.2",
+            "equals": "3.3.1",
+            "suggests": "3.3.1",
             "uid": "org.lwjgl3"
         }
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "22w14a"
+    "version": "22w16a"
 }
