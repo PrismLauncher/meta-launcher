@@ -129,12 +129,102 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "b8266a3c93c1c051109f71d3449e5dcd5d60b333",
-                    "size": 4515045,
-                    "url": "https://libraries.minecraft.net/io/netty/netty-all/4.1.68.Final/netty-all-4.1.68.Final.jar"
+                    "sha1": "38d0b500f098dc89497b6e608d7427186f533cf0",
+                    "size": 651113,
+                    "url": "https://libraries.minecraft.net/io/netty/netty-common/4.1.76.Final/netty-common-4.1.76.Final.jar"
                 }
             },
-            "name": "io.netty:netty-all:4.1.68.Final"
+            "name": "io.netty:netty-common:4.1.76.Final"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "231f5042a5050773eb22a918e84daff3f00892f2",
+                    "size": 303758,
+                    "url": "https://libraries.minecraft.net/io/netty/netty-buffer/4.1.76.Final/netty-buffer-4.1.76.Final.jar"
+                }
+            },
+            "name": "io.netty:netty-buffer:4.1.76.Final"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "042b95ef41b928284842acf36a22547ba8a09fe5",
+                    "size": 337018,
+                    "url": "https://libraries.minecraft.net/io/netty/netty-codec/4.1.76.Final/netty-codec-4.1.76.Final.jar"
+                }
+            },
+            "name": "io.netty:netty-codec:4.1.76.Final"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "36a48583fa7da27be829b843d7eee9a8d89428e3",
+                    "size": 528267,
+                    "url": "https://libraries.minecraft.net/io/netty/netty-handler/4.1.76.Final/netty-handler-4.1.76.Final.jar"
+                }
+            },
+            "name": "io.netty:netty-handler:4.1.76.Final"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "e0b225a33772cb7bba73dc296cccefa6826ab8cc",
+                    "size": 37778,
+                    "url": "https://libraries.minecraft.net/io/netty/netty-resolver/4.1.76.Final/netty-resolver-4.1.76.Final.jar"
+                }
+            },
+            "name": "io.netty:netty-resolver:4.1.76.Final"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "f01d2f935005b6fdb2fedc23114d2ae717749c36",
+                    "size": 480821,
+                    "url": "https://libraries.minecraft.net/io/netty/netty-transport/4.1.76.Final/netty-transport-4.1.76.Final.jar"
+                }
+            },
+            "name": "io.netty:netty-transport:4.1.76.Final"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "d5ed8c4be9680203c53f7ed788225c12c4d87ee0",
+                    "size": 43212,
+                    "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-unix-common/4.1.76.Final/netty-transport-native-unix-common-4.1.76.Final.jar"
+                }
+            },
+            "name": "io.netty:netty-transport-native-unix-common:4.1.76.Final"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "921b92a76116674218af3dc4bbf43d73884e4146",
+                    "size": 139611,
+                    "url": "https://libraries.minecraft.net/io/netty/netty-transport-classes-epoll/4.1.76.Final/netty-transport-classes-epoll-4.1.76.Final.jar"
+                }
+            },
+            "name": "io.netty:netty-transport-classes-epoll:4.1.76.Final"
+        },
+        {
+            "downloads": {
+                "classifiers": {
+                    "linux-aarch_64": {
+                        "sha1": "32d6588c00f4d8d9205a47ff31996a44a8563a5a",
+                        "size": 38438,
+                        "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-epoll/4.1.76.Final/netty-transport-native-epoll-4.1.76.Final-linux-aarch_64.jar"
+                    },
+                    "linux-x86_64": {
+                        "sha1": "e1ee2a9c5f63b1b71260caf127a1e50667d62854",
+                        "size": 37058,
+                        "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-epoll/4.1.76.Final/netty-transport-native-epoll-4.1.76.Final-linux-x86_64.jar"
+                    }
+                }
+            },
+            "name": "io.netty:netty-transport-native-epoll:4.1.76.Final",
+            "natives": {
+                "linux": "linux-x86_64"
+            }
         },
         {
             "downloads": {
@@ -219,12 +309,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "289405e70c0917eaeac017f7fba9adb4427baa36",
-                    "size": 98740,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.3.39/authlib-3.3.39.jar"
+                    "sha1": "9e05cb6a5f3504235a190ad11ea8981b2cbb901e",
+                    "size": 104806,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.5.41/authlib-3.5.41.jar"
                 }
             },
-            "name": "com.mojang:authlib:3.3.39"
+            "name": "com.mojang:authlib:3.5.41"
         },
         {
             "downloads": {
@@ -365,17 +455,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "4e8f686a40481690d16b006bbe571f5fdbc54d05",
-                "size": 21276100,
-                "url": "https://launcher.mojang.com/v1/objects/4e8f686a40481690d16b006bbe571f5fdbc54d05/client.jar"
+                "sha1": "b6f17935359d3a7bc8022eb48e5f3643ede72fd3",
+                "size": 21413969,
+                "url": "https://launcher.mojang.com/v1/objects/b6f17935359d3a7bc8022eb48e5f3643ede72fd3/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:22w16a:client"
+        "name": "com.mojang:minecraft:22w19a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2022-04-20T14:37:07+00:00",
+    "releaseTime": "2022-05-12T15:36:11+00:00",
     "requires": [
         {
             "suggests": "3.3.1",
@@ -384,5 +474,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "22w16a"
+    "version": "22w19a"
 }
