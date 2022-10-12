@@ -1,0 +1,65 @@
+{
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "name": "net.fabricmc:tiny-mappings-parser:${tiny_mappings_parser}",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:sponge-mixin:${sponge_mixin}",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:tiny-remapper:${tiny_remapper}",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:access-widener:${access_widener}",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.quiltmc:quilt-json5:${quilt_json5}",
+            "url": "https://maven.quiltmc.org/repository/release/"
+        },
+        {
+            "name": "org.ow2.asm:asm:${asm}",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-analysis:${asm_analysis}",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-commons:${asm_commons}",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-tree:${asm_tree}",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-util:${asm_util}",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.quiltmc:quilt-config:${quilt_config}",
+            "url": "https://maven.quiltmc.org/repository/release/"
+        },
+        {
+            "name": "org.quiltmc:quilt-loader:0.17.5-beta.4",
+            "url": "https://maven.quiltmc.org/repository/release"
+        }
+    ],
+    "mainClass": "org.quiltmc.loader.impl.launch.knot.KnotClient",
+    "name": "Quilt Loader",
+    "order": 10,
+    "releaseTime": "2022-10-12T19:46:31+00:00",
+    "requires": [
+        {
+            "uid": "net.fabricmc.intermediary"
+        }
+    ],
+    "type": "release",
+    "uid": "org.quiltmc.quilt-loader",
+    "version": "0.17.5-beta.4"
+}
