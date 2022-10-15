@@ -769,6 +769,24 @@
         {
             "downloads": {
                 "artifact": {
+                    "sha1": "816d935933f2dd743074c4e717cc25b55720f294",
+                    "size": 104027,
+                    "url": "https://build.lwjgl.org/release/3.3.1/bin/lwjgl-glfw/lwjgl-glfw-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw-natives-linux-arm32:3.3.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "sha1": "c6606e57db075ad218a2e78d2416c159a53b6a0c",
                     "size": 157996,
                     "url": "https://build.lwjgl.org/release/3.3.1/bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-linux-arm64.jar"
@@ -780,6 +798,24 @@
                     "action": "allow",
                     "os": {
                         "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "a96a6d6cb3876d7813fcee53c3c24f246aeba3b3",
+                    "size": 136157,
+                    "url": "https://build.lwjgl.org/release/3.3.1/bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-jemalloc-natives-linux-arm32:3.3.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
                     }
                 }
             ]
@@ -805,6 +841,24 @@
         {
             "downloads": {
                 "artifact": {
+                    "sha1": "ffbe35d7fa5ec9b7eca136a7c71f24d4025a510b",
+                    "size": 400129,
+                    "url": "https://build.lwjgl.org/release/3.3.1/bin/lwjgl-openal/lwjgl-openal-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-openal-natives-linux-arm32:3.3.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "sha1": "1c528fb258a6e63e8fceb4482d8db0f3af10a634",
                     "size": 57908,
                     "url": "https://build.lwjgl.org/release/3.3.1/bin/lwjgl-opengl/lwjgl-opengl-natives-linux-arm64.jar"
@@ -816,6 +870,24 @@
                     "action": "allow",
                     "os": {
                         "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "e3550fa91097fd56e361b4370fa822220fef3595",
+                    "size": 58474,
+                    "url": "https://build.lwjgl.org/release/3.3.1/bin/lwjgl-opengl/lwjgl-opengl-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-opengl-natives-linux-arm32:3.3.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
                     }
                 }
             ]
@@ -841,6 +913,24 @@
         {
             "downloads": {
                 "artifact": {
+                    "sha1": "b08226bab162c06ae69337d8a1b0ee0a3fdf0b90",
+                    "size": 153889,
+                    "url": "https://build.lwjgl.org/release/3.3.1/bin/lwjgl-stb/lwjgl-stb-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-stb-natives-linux-arm32:3.3.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "sha1": "964f628b7a82fd909def086c0dd9a4b84bb259ae",
                     "size": 42654,
                     "url": "https://build.lwjgl.org/release/3.3.1/bin/lwjgl-tinyfd/lwjgl-tinyfd-natives-linux-arm64.jar"
@@ -859,6 +949,24 @@
         {
             "downloads": {
                 "artifact": {
+                    "sha1": "d53d331e859217a61298fcbcf8d79137f3df345c",
+                    "size": 48061,
+                    "url": "https://build.lwjgl.org/release/3.3.1/bin/lwjgl-tinyfd/lwjgl-tinyfd-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-tinyfd-natives-linux-arm32:3.3.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "sha1": "b597401014acb7196c76d97e15a6288f54f1f692",
                     "size": 86308,
                     "url": "https://build.lwjgl.org/release/3.3.1/bin/lwjgl/lwjgl-natives-linux-arm64.jar"
@@ -870,6 +978,24 @@
                     "action": "allow",
                     "os": {
                         "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "41a3c1dd15d6b964eb8196dde69720a3e3e5e969",
+                    "size": 82374,
+                    "url": "https://build.lwjgl.org/release/3.3.1/bin/lwjgl/lwjgl-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-natives-linux-arm32:3.3.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
                     }
                 }
             ]

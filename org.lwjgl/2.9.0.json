@@ -14,6 +14,11 @@
                         "size": 10362,
                         "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar"
                     },
+                    "natives-linux-arm32": {
+                        "sha1": "f3c455b71c5146acb5f8a9513247fc06db182fd5",
+                        "size": 4521,
+                        "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm32/raw/lwjgl-2.9.4/jinput-platform-2.0.5-natives-linux.jar"
+                    },
                     "natives-linux-arm64": {
                         "sha1": "42b388ccb7c63cec4e9f24f4dddef33325f8b212",
                         "size": 10932,
@@ -44,6 +49,7 @@
             "name": "net.java.jinput:jinput-platform:2.0.5",
             "natives": {
                 "linux": "natives-linux",
+                "linux-arm32": "natives-linux-arm32",
                 "linux-arm64": "natives-linux-arm64",
                 "osx": "natives-osx",
                 "osx-arm64": "natives-osx-arm64",

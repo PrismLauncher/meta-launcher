@@ -14,6 +14,11 @@
                         "size": 10362,
                         "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar"
                     },
+                    "natives-linux-arm32": {
+                        "sha1": "f3c455b71c5146acb5f8a9513247fc06db182fd5",
+                        "size": 4521,
+                        "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm32/raw/lwjgl-2.9.4/jinput-platform-2.0.5-natives-linux.jar"
+                    },
                     "natives-linux-arm64": {
                         "sha1": "42b388ccb7c63cec4e9f24f4dddef33325f8b212",
                         "size": 10932,
@@ -44,6 +49,7 @@
             "name": "net.java.jinput:jinput-platform:2.0.5",
             "natives": {
                 "linux": "natives-linux",
+                "linux-arm32": "natives-linux-arm32",
                 "linux-arm64": "natives-linux-arm64",
                 "osx": "natives-osx",
                 "osx-arm64": "natives-osx-arm64",
@@ -78,6 +84,11 @@
                         "size": 571429,
                         "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.1-nightly-20131120/lwjgl-platform-2.9.1-nightly-20131120-natives-linux.jar"
                     },
+                    "natives-linux-arm32": {
+                        "sha1": "fa483e540a9a753a5ffbb23dcf7879a5bf752611",
+                        "size": 475177,
+                        "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm32/raw/lwjgl-2.9.4/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar"
+                    },
                     "natives-linux-arm64": {
                         "sha1": "63ac7da0f4a4785c7eadc0f8edc1e9dcc4dd08cb",
                         "size": 579979,
@@ -108,6 +119,7 @@
             "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.1-nightly-20131120",
             "natives": {
                 "linux": "natives-linux",
+                "linux-arm32": "natives-linux-arm32",
                 "linux-arm64": "natives-linux-arm64",
                 "osx": "natives-osx",
                 "osx-arm64": "natives-osx-arm64",
@@ -138,6 +150,12 @@
                     "os": {
                         "name": "linux-arm64"
                     }
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
                 }
             ]
         },
@@ -165,6 +183,12 @@
                     "os": {
                         "name": "linux-arm64"
                     }
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
                 }
             ]
         },
@@ -176,7 +200,7 @@
                     "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm64/raw/lwjgl-2.9.4/lwjgl-2.9.4-nightly-20150209.jar"
                 }
             },
-            "name": "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209-gman.1",
+            "name": "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209-gman64.1",
             "rules": [
                 {
                     "action": "allow",
@@ -188,6 +212,12 @@
                     "action": "allow",
                     "os": {
                         "name": "linux-arm64"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
                     }
                 }
             ]
@@ -200,7 +230,7 @@
                     "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm64/raw/lwjgl-2.9.4/lwjgl_util-2.9.4-nightly-20150209.jar"
                 }
             },
-            "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209-gman.1",
+            "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209-gman64.1",
             "rules": [
                 {
                     "action": "allow",
@@ -212,6 +242,12 @@
                     "action": "allow",
                     "os": {
                         "name": "linux-arm64"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
                     }
                 }
             ]
