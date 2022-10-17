@@ -1,0 +1,32 @@
+{
+    "+tweakers": [
+        "com.mumfrey.liteloader.launch.LiteLoaderTweaker"
+    ],
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "name": "net.minecraft:launchwrapper:1.11"
+        },
+        {
+            "name": "org.ow2.asm:asm-all:5.0.3",
+            "url": "https://repo.maven.apache.org/maven2/"
+        },
+        {
+            "name": "com.mumfrey:liteloader:1.8",
+            "url": "http://dl.liteloader.com/versions/"
+        }
+    ],
+    "mainClass": "net.minecraft.launchwrapper.Launch",
+    "name": "LiteLoader",
+    "order": 10,
+    "releaseTime": "2016-05-18T15:27:34+00:00",
+    "requires": [
+        {
+            "equals": "1.8",
+            "uid": "net.minecraft"
+        }
+    ],
+    "type": "release",
+    "uid": "com.mumfrey.liteloader",
+    "version": "1.8"
+}

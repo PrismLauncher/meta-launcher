@@ -1,0 +1,87 @@
+{
+    "+tweakers": [
+        "net.minecraftforge.fml.common.launcher.FMLTweaker"
+    ],
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "name": "net.minecraftforge:forge:1.11-13.19.0.2164:universal",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "net.minecraft:launchwrapper:1.12"
+        },
+        {
+            "name": "org.ow2.asm:asm-all:5.0.3"
+        },
+        {
+            "name": "jline:jline:2.13",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "com.typesafe.akka:akka-actor_2.11:2.3.3",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "com.typesafe:config:1.2.1",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "org.scala-lang:scala-compiler:2.11.1",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "org.scala-lang:scala-library:2.11.1",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "org.scala-lang:scala-reflect:2.11.1",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "org.scala-lang:scala-swing_2.11:1.0.1",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "org.scala-lang:scala-xml_2.11:1.0.2",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "lzma:lzma:0.0.1"
+        },
+        {
+            "name": "java3d:vecmath:1.5.2"
+        },
+        {
+            "name": "net.sf.trove4j:trove4j:3.0.3"
+        }
+    ],
+    "mainClass": "net.minecraft.launchwrapper.Launch",
+    "name": "Forge",
+    "order": 5,
+    "releaseTime": "2016-11-27T10:44:58+00:00",
+    "requires": [
+        {
+            "equals": "1.11",
+            "uid": "net.minecraft"
+        }
+    ],
+    "uid": "net.minecraftforge",
+    "version": "13.19.0.2164"
+}

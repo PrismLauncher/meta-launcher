@@ -1,0 +1,29 @@
+{
+    "+traits": [
+        "legacyFML"
+    ],
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "99e1ab64ce488b7232c73208b16eb04f470fd9f5",
+                    "size": 1567017,
+                    "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.4.5-6.4.0.386/forge-1.4.5-6.4.0.386-universal.zip"
+                }
+            },
+            "name": "net.minecraftforge:forge:1.4.5-6.4.0.386:universal"
+        }
+    ],
+    "name": "Forge",
+    "order": 5,
+    "releaseTime": "2012-11-18T09:16:58+00:00",
+    "requires": [
+        {
+            "equals": "1.4.5",
+            "uid": "net.minecraft"
+        }
+    ],
+    "uid": "net.minecraftforge",
+    "version": "6.4.0.386"
+}

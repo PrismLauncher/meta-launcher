@@ -1,0 +1,268 @@
+{
+    "conflicts": [
+        {
+            "uid": "org.lwjgl3"
+        }
+    ],
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "downloads": {
+                "classifiers": {
+                    "natives-linux": {
+                        "sha1": "7ff832a6eb9ab6a767f1ade2b548092d0fa64795",
+                        "size": 10362,
+                        "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar"
+                    },
+                    "natives-linux-arm32": {
+                        "sha1": "f3c455b71c5146acb5f8a9513247fc06db182fd5",
+                        "size": 4521,
+                        "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm32/raw/lwjgl-2.9.4/jinput-platform-2.0.5-natives-linux.jar"
+                    },
+                    "natives-linux-arm64": {
+                        "sha1": "42b388ccb7c63cec4e9f24f4dddef33325f8b212",
+                        "size": 10932,
+                        "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm64/raw/lwjgl-2.9.4/jinput-platform-2.0.5-natives-linux.jar"
+                    },
+                    "natives-osx": {
+                        "sha1": "53f9c919f34d2ca9de8c51fc4e1e8282029a9232",
+                        "size": 12186,
+                        "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar"
+                    },
+                    "natives-osx-arm64": {
+                        "sha1": "5189eb40db3087fb11ca063b68fa4f4c20b199dd",
+                        "size": 10031,
+                        "url": "https://github.com/r58Playz/jinput-m1/raw/main/plugins/OSX/bin/jinput-platform-2.0.5.jar"
+                    },
+                    "natives-windows": {
+                        "sha1": "385ee093e01f587f30ee1c8a2ee7d408fd732e16",
+                        "size": 155179,
+                        "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar"
+                    }
+                }
+            },
+            "extract": {
+                "exclude": [
+                    "META-INF/"
+                ]
+            },
+            "name": "net.java.jinput:jinput-platform:2.0.5",
+            "natives": {
+                "linux": "natives-linux",
+                "linux-arm32": "natives-linux-arm32",
+                "linux-arm64": "natives-linux-arm64",
+                "osx": "natives-osx",
+                "osx-arm64": "natives-osx-arm64",
+                "windows": "natives-windows"
+            }
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "39c7796b469a600f72380316f6b1f11db6c2c7c4",
+                    "size": 208338,
+                    "url": "https://libraries.minecraft.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar"
+                }
+            },
+            "name": "net.java.jinput:jinput:2.0.5"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "e12fe1fda814bd348c1579329c86943d2cd3c6a6",
+                    "size": 7508,
+                    "url": "https://libraries.minecraft.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar"
+                }
+            },
+            "name": "net.java.jutils:jutils:1.0.0"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33",
+                    "size": 22,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3.jar"
+                },
+                "classifiers": {
+                    "natives-linux": {
+                        "sha1": "b1eafe80093381c56415731e1d64279e6140bcd0",
+                        "size": 578675,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-linux.jar"
+                    },
+                    "natives-linux-arm32": {
+                        "sha1": "fa483e540a9a753a5ffbb23dcf7879a5bf752611",
+                        "size": 475177,
+                        "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm32/raw/lwjgl-2.9.4/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar"
+                    },
+                    "natives-linux-arm64": {
+                        "sha1": "63ac7da0f4a4785c7eadc0f8edc1e9dcc4dd08cb",
+                        "size": 579979,
+                        "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm64/raw/lwjgl-2.9.4/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar"
+                    },
+                    "natives-osx": {
+                        "sha1": "6686cf6ddaa20b4290aa6599a09bc0d17369be05",
+                        "size": 426817,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-osx.jar"
+                    },
+                    "natives-osx-arm64": {
+                        "sha1": "eff546c0b319d6ffc7a835652124c18089c67f36",
+                        "size": 488316,
+                        "url": "https://github.com/MinecraftMachina/lwjgl/releases/download/2.9.4-20150209-mmachina.2/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar"
+                    },
+                    "natives-windows": {
+                        "sha1": "fbc2afb3e288578e9942578decb6291a490549a0",
+                        "size": 613744,
+                        "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-windows.jar"
+                    }
+                }
+            },
+            "extract": {
+                "exclude": [
+                    "META-INF/"
+                ]
+            },
+            "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.3",
+            "natives": {
+                "linux": "natives-linux",
+                "linux-arm32": "natives-linux-arm32",
+                "linux-arm64": "natives-linux-arm64",
+                "osx": "natives-osx",
+                "osx-arm64": "natives-osx-arm64",
+                "windows": "natives-windows"
+            }
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "3df168ac74e4a8c96562cdff24ad352e255bf89c",
+                    "size": 1053471,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.3/lwjgl-2.9.3.jar"
+                }
+            },
+            "name": "org.lwjgl.lwjgl:lwjgl:2.9.3",
+            "rules": [
+                {
+                    "action": "allow"
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "751f06b62424da056954c67288fd5c494431e350",
+                    "size": 173911,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.3/lwjgl_util-2.9.3.jar"
+                }
+            },
+            "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.3",
+            "rules": [
+                {
+                    "action": "allow"
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "697517568c68e78ae0b4544145af031c81082dfe",
+                    "size": 1047168,
+                    "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm64/raw/lwjgl-2.9.4/lwjgl-2.9.4-nightly-20150209.jar"
+                }
+            },
+            "name": "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209-gman64.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "d51a7c040a721d13efdfbd34f8b257b2df882ad0",
+                    "size": 173887,
+                    "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm64/raw/lwjgl-2.9.4/lwjgl_util-2.9.4-nightly-20150209.jar"
+                }
+            },
+            "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209-gman64.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        }
+    ],
+    "name": "LWJGL 2",
+    "order": -1,
+    "releaseTime": "2015-01-30T11:58:24+00:00",
+    "type": "release",
+    "uid": "org.lwjgl",
+    "version": "2.9.3",
+    "volatile": true
+}

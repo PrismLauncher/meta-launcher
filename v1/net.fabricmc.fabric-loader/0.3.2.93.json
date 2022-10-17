@@ -1,0 +1,49 @@
+{
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "name": "net.fabricmc:sponge-mixin:0.7.11.14",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:tiny-remapper:0.1.0.22",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm:7.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-analysis:7.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-commons:7.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-tree:7.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-util:7.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:fabric-loader:0.3.2.93",
+            "url": "https://maven.fabricmc.net"
+        }
+    ],
+    "mainClass": "net.fabricmc.loader.launch.knot.KnotClient",
+    "name": "Fabric Loader",
+    "order": 10,
+    "releaseTime": "2019-01-11T10:42:30+00:00",
+    "requires": [
+        {
+            "uid": "net.fabricmc.intermediary"
+        }
+    ],
+    "type": "release",
+    "uid": "net.fabricmc.fabric-loader",
+    "version": "0.3.2.93"
+}

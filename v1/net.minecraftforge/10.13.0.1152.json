@@ -1,0 +1,47 @@
+{
+    "+tweakers": [
+        "cpw.mods.fml.common.launcher.FMLTweaker"
+    ],
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "name": "net.minecraftforge:forge:1.7.10-10.13.0.1152:universal",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "net.minecraft:launchwrapper:1.9"
+        },
+        {
+            "name": "org.ow2.asm:asm-all:4.1"
+        },
+        {
+            "name": "org.scala-lang:scala-library:2.10.2",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "org.scala-lang:scala-compiler:2.10.2",
+            "url": "https://maven.minecraftforge.net/"
+        },
+        {
+            "name": "lzma:lzma:0.0.1"
+        },
+        {
+            "name": "com.google.guava:guava:16.0"
+        },
+        {
+            "name": "org.apache.commons:commons-lang3:3.2.1"
+        }
+    ],
+    "mainClass": "net.minecraft.launchwrapper.Launch",
+    "name": "Forge",
+    "order": 5,
+    "releaseTime": "2014-06-26T22:20:44-04:00",
+    "requires": [
+        {
+            "equals": "1.7.10",
+            "uid": "net.minecraft"
+        }
+    ],
+    "uid": "net.minecraftforge",
+    "version": "10.13.0.1152"
+}

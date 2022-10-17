@@ -1,0 +1,48 @@
+{
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "name": "net.minecraft:launchwrapper:1.12"
+        },
+        {
+            "name": "net.fabricmc:sponge-mixin:0.7.11.3",
+            "url": "https://maven.modmuss50.me/"
+        },
+        {
+            "name": "net.fabricmc:tiny-remapper:0.1.0.20",
+            "url": "https://maven.modmuss50.me/"
+        },
+        {
+            "name": "org.ow2.asm:asm:7.0",
+            "url": "http://repo.maven.apache.org/maven2/"
+        },
+        {
+            "name": "org.ow2.asm:asm-commons:7.0",
+            "url": "http://repo.maven.apache.org/maven2/"
+        },
+        {
+            "name": "org.ow2.asm:asm-tree:7.0",
+            "url": "http://repo.maven.apache.org/maven2/"
+        },
+        {
+            "name": "org.ow2.asm:asm-util:7.0",
+            "url": "http://repo.maven.apache.org/maven2/"
+        },
+        {
+            "name": "net.fabricmc:fabric-loader:0.2.0.63",
+            "url": "https://maven.fabricmc.net"
+        }
+    ],
+    "mainClass": "net.minecraft.launchwrapper.Launch",
+    "name": "Fabric Loader",
+    "order": 10,
+    "releaseTime": "2018-12-11T20:17:35+00:00",
+    "requires": [
+        {
+            "uid": "net.fabricmc.intermediary"
+        }
+    ],
+    "type": "release",
+    "uid": "net.fabricmc.fabric-loader",
+    "version": "0.2.0.63"
+}

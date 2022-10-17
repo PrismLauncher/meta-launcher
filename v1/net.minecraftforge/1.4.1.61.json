@@ -1,0 +1,26 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "d0ba974da976e9348c3b8497a606d888839034ac",
+                    "size": 503013,
+                    "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.2.3-1.4.1.61/forge-1.2.3-1.4.1.61-client.zip"
+                }
+            },
+            "name": "net.minecraftforge:forge:1.2.3-1.4.1.61:client"
+        }
+    ],
+    "name": "Forge",
+    "order": 5,
+    "releaseTime": "2012-03-22T20:01:10+00:00",
+    "requires": [
+        {
+            "equals": "1.2.3",
+            "uid": "net.minecraft"
+        }
+    ],
+    "uid": "net.minecraftforge",
+    "version": "1.4.1.61"
+}

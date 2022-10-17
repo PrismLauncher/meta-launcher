@@ -1,0 +1,26 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "43b5cedd31124e38d9ac45278f49c3c1b760bc91",
+                    "size": 820938,
+                    "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.2.5-3.3.7.137/forge-1.2.5-3.3.7.137-client.zip"
+                }
+            },
+            "name": "net.minecraftforge:forge:1.2.5-3.3.7.137:client"
+        }
+    ],
+    "name": "Forge",
+    "order": 5,
+    "releaseTime": "2012-06-16T01:31:16+00:00",
+    "requires": [
+        {
+            "equals": "1.2.5",
+            "uid": "net.minecraft"
+        }
+    ],
+    "uid": "net.minecraftforge",
+    "version": "3.3.7.137"
+}

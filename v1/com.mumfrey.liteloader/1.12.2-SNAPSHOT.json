@@ -1,0 +1,33 @@
+{
+    "+tweakers": [
+        "com.mumfrey.liteloader.launch.LiteLoaderTweaker"
+    ],
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "name": "net.minecraft:launchwrapper:1.12"
+        },
+        {
+            "name": "org.ow2.asm:asm-all:5.2",
+            "url": "http://repo.liteloader.com/"
+        },
+        {
+            "MMC-hint": "always-stale",
+            "name": "com.mumfrey:liteloader:1.12.2-SNAPSHOT",
+            "url": "http://dl.liteloader.com/versions/"
+        }
+    ],
+    "mainClass": "net.minecraft.launchwrapper.Launch",
+    "name": "LiteLoader",
+    "order": 10,
+    "releaseTime": "2017-11-28T14:44:31+00:00",
+    "requires": [
+        {
+            "equals": "1.12.2",
+            "uid": "net.minecraft"
+        }
+    ],
+    "type": "snapshot",
+    "uid": "com.mumfrey.liteloader",
+    "version": "1.12.2-SNAPSHOT"
+}
