@@ -268,7 +268,7 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/fmlloader/1.18.2-40.0.2/fmlloader-1.18.2-40.0.2.jar",
-                    "sha1": "37c256faa338c648cccfafd62511a8d7635064f5",
+                    "sha1": "72b6ae1e1e53609afa4da8cab3542ab859c1d6df",
                     "size": 237714,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.18.2-40.0.2/fmlloader-1.18.2-40.0.2.jar"
                 }
@@ -281,8 +281,8 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "a64b232c780a4a06579af5a5533e56ac7d3ed908",
-                    "size": 6892039,
+                    "sha1": "ae4b900d21bebaeb61a95eec4eac6fb47ab8dad0",
+                    "size": 6892042,
                     "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.18.2-40.0.2/forge-1.18.2-40.0.2-installer.jar"
                 }
             },
@@ -490,7 +490,7 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/fmlcore/1.18.2-40.0.2/fmlcore-1.18.2-40.0.2.jar",
-                    "sha1": "273dda3527b2664fac33c6811ebb993d66a2a20d",
+                    "sha1": "2b8232fb59b7af5bff52d16ce3577417ca20a1c1",
                     "size": 109703,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.18.2-40.0.2/fmlcore-1.18.2-40.0.2.jar"
                 }
@@ -501,7 +501,7 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/fmlloader/1.18.2-40.0.2/fmlloader-1.18.2-40.0.2.jar",
-                    "sha1": "37c256faa338c648cccfafd62511a8d7635064f5",
+                    "sha1": "72b6ae1e1e53609afa4da8cab3542ab859c1d6df",
                     "size": 237714,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.18.2-40.0.2/fmlloader-1.18.2-40.0.2.jar"
                 }
@@ -512,8 +512,8 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/forge/1.18.2-40.0.2/forge-1.18.2-40.0.2-universal.jar",
-                    "sha1": "5d820d078d02e2dfe58538f150c658cd8b13d179",
-                    "size": 2623016,
+                    "sha1": "225ba22f275b8eddbbce9936f4469a35e970e5e7",
+                    "size": 2623012,
                     "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.18.2-40.0.2/forge-1.18.2-40.0.2-universal.jar"
                 }
             },
@@ -545,8 +545,8 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/javafmllanguage/1.18.2-40.0.2/javafmllanguage-1.18.2-40.0.2.jar",
-                    "sha1": "a6a88b3c8d1753de623d9e6ef01be47f7274417b",
-                    "size": 16294,
+                    "sha1": "8e05d121a027d6dec1282bc5b2d4058ba3fac180",
+                    "size": 16293,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.18.2-40.0.2/javafmllanguage-1.18.2-40.0.2.jar"
                 }
             },
@@ -556,7 +556,7 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/mclanguage/1.18.2-40.0.2/mclanguage-1.18.2-40.0.2.jar",
-                    "sha1": "81b2bbe25eaace01c61a8d6cc39a95f031c07595",
+                    "sha1": "1b366aeecf7c1dc67fbe9f745b4565ed8f4ba222",
                     "size": 4986,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.18.2-40.0.2/mclanguage-1.18.2-40.0.2.jar"
                 }
@@ -765,7 +765,7 @@
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 40.0.2 --fml.mcVersion 1.18.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20220228.144236",
     "name": "Forge",
     "order": 5,
-    "releaseTime": "2022-03-02T21:42:38+00:00",
+    "releaseTime": "2022-03-03T04:23:46+00:00",
     "requires": [
         {
             "equals": "1.18.2",
