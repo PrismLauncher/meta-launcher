@@ -1,4 +1,7 @@
 {
+    "+jvmArgs": [
+        "-Djava.util.Arrays.useLegacyMergeSort=true"
+    ],
     "+traits": [
         "legacyLaunch",
         "no-texturepacks"
