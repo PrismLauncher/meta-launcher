@@ -289,18 +289,6 @@
                     "os": {
                         "name": "osx-arm64"
                     }
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "linux-arm64"
-                    }
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "linux-arm32"
-                    }
                 }
             ]
         },
@@ -347,18 +335,6 @@
                     "action": "disallow",
                     "os": {
                         "name": "osx-arm64"
-                    }
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "linux-arm64"
-                    }
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "linux-arm32"
                     }
                 }
             ]
@@ -438,18 +414,6 @@
                     "action": "allow",
                     "os": {
                         "name": "osx-arm64"
-                    }
-                },
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux-arm64"
-                    }
-                },
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux-arm32"
                     }
                 }
             ]
