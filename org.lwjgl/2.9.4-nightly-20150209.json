@@ -139,30 +139,7 @@
                     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar"
                 }
             },
-            "name": "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
-            "rules": [
-                {
-                    "action": "allow"
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "osx-arm64"
-                    }
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "linux-arm64"
-                    }
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "linux-arm32"
-                    }
-                }
-            ]
+            "name": "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209"
         },
         {
             "downloads": {
@@ -172,90 +149,7 @@
                     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar"
                 }
             },
-            "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
-            "rules": [
-                {
-                    "action": "allow"
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "osx-arm64"
-                    }
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "linux-arm64"
-                    }
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "linux-arm32"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "697517568c68e78ae0b4544145af031c81082dfe",
-                    "size": 1047168,
-                    "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm64/raw/lwjgl-2.9.4/lwjgl-2.9.4-nightly-20150209.jar"
-                }
-            },
-            "name": "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209-gman64.1",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "osx-arm64"
-                    }
-                },
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux-arm64"
-                    }
-                },
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux-arm32"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "d51a7c040a721d13efdfbd34f8b257b2df882ad0",
-                    "size": 173887,
-                    "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm64/raw/lwjgl-2.9.4/lwjgl_util-2.9.4-nightly-20150209.jar"
-                }
-            },
-            "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209-gman64.1",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "osx-arm64"
-                    }
-                },
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux-arm64"
-                    }
-                },
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux-arm32"
-                    }
-                }
-            ]
+            "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209"
         }
     ],
     "name": "LWJGL 2",
