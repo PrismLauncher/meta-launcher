@@ -54,12 +54,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "02cc2131b98ebfb04e2b2c7dfb84431f4045096b",
-                    "size": 265030,
-                    "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar"
+                    "sha1": "dd9b193aef96e973d5a11ab13cd17430c2e4306b",
+                    "size": 286235,
+                    "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10/gson-2.10.jar"
                 }
             },
-            "name": "com.google.code.gson:gson:2.9.1"
+            "name": "com.google.code.gson:gson:2.10"
         },
         {
             "downloads": {
@@ -94,12 +94,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "88c5e6091e52fd76e2ee73420957a4cc74deab8d",
-                    "size": 117839,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.13.56/authlib-3.13.56.jar"
+                    "sha1": "a562f3bbe97501089e3fbe3b43d95ff69c60c723",
+                    "size": 118007,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.15.28/authlib-3.15.28.jar"
                 }
             },
-            "name": "com.mojang:authlib:3.13.56"
+            "name": "com.mojang:authlib:3.15.28"
         },
         {
             "downloads": {
@@ -517,17 +517,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "4868ad0188d9349ef58fdbea5bf9afc0f942c0b4",
-                "size": 22687442,
-                "url": "https://piston-data.mojang.com/v1/objects/4868ad0188d9349ef58fdbea5bf9afc0f942c0b4/client.jar"
+                "sha1": "57a23e575a34f24aa84f3d54fbf4ddf9940a2c24",
+                "size": 22688308,
+                "url": "https://piston-data.mojang.com/v1/objects/57a23e575a34f24aa84f3d54fbf4ddf9940a2c24/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:22w45a:client"
+        "name": "com.mojang:minecraft:1.19.3-pre1:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2022-11-09T14:30:16+00:00",
+    "releaseTime": "2022-11-22T13:59:37+00:00",
     "requires": [
         {
             "suggests": "3.3.1",
@@ -536,5 +536,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "22w45a"
+    "version": "1.19.3-pre1"
 }
