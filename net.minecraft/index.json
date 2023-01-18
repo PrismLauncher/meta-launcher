@@ -4,6 +4,19 @@
     "uid": "net.minecraft",
     "versions": [
         {
+            "recommended": false,
+            "releaseTime": "2023-01-18T13:10:31+00:00",
+            "requires": [
+                {
+                    "suggests": "3.3.1",
+                    "uid": "org.lwjgl3"
+                }
+            ],
+            "sha256": "204a4c1a63afca88fd782cf99ee0d85ff0b8b69db77f1513b870f11c7df6768e",
+            "type": "snapshot",
+            "version": "23w03a"
+        },
+        {
             "recommended": true,
             "releaseTime": "2022-12-07T08:17:18+00:00",
             "requires": [
@@ -12,7 +25,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "790ef01e15d28d4ced40cfb2cd552d92b9cb25d9b221fc4d91f20a2f49b6c690",
+            "sha256": "9c4be63c09c049e9923332d913b71e27c25db4f90492e4ecaf7b9d652f692057",
             "type": "release",
             "version": "1.19.3"
         },
@@ -25,7 +38,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "455a863922456fef0162d56e83f9361612acb78ee7593af83c3805ef094ac7e5",
+            "sha256": "4ef71466775a317182688f1898d20972978688ee7bad30093d0920d5a3b39b23",
             "type": "snapshot",
             "version": "1.19.3-rc3"
         },
@@ -38,7 +51,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "be8035059efc17aaf6b1beb32d6b6a372d73aa757f4650a3be6c4877359e24e8",
+            "sha256": "a894fd5ac417c6ceef24021ee6fd8dc1c299ed65816c4e653aedb011091497df",
             "type": "snapshot",
             "version": "1.19.3-rc2"
         },
@@ -51,7 +64,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "b5d2ec126b0eeacf04234b5ea9dc0b09a966ef601e0b1a1b5102ea27d7d83b03",
+            "sha256": "537d67316cb93f366dfae7f7ad12983a211562cbdf66b9f941eab2b24422d9a5",
             "type": "snapshot",
             "version": "1.19.3-rc1"
         },
@@ -64,7 +77,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "19b9e4e4e5ff45621aee5ed0cdc0d67eb18324777849e52642aeb0609f894fe9",
+            "sha256": "722198cefc38122c4873a1e5e39311864e47c01e5c741f7ed6140a0b9a26ec21",
             "type": "snapshot",
             "version": "1.19.3-pre3"
         },
@@ -77,7 +90,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "e14b4dbff1080620953ee2c096be26509e5f9c635fa14504cee78ddb9d9800d2",
+            "sha256": "67ecef1f4cb7a141403579e6678f1cd271bb39be69230a93a32dd497182c9203",
             "type": "snapshot",
             "version": "1.19.3-pre2"
         },
@@ -90,7 +103,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "f9e64cf6b602a1caf7b865150bdb16a3d81eb6e4629f3b5bcd58b7a37cd2cf52",
+            "sha256": "01e712403d0cc51b9da88405b7d08d2f4dd41f5d65442ab00bdc4ec10fd3e6f0",
             "type": "snapshot",
             "version": "1.19.3-pre1"
         },
@@ -103,7 +116,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "645dce5d210bf370fd1fb6917365b4e0f910286f8c713764eb03601605fcec15",
+            "sha256": "f2780429a536acb7fdd6cccf7d1bf10979277ce696db9826df9a9738f90494ee",
             "type": "snapshot",
             "version": "22w46a"
         },
@@ -116,7 +129,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "4dd71ae48940db8fd104cd7d3f2b4533bf188d4faaf95d00bc198e91943fc4e6",
+            "sha256": "2757db548a919d92f4585c1d8de082f85d386a4dccc9eeec57b60f32742e62cd",
             "type": "snapshot",
             "version": "22w45a"
         },
@@ -129,7 +142,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "5faacc11489c5958c136f3d3d165229571ce4172264a2a412923904329a81ac7",
+            "sha256": "01062d853f4ca858a7c31359be39585b66d7f88dc9cc58d2966c8daae0c5446b",
             "type": "snapshot",
             "version": "22w44a"
         },
@@ -142,7 +155,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "803a90791626a631f0b2f94b3f1c19363c787fcd855017c3ee7cc8ae7d6c7dc0",
+            "sha256": "877c07ed388fdefd46b7a6fa5d29a07559bacdddc09d2171caf3a3bca87cc186",
             "type": "snapshot",
             "version": "22w43a"
         },
@@ -155,7 +168,7 @@
                     "uid": "org.lwjgl3"
                 }
             ],
-            "sha256": "732ee27d1aa36090cc375757aed55df6f41e755eabfa62555ee914255f260bc2",
+            "sha256": "5626fbeb921764a1d5629def7f29c1be2d93ed52066f563b16661aed3b5b1642",
             "type": "snapshot",
             "version": "22w42a"
         },
