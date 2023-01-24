@@ -132,16 +132,6 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "bfa589b0bd71588fa7e594640114b0cda0cff5f6",
-                    "size": 5884,
-                    "url": "https://libraries.minecraft.net/com/mojang/javabridge/2.0.25/javabridge-2.0.25.jar"
-                }
-            },
-            "name": "com.mojang:javabridge:2.0.25"
-        },
-        {
-            "downloads": {
-                "artifact": {
                     "sha1": "832b8e6674a9b325a5175a3a6267dfaf34c85139",
                     "size": 15343,
                     "url": "https://libraries.minecraft.net/com/mojang/logging/1.1.1/logging-1.1.1.jar"
@@ -515,17 +505,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "f53a7f667a494d8ebb99ea98ddc138959860a6ea",
-                "size": 22703283,
-                "url": "https://piston-data.mojang.com/v1/objects/f53a7f667a494d8ebb99ea98ddc138959860a6ea/client.jar"
+                "sha1": "2623aee01948e8ed29b3a52e5504c4d1fd63c7ae",
+                "size": 23006318,
+                "url": "https://piston-data.mojang.com/v1/objects/2623aee01948e8ed29b3a52e5504c4d1fd63c7ae/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.19.3-rc2:client"
+        "name": "com.mojang:minecraft:23w04a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2022-12-05T13:21:34+00:00",
+    "releaseTime": "2023-01-24T15:19:06+00:00",
     "requires": [
         {
             "suggests": "3.3.1",
@@ -534,5 +524,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.19.3-rc2"
+    "version": "23w04a"
 }
