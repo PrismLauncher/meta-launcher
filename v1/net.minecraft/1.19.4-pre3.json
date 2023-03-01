@@ -4,11 +4,11 @@
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
-        "id": "2",
-        "sha1": "6ed2e2fcb5dcae6c9a1c8d51a63293eccbccfc3b",
-        "size": 405671,
-        "totalSize": 554479086,
-        "url": "https://piston-meta.mojang.com/v1/packages/6ed2e2fcb5dcae6c9a1c8d51a63293eccbccfc3b/2.json"
+        "id": "3",
+        "sha1": "4dec6cde975aca052001e2430805c730f9754215",
+        "size": 405783,
+        "totalSize": 554419178,
+        "url": "https://piston-meta.mojang.com/v1/packages/4dec6cde975aca052001e2430805c730f9754215/3.json"
     },
     "compatibleJavaMajors": [
         17
@@ -92,12 +92,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "efcca7a2fd33a399287834787f3a899086752b14",
-                    "size": 117060,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.16.29/authlib-3.16.29.jar"
+                    "sha1": "bb15804fede65585ee5a7cfc6d66fe6f4441df97",
+                    "size": 117097,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.17.30/authlib-3.17.30.jar"
                 }
             },
-            "name": "com.mojang:authlib:3.16.29"
+            "name": "com.mojang:authlib:3.17.30"
         },
         {
             "downloads": {
@@ -122,12 +122,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "e2157e236e529aff80a5fc3ccb506e56d46b130b",
-                    "size": 684966,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar"
+                    "sha1": "e38e20946530646e866db03b2b192883d0ea6e84",
+                    "size": 689986,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.6/datafixerupper-6.0.6.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:5.0.28"
+            "name": "com.mojang:datafixerupper:6.0.6"
         },
         {
             "downloads": {
@@ -505,17 +505,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "51c472c10a64f9ce04f1d1935447c05e4959be9d",
-                "size": 23058969,
-                "url": "https://piston-data.mojang.com/v1/objects/51c472c10a64f9ce04f1d1935447c05e4959be9d/client.jar"
+                "sha1": "cfad9d86190d162fe8b06b82592f9974ebf97e2f",
+                "size": 23470982,
+                "url": "https://piston-data.mojang.com/v1/objects/cfad9d86190d162fe8b06b82592f9974ebf97e2f/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:23w05a:client"
+        "name": "com.mojang:minecraft:1.19.4-pre3:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2023-02-01T14:20:33+00:00",
+    "releaseTime": "2023-03-01T14:11:05+00:00",
     "requires": [
         {
             "suggests": "3.3.1",
@@ -524,5 +524,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "23w05a"
+    "version": "1.19.4-pre3"
 }
