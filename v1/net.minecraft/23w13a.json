@@ -4,11 +4,11 @@
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
-        "id": "2",
-        "sha1": "fd4e0f71ca5eb8b0eac5f0ead2ac48b1d911e315",
-        "size": 405671,
-        "totalSize": 554770597,
-        "url": "https://piston-meta.mojang.com/v1/packages/fd4e0f71ca5eb8b0eac5f0ead2ac48b1d911e315/2.json"
+        "id": "3",
+        "sha1": "7389fe0c1e9d3fbb9cdba474a509bd0ef46b0613",
+        "size": 409894,
+        "totalSize": 555532812,
+        "url": "https://piston-meta.mojang.com/v1/packages/7389fe0c1e9d3fbb9cdba474a509bd0ef46b0613/3.json"
     },
     "compatibleJavaMajors": [
         17
@@ -52,12 +52,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "02cc2131b98ebfb04e2b2c7dfb84431f4045096b",
-                    "size": 265030,
-                    "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar"
+                    "sha1": "dd9b193aef96e973d5a11ab13cd17430c2e4306b",
+                    "size": 286235,
+                    "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10/gson-2.10.jar"
                 }
             },
-            "name": "com.google.code.gson:gson:2.9.1"
+            "name": "com.google.code.gson:gson:2.10"
         },
         {
             "downloads": {
@@ -92,12 +92,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "88c5e6091e52fd76e2ee73420957a4cc74deab8d",
-                    "size": 117839,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.13.56/authlib-3.13.56.jar"
+                    "sha1": "016106b26bce62bda55bab42785b999e44d77ecb",
+                    "size": 118354,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.18.38/authlib-3.18.38.jar"
                 }
             },
-            "name": "com.mojang:authlib:3.13.56"
+            "name": "com.mojang:authlib:3.18.38"
         },
         {
             "downloads": {
@@ -122,22 +122,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "e2157e236e529aff80a5fc3ccb506e56d46b130b",
-                    "size": 684966,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar"
+                    "sha1": "3ba4a30557a9b057760af4011f909ba619fc5125",
+                    "size": 689960,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:5.0.28"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "bfa589b0bd71588fa7e594640114b0cda0cff5f6",
-                    "size": 5884,
-                    "url": "https://libraries.minecraft.net/com/mojang/javabridge/2.0.25/javabridge-2.0.25.jar"
-                }
-            },
-            "name": "com.mojang:javabridge:2.0.25"
+            "name": "com.mojang:datafixerupper:6.0.8"
         },
         {
             "downloads": {
@@ -515,17 +505,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "4868ad0188d9349ef58fdbea5bf9afc0f942c0b4",
-                "size": 22687442,
-                "url": "https://piston-data.mojang.com/v1/objects/4868ad0188d9349ef58fdbea5bf9afc0f942c0b4/client.jar"
+                "sha1": "3d0352a4a7ea2e849a7675b37b1c87e07884da50",
+                "size": 23581800,
+                "url": "https://piston-data.mojang.com/v1/objects/3d0352a4a7ea2e849a7675b37b1c87e07884da50/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:22w45a:client"
+        "name": "com.mojang:minecraft:23w13a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2022-11-09T14:30:16+00:00",
+    "releaseTime": "2023-03-29T13:54:16+00:00",
     "requires": [
         {
             "suggests": "3.3.1",
@@ -534,5 +524,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "22w45a"
+    "version": "23w13a"
 }
