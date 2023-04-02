@@ -5,16 +5,30 @@
     "versions": [
         {
             "recommended": true,
-            "releaseTime": "2023-04-01T10:20:45+00:00",
+            "releaseTime": "2023-04-01T18:01:25+00:00",
             "requires": [
                 {
                     "equals": "23w13a_or_b",
                     "uid": "net.minecraft"
                 }
             ],
-            "sha256": "c686340660023dcedf88f3284ec993e473d6c7dd96a290fe2765c58770513409",
+            "sha256": "3d2b8eca36a3dcf58fa3a4bcf628e43a3eea8ad5629d463ea0018c8d14541bf4",
             "type": "release",
             "version": "23w13a_or_b",
+            "volatile": true
+        },
+        {
+            "recommended": true,
+            "releaseTime": "2023-04-01T17:59:45+00:00",
+            "requires": [
+                {
+                    "equals": "23w13a_or_b_original",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "sha256": "038e21a7b958e1e6f2fa2b34d39c07e3e039ef5587b7a9a2a8a4d9376c4133f1",
+            "type": "release",
+            "version": "23w13a_or_b_original",
             "volatile": true
         },
         {
