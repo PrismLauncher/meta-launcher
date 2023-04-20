@@ -4,11 +4,11 @@
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
-        "id": "2",
-        "sha1": "114cc1d22af90bf3f71018de2c4bac1e3a8b3d7c",
-        "size": 405671,
-        "totalSize": 554910023,
-        "url": "https://piston-meta.mojang.com/v1/packages/114cc1d22af90bf3f71018de2c4bac1e3a8b3d7c/2.json"
+        "id": "4",
+        "sha1": "3fc99ddd33a73d35874a5bf47b983e3ffecaf5b9",
+        "size": 410084,
+        "totalSize": 554492056,
+        "url": "https://piston-meta.mojang.com/v1/packages/3fc99ddd33a73d35874a5bf47b983e3ffecaf5b9/4.json"
     },
     "compatibleJavaMajors": [
         17
@@ -92,12 +92,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "efcca7a2fd33a399287834787f3a899086752b14",
-                    "size": 117060,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.16.29/authlib-3.16.29.jar"
+                    "sha1": "016106b26bce62bda55bab42785b999e44d77ecb",
+                    "size": 118354,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.18.38/authlib-3.18.38.jar"
                 }
             },
-            "name": "com.mojang:authlib:3.16.29"
+            "name": "com.mojang:authlib:3.18.38"
         },
         {
             "downloads": {
@@ -112,22 +112,22 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "c1ef1234282716483c92183f49bef47b1a89bfa9",
-                    "size": 77116,
-                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar"
+                    "sha1": "5244ce82c3337bba4a196a3ce858bfaecc74404a",
+                    "size": 77121,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar"
                 }
             },
-            "name": "com.mojang:brigadier:1.0.18"
+            "name": "com.mojang:brigadier:1.1.8"
         },
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "e2157e236e529aff80a5fc3ccb506e56d46b130b",
-                    "size": 684966,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar"
+                    "sha1": "3ba4a30557a9b057760af4011f909ba619fc5125",
+                    "size": 689960,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:5.0.28"
+            "name": "com.mojang:datafixerupper:6.0.8"
         },
         {
             "downloads": {
@@ -476,17 +476,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "dd6cb06d65063769f7581ac2f5f800fe9531e28a",
-                "size": 22748586,
-                "url": "https://piston-data.mojang.com/v1/objects/dd6cb06d65063769f7581ac2f5f800fe9531e28a/client.jar"
+                "sha1": "10eb5a16d52959140ea2dba2fc4fb4bf177cacfa",
+                "size": 23786623,
+                "url": "https://piston-data.mojang.com/v1/objects/10eb5a16d52959140ea2dba2fc4fb4bf177cacfa/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:23w03a:client"
+        "name": "com.mojang:minecraft:23w16a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2023-01-18T13:10:31+00:00",
+    "releaseTime": "2023-04-20T11:55:19+00:00",
     "requires": [
         {
             "suggests": "3.3.1",
@@ -495,5 +495,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "23w03a"
+    "version": "23w16a"
 }
