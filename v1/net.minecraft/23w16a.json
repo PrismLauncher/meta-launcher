@@ -5,10 +5,10 @@
     ],
     "assetIndex": {
         "id": "4",
-        "sha1": "3fc99ddd33a73d35874a5bf47b983e3ffecaf5b9",
-        "size": 410084,
-        "totalSize": 554492056,
-        "url": "https://piston-meta.mojang.com/v1/packages/3fc99ddd33a73d35874a5bf47b983e3ffecaf5b9/4.json"
+        "sha1": "cbb710d11b893c6f877d8188f86b783b4adcde22",
+        "size": 410678,
+        "totalSize": 611613767,
+        "url": "https://piston-meta.mojang.com/v1/packages/cbb710d11b893c6f877d8188f86b783b4adcde22/4.json"
     },
     "compatibleJavaMajors": [
         17
@@ -152,48 +152,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "5f4e3a6ef86cb021f7ca87ca192cddb50c26eb59",
-                    "size": 12123,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar"
+                    "sha1": "ee4095669061d1fe4bce5fea23d69d1520bc2d58",
+                    "size": 12279,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.16.7/text2speech-1.16.7.jar"
                 }
             },
-            "name": "com.mojang:text2speech:1.13.9"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "6c63ecb3b6408dcfdde6440c9ee62c060542af33",
-                    "size": 7833,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9-natives-linux.jar"
-                }
-            },
-            "name": "com.mojang:text2speech-natives-linux:1.13.9",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "7a90898b29e5c72f90ba6ebe86fa78a6afd7d3eb",
-                    "size": 81379,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9-natives-windows.jar"
-                }
-            },
-            "name": "com.mojang:text2speech-natives-windows:1.13.9",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "windows"
-                    }
-                }
-            ]
+            "name": "com.mojang:text2speech:1.16.7"
         },
         {
             "downloads": {
