@@ -404,52 +404,6 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "5f4e3a6ef86cb021f7ca87ca192cddb50c26eb59",
-                    "size": 12123,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar"
-                }
-            },
-            "name": "com.mojang:text2speech:1.13.9"
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "7a90898b29e5c72f90ba6ebe86fa78a6afd7d3eb",
-                    "size": 81379,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9-natives-windows.jar"
-                }
-            },
-            "name": "com.mojang:text2speech-natives-windows:1.13.9",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "windows"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "6c63ecb3b6408dcfdde6440c9ee62c060542af33",
-                    "size": 7833,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9-natives-linux.jar"
-                }
-            },
-            "name": "com.mojang:text2speech-natives-linux:1.13.9",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
                     "sha1": "1227f9e0666314f9de41477e3ec277e542ed7f7b",
                     "size": 1330045,
                     "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.1/java-objc-bridge-1.1.jar"
@@ -470,6 +424,16 @@
                     }
                 }
             ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "ee4095669061d1fe4bce5fea23d69d1520bc2d58",
+                    "size": 12279,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.16.7/text2speech-1.16.7.jar"
+                }
+            },
+            "name": "com.mojang:text2speech:1.16.7"
         }
     ],
     "mainClass": "net.minecraft.client.main.Main",
@@ -478,7 +442,7 @@
             "artifact": {
                 "sha1": "3d459711d39ba6b7867cc84f443e0bfdcfd4dde0",
                 "size": 21462888,
-                "url": "https://launcher.mojang.com/v1/objects/3d459711d39ba6b7867cc84f443e0bfdcfd4dde0/client.jar"
+                "url": "https://piston-data.mojang.com/v1/objects/3d459711d39ba6b7867cc84f443e0bfdcfd4dde0/client.jar"
             }
         },
         "name": "com.mojang:minecraft:1.19-rc1:client"
