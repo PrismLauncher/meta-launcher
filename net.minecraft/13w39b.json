@@ -1,4 +1,7 @@
 {
+    "+traits": [
+        "legacyServices"
+    ],
     "assetIndex": {
         "id": "legacy",
         "sha1": "770572e819335b6c0a053f8378ad88eda189fc14",
@@ -182,7 +185,6 @@
             "name": "org.apache.logging.log4j:log4j-core:2.0-beta9-fixed"
         }
     ],
-    "mainClass": "net.minecraft.client.main.Main",
     "mainJar": {
         "downloads": {
             "artifact": {
