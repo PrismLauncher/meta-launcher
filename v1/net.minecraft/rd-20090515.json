@@ -13,18 +13,6 @@
         8
     ],
     "formatVersion": 1,
-    "libraries": [
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "6065cc95c661255349c1d0756657be17c29a4fd3",
-                    "size": 61311,
-                    "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
-                }
-            },
-            "name": "net.sf.jopt-simple:jopt-simple:4.5"
-        }
-    ],
     "mainClass": "com.mojang.rubydung.RubyDung",
     "mainJar": {
         "downloads": {
@@ -36,7 +24,6 @@
         },
         "name": "com.mojang:minecraft:rd-20090515:client"
     },
-    "minecraftArguments": "${auth_player_name} ${auth_session}",
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2009-05-14T22:00:00+00:00",
