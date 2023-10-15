@@ -13,6 +13,38 @@
         8
     ],
     "formatVersion": 1,
+    "libraries": [
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "4ea0aca9c022a234ebaf14b51fb119055955fc9d",
+                    "size": 27583,
+                    "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.6/launchwrapper-1.6.jar"
+                }
+            },
+            "name": "net.minecraft:launchwrapper:1.6"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "6065cc95c661255349c1d0756657be17c29a4fd3",
+                    "size": 61311,
+                    "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
+                }
+            },
+            "name": "net.sf.jopt-simple:jopt-simple:4.5"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "054986e962b88d8660ae4566475658469595ef58",
+                    "size": 214592,
+                    "url": "https://libraries.minecraft.net/org/ow2/asm/asm-all/4.1/asm-all-4.1.jar"
+                }
+            },
+            "name": "org.ow2.asm:asm-all:4.1"
+        }
+    ],
     "mainClass": "com.mojang.rubydung.RubyDung",
     "mainJar": {
         "downloads": {
@@ -24,6 +56,7 @@
         },
         "name": "com.mojang:minecraft:rd-132328:client"
     },
+    "minecraftArguments": "${auth_player_name} ${auth_session}",
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2009-05-13T23:28:00+02:00",
