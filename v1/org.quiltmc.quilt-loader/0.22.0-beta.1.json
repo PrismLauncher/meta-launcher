@@ -1,0 +1,65 @@
+{
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "name": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:tiny-remapper:0.8.6",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "net.fabricmc:access-widener:2.1.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.quiltmc:quilt-json5:1.0.4+final",
+            "url": "https://maven.quiltmc.org/repository/release/"
+        },
+        {
+            "name": "org.ow2.asm:asm:9.6",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-analysis:9.6",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-commons:9.6",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-tree:9.6",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.ow2.asm:asm-util:9.6",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "org.quiltmc:quilt-config:1.1.0-beta.3",
+            "url": "https://maven.quiltmc.org/repository/release/"
+        },
+        {
+            "name": "org.quiltmc:quilt-loader:0.22.0-beta.1",
+            "url": "https://maven.quiltmc.org/repository/release"
+        }
+    ],
+    "mainClass": "org.quiltmc.loader.impl.launch.knot.KnotClient",
+    "name": "Quilt Loader",
+    "order": 10,
+    "releaseTime": "2023-11-03T18:11:42+00:00",
+    "requires": [
+        {
+            "uid": "net.fabricmc.intermediary"
+        }
+    ],
+    "type": "release",
+    "uid": "org.quiltmc.quilt-loader",
+    "version": "0.22.0-beta.1"
+}
