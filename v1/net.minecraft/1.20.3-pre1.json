@@ -4,11 +4,11 @@
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
-        "id": "11",
-        "sha1": "b4884f43baaa3ea59781a3801ad3d2330ac33172",
+        "id": "12",
+        "sha1": "4f406cd2d318177e8db8c4eb237713d56b274224",
         "size": 426900,
-        "totalSize": 623855315,
-        "url": "https://piston-meta.mojang.com/v1/packages/b4884f43baaa3ea59781a3801ad3d2330ac33172/11.json"
+        "totalSize": 623855327,
+        "url": "https://piston-meta.mojang.com/v1/packages/4f406cd2d318177e8db8c4eb237713d56b274224/12.json"
     },
     "compatibleJavaMajors": [
         17
@@ -440,17 +440,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "265ca2072f7c3a9e0dae8c4abe223431089d9980",
-                "size": 24339738,
-                "url": "https://piston-data.mojang.com/v1/objects/265ca2072f7c3a9e0dae8c4abe223431089d9980/client.jar"
+                "sha1": "6d2514a107afa3be0abeba720e2f96defab9310f",
+                "size": 24427960,
+                "url": "https://piston-data.mojang.com/v1/objects/6d2514a107afa3be0abeba720e2f96defab9310f/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:23w45a:client"
+        "name": "com.mojang:minecraft:1.20.3-pre1:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2023-11-08T13:59:58+00:00",
+    "releaseTime": "2023-11-20T15:40:14+00:00",
     "requires": [
         {
             "suggests": "3.3.2",
@@ -459,5 +459,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "23w45a"
+    "version": "1.20.3-pre1"
 }
