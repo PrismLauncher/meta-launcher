@@ -4,11 +4,11 @@
         "FirstThreadOnMacOS"
     ],
     "assetIndex": {
-        "id": "8",
-        "sha1": "dd6b6442c088f3150f647c61c4234069edf636aa",
-        "size": 415466,
-        "totalSize": 621974718,
-        "url": "https://piston-meta.mojang.com/v1/packages/dd6b6442c088f3150f647c61c4234069edf636aa/8.json"
+        "id": "12",
+        "sha1": "544fa918ca893e86662d5f86f0315ce7d7af5b6f",
+        "size": 426900,
+        "totalSize": 623892459,
+        "url": "https://piston-meta.mojang.com/v1/packages/544fa918ca893e86662d5f86f0315ce7d7af5b6f/12.json"
     },
     "compatibleJavaMajors": [
         17
@@ -92,12 +92,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "ff7fd2e80a767f6c369fa2065f018ba21d153cbd",
-                    "size": 111087,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/5.0.47/authlib-5.0.47.jar"
+                    "sha1": "83c235be98157238ce6ebec8d6454ef94507360e",
+                    "size": 114272,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/5.0.51/authlib-5.0.51.jar"
                 }
             },
-            "name": "com.mojang:authlib:5.0.47"
+            "name": "com.mojang:authlib:5.0.51"
         },
         {
             "downloads": {
@@ -112,12 +112,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "5244ce82c3337bba4a196a3ce858bfaecc74404a",
-                    "size": 77121,
-                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar"
+                    "sha1": "73e324f2ee541493a5179abf367237faa782ed21",
+                    "size": 79955,
+                    "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.2.9/brigadier-1.2.9.jar"
                 }
             },
-            "name": "com.mojang:brigadier:1.1.8"
+            "name": "com.mojang:brigadier:1.2.9"
         },
         {
             "downloads": {
@@ -440,24 +440,24 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "82d1974e75fc984c5ed4b038e764e50958ac61a0",
-                "size": 23186213,
-                "url": "https://piston-data.mojang.com/v1/objects/82d1974e75fc984c5ed4b038e764e50958ac61a0/client.jar"
+                "sha1": "8e9187433bab399843d78585e83bf812422a507d",
+                "size": 24429272,
+                "url": "https://piston-data.mojang.com/v1/objects/8e9187433bab399843d78585e83bf812422a507d/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.20.2:client"
+        "name": "com.mojang:minecraft:1.20.3-pre2:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2023-09-20T09:02:57+00:00",
+    "releaseTime": "2023-11-22T12:21:26+00:00",
     "requires": [
         {
             "suggests": "3.3.2",
             "uid": "org.lwjgl3"
         }
     ],
-    "type": "release",
+    "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.20.2"
+    "version": "1.20.3-pre2"
 }
