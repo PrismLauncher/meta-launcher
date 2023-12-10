@@ -30,6 +30,7 @@
         },
         "name": "com.mojang:minecraft:inf-20100618:client"
     },
+    "minecraftArguments": "${auth_player_name} ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets} --tweakClass net.minecraft.launchwrapper.AlphaVanillaTweaker",
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2010-06-16T00:00:00+02:00",
