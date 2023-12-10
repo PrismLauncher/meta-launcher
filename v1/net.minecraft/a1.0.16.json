@@ -28,6 +28,7 @@
         },
         "name": "com.mojang:minecraft:a1.0.16:client"
     },
+    "minecraftArguments": "${auth_player_name} ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2010-08-12T00:00:00+02:00",

@@ -25,6 +25,7 @@
         },
         "name": "com.mojang:minecraft:1.4.5:client"
     },
+    "minecraftArguments": "${auth_player_name} ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2012-11-20T00:00:00+02:00",

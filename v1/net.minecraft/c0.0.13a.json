@@ -26,6 +26,7 @@
         },
         "name": "com.mojang:minecraft:c0.0.13a:client"
     },
+    "minecraftArguments": "${auth_player_name} ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets} --tweakClass net.minecraft.launchwrapper.AlphaVanillaTweaker",
     "name": "Minecraft",
     "order": -2,
     "releaseTime": "2009-05-31T00:00:00+02:00",
