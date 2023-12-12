@@ -14,13 +14,13 @@
         {
             "downloads": {
                 "artifact": {
-                    "path": "net/minecraftforge/forge/1.20.3-49.0.1/forge-1.20.3-49.0.1-launcher.jar",
+                    "path": "net/minecraftforge/forge/1.20.3-49.0.1/forge-1.20.3-49.0.1-universal.jar",
                     "sha1": "6e757f6c2eff3cc3dc20ca8c2a42939f2aeabd4d",
                     "size": 2434523,
-                    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.3-49.0.1/forge-1.20.3-49.0.1-launcher.jar"
+                    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.3-49.0.1/forge-1.20.3-49.0.1-universal.jar"
                 }
             },
-            "name": "net.minecraftforge:forge:1.20.3-49.0.1:launcher"
+            "name": "net.minecraftforge:forge:1.20.3-49.0.1:universal"
         },
         {
             "downloads": {
@@ -652,7 +652,7 @@
             "name": "trove:trove:1.0.2"
         }
     ],
-    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client",
+    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 49.0.1 --fml.mcVersion 1.20.3",
     "name": "Forge",
     "order": 5,
     "releaseTime": "2023-12-06T18:53:29+00:00",
