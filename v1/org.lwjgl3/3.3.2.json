@@ -9,6 +9,124 @@
         {
             "downloads": {
                 "artifact": {
+                    "sha1": "01372c56fc041a5e7bf4b71622640c295aeae2b2",
+                    "size": 1207943,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-linux.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-freetype-natives-linux:3.3.2",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "71872f69ad2df2ba838e462c7a2bf09f1bdfc2c5",
+                    "size": 1031798,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-macos-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-freetype-natives-macos-arm64:3.3.2",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "02d13a949aa526b58b1c46246c8d8c4efb845e5d",
+                    "size": 1133770,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-macos.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-freetype-natives-macos:3.3.2",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "be03946a18955b5ed958b509cfec78140b10bc33",
+                    "size": 875694,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-windows-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-freetype-natives-windows-arm64:3.3.2",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "54d9c63d42dea253b27ce981ce1a7c970eb0a071",
+                    "size": 868400,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-windows-x86.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-freetype-natives-windows-x86:3.3.2",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "1e4acf1331dded3b4386fb7c3505c49c587f4f42",
+                    "size": 1006363,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-windows.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-freetype-natives-windows:3.3.2",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "4432335260047128efe750f40c07514826cc4e48",
+                    "size": 442372,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-freetype:3.3.2"
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "sha1": "0766bb0e8e829598b1c8052fd8173c62af741c52",
                     "size": 115553,
                     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2-natives-linux.jar"
@@ -1171,7 +1289,7 @@
     ],
     "name": "LWJGL 3",
     "order": -1,
-    "releaseTime": "2023-11-16T14:11:33+00:00",
+    "releaseTime": "2024-01-17T13:19:20+00:00",
     "type": "release",
     "uid": "org.lwjgl3",
     "version": "3.3.2",
