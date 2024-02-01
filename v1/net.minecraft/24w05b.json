@@ -122,12 +122,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "3ba4a30557a9b057760af4011f909ba619fc5125",
-                    "size": 689960,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar"
+                    "sha1": "6b7489151e4440116d51c86f7696cc9447f53bff",
+                    "size": 690301,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.12/datafixerupper-6.0.12.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:6.0.8"
+            "name": "com.mojang:datafixerupper:6.0.12"
         },
         {
             "downloads": {
@@ -428,6 +428,16 @@
         {
             "downloads": {
                 "artifact": {
+                    "sha1": "4b986a99445e49ea5fbf5d149c4b63f6ed6c6780",
+                    "size": 682804,
+                    "url": "https://libraries.minecraft.net/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar"
+                }
+            },
+            "name": "org.lz4:lz4-java:1.8.0"
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "sha1": "41eb7184ea9d556f23e18b5cb99cad1f8581fc00",
                     "size": 63635,
                     "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar"
@@ -440,17 +450,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "a37e705152dd80f2912a624ab57791fd275316cb",
-                "size": 24445810,
-                "url": "https://piston-data.mojang.com/v1/objects/a37e705152dd80f2912a624ab57791fd275316cb/client.jar"
+                "sha1": "9c02be7e088e9af9f6fedf4e86e86b4fe8a9bdfe",
+                "size": 24777145,
+                "url": "https://piston-data.mojang.com/v1/objects/9c02be7e088e9af9f6fedf4e86e86b4fe8a9bdfe/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.20.4-rc1:client"
+        "name": "com.mojang:minecraft:24w05b:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2023-12-06T14:38:01+00:00",
+    "releaseTime": "2024-02-01T12:55:14+00:00",
     "requires": [
         {
             "suggests": "3.3.2",
@@ -459,5 +469,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.20.4-rc1"
+    "version": "24w05b"
 }
