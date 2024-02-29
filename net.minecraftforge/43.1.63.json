@@ -301,7 +301,7 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/fmlloader/1.19.2-43.1.63/fmlloader-1.19.2-43.1.63.jar",
-                    "sha1": "e570d19b7ed639eca0af441f1ab246262a00af9e",
+                    "sha1": "fa57685b6f7fca0ccb2633afabce060b44fe6d24",
                     "size": 260834,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.19.2-43.1.63/fmlloader-1.19.2-43.1.63.jar"
                 }
@@ -314,8 +314,8 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "3c4716dbf00770c9928204617d431e9b06ddc09a",
-                    "size": 6884538,
+                    "sha1": "4f1cf43328794f5a068fc5c46b2f25247fcb6dbe",
+                    "size": 6951651,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.1.63/forge-1.19.2-43.1.63-installer.jar"
                 }
             },
@@ -523,7 +523,7 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/fmlcore/1.19.2-43.1.63/fmlcore-1.19.2-43.1.63.jar",
-                    "sha1": "f8e834460c301ae763843c4cd70f3c0412657106",
+                    "sha1": "71ccbe6a8e180080d401a6cab8312b9aea1df89b",
                     "size": 112533,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.19.2-43.1.63/fmlcore-1.19.2-43.1.63.jar"
                 }
@@ -534,7 +534,7 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/fmlloader/1.19.2-43.1.63/fmlloader-1.19.2-43.1.63.jar",
-                    "sha1": "e570d19b7ed639eca0af441f1ab246262a00af9e",
+                    "sha1": "fa57685b6f7fca0ccb2633afabce060b44fe6d24",
                     "size": 260834,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.19.2-43.1.63/fmlloader-1.19.2-43.1.63.jar"
                 }
@@ -545,8 +545,8 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/forge/1.19.2-43.1.63/forge-1.19.2-43.1.63-universal.jar",
-                    "sha1": "ba47e0c6c1cc78b09439c82811a9dd4732605d88",
-                    "size": 2600716,
+                    "sha1": "fca6782e76ad07b98691c0037425bec057aa690c",
+                    "size": 2600689,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.1.63/forge-1.19.2-43.1.63-universal.jar"
                 }
             },
@@ -578,7 +578,7 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/javafmllanguage/1.19.2-43.1.63/javafmllanguage-1.19.2-43.1.63.jar",
-                    "sha1": "35cd70714bf62747ef6f0337efcdf0f54a0a1ca7",
+                    "sha1": "2eb426938828b9680f09315c6241dedc26fc8110",
                     "size": 16350,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.19.2-43.1.63/javafmllanguage-1.19.2-43.1.63.jar"
                 }
@@ -589,7 +589,7 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/lowcodelanguage/1.19.2-43.1.63/lowcodelanguage-1.19.2-43.1.63.jar",
-                    "sha1": "9ff0d2cb2e7a1795bc8312b2095f572f749eea3e",
+                    "sha1": "c82b00bf0b4495acfda177af40baea2d65c47218",
                     "size": 7376,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.19.2-43.1.63/lowcodelanguage-1.19.2-43.1.63.jar"
                 }
@@ -600,8 +600,8 @@
             "downloads": {
                 "artifact": {
                     "path": "net/minecraftforge/mclanguage/1.19.2-43.1.63/mclanguage-1.19.2-43.1.63.jar",
-                    "sha1": "0a594893ac6817839dca31577121dcd3214bc3f4",
-                    "size": 4987,
+                    "sha1": "2c67995a49c050959d9fbac562cdbe660ee562aa",
+                    "size": 4986,
                     "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.19.2-43.1.63/mclanguage-1.19.2-43.1.63.jar"
                 }
             },
@@ -820,7 +820,7 @@
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 43.1.63 --fml.mcVersion 1.19.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20220805.130853",
     "name": "Forge",
     "order": 5,
-    "releaseTime": "2022-11-30T22:17:08+00:00",
+    "releaseTime": "2022-12-11T22:40:58+00:00",
     "requires": [
         {
             "equals": "1.19.2",
