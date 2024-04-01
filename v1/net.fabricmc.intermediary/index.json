@@ -5,16 +5,30 @@
     "versions": [
         {
             "recommended": true,
-            "releaseTime": "2024-04-01T10:25:36+00:00",
+            "releaseTime": "2024-04-01T12:23:24+00:00",
             "requires": [
                 {
                     "equals": "24w14potato",
                     "uid": "net.minecraft"
                 }
             ],
-            "sha256": "fc48ee93221142640926d944c514258d3a7e1d16e81a303600fd6e738959d364",
+            "sha256": "edbc49f3e81734ca9b7f0a860cf634f10538cc5b37d320b23e7f6b093a681292",
             "type": "release",
             "version": "24w14potato",
+            "volatile": true
+        },
+        {
+            "recommended": true,
+            "releaseTime": "2024-04-01T12:22:14+00:00",
+            "requires": [
+                {
+                    "equals": "24w14potato_original",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "sha256": "3f0d02e76794f5d5b079665ba0c24cc3b50b1738b7a34b1f30196e9b3a6e6eae",
+            "type": "release",
+            "version": "24w14potato_original",
             "volatile": true
         },
         {
