@@ -1049,6 +1049,42 @@
         {
             "downloads": {
                 "artifact": {
+                    "sha1": "498965aac06c4a0d42df1fbef6bacd05bde7f974",
+                    "size": 1093516,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-freetype/lwjgl-freetype-natives-linux-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-freetype-natives-linux-arm64:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "7dd3b1f751571adaf2c4dc882bc675a5d1e796e6",
+                    "size": 942636,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-freetype/lwjgl-freetype-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-freetype-natives-linux-arm32:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "sha1": "492a0f11f85b85899a6568f07511160c1b87cd38",
                     "size": 122159,
                     "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-glfw/lwjgl-glfw-natives-linux-arm64.jar"
