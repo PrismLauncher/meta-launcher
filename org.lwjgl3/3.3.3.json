@@ -39,6 +39,12 @@
                     "os": {
                         "name": "osx"
                     }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
                 }
             ]
         },
@@ -74,6 +80,12 @@
                     "action": "allow",
                     "os": {
                         "name": "windows"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows-arm64"
                     }
                 }
             ]
@@ -157,6 +169,12 @@
                     "os": {
                         "name": "osx"
                     }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
                 }
             ]
         },
@@ -192,6 +210,12 @@
                     "action": "allow",
                     "os": {
                         "name": "windows"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows-arm64"
                     }
                 }
             ]
@@ -275,6 +299,12 @@
                     "os": {
                         "name": "osx"
                     }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
                 }
             ]
         },
@@ -310,6 +340,12 @@
                     "action": "allow",
                     "os": {
                         "name": "windows"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows-arm64"
                     }
                 }
             ]
@@ -393,6 +429,12 @@
                     "os": {
                         "name": "osx"
                     }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
                 }
             ]
         },
@@ -428,6 +470,12 @@
                     "action": "allow",
                     "os": {
                         "name": "windows"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows-arm64"
                     }
                 }
             ]
@@ -501,6 +549,12 @@
                     "os": {
                         "name": "osx"
                     }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
                 }
             ]
         },
@@ -536,6 +590,12 @@
                     "action": "allow",
                     "os": {
                         "name": "windows"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows-arm64"
                     }
                 }
             ]
@@ -619,6 +679,12 @@
                     "os": {
                         "name": "osx"
                     }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
                 }
             ]
         },
@@ -654,6 +720,12 @@
                     "action": "allow",
                     "os": {
                         "name": "windows"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows-arm64"
                     }
                 }
             ]
@@ -737,6 +809,12 @@
                     "os": {
                         "name": "osx"
                     }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
                 }
             ]
         },
@@ -772,6 +850,12 @@
                     "action": "allow",
                     "os": {
                         "name": "windows"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows-arm64"
                     }
                 }
             ]
@@ -855,6 +939,12 @@
                     "os": {
                         "name": "osx"
                     }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
                 }
             ]
         },
@@ -890,6 +980,12 @@
                     "action": "allow",
                     "os": {
                         "name": "windows"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows-arm64"
                     }
                 }
             ]
@@ -949,6 +1045,258 @@
                 }
             },
             "name": "org.lwjgl:lwjgl:3.3.3"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "492a0f11f85b85899a6568f07511160c1b87cd38",
+                    "size": 122159,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-glfw/lwjgl-glfw-natives-linux-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw-natives-linux-arm64:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "d9af485c32545b37dd5359b163161d42d7534dcf",
+                    "size": 112560,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-glfw/lwjgl-glfw-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw-natives-linux-arm32:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "eff8b86798191192fe2cba2dc2776109f30c239d",
+                    "size": 209315,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-linux-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-jemalloc-natives-linux-arm64:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "109b6931880d02d4e65ced38928a16e41d19873e",
+                    "size": 178324,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-jemalloc-natives-linux-arm32:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "ad8f302118a65bb8d615f8a2a680db58fb8f835e",
+                    "size": 592963,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-openal/lwjgl-openal-natives-linux-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-openal-natives-linux-arm64:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "e1702aa09d20359d6cf5cb2999fa7685a785eca7",
+                    "size": 505618,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-openal/lwjgl-openal-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-openal-natives-linux-arm32:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "2096f6b94b2d68745d858fbfe53aacf5f0c8074c",
+                    "size": 58625,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-opengl/lwjgl-opengl-natives-linux-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-opengl-natives-linux-arm64:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "dbba17fc5ac0985d14a57c11f9537617d67b9952",
+                    "size": 59263,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-opengl/lwjgl-opengl-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-opengl-natives-linux-arm32:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "ddc177afc2be1ee8d93684b11363b80589a13fe1",
+                    "size": 207418,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-stb/lwjgl-stb-natives-linux-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-stb-natives-linux-arm64:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "1ae28ff044699ff29b0e980ffabd73fba8a664b3",
+                    "size": 154931,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-stb/lwjgl-stb-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-stb-natives-linux-arm32:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "2823a8c955c758d0954d282888075019ef99cec7",
+                    "size": 43864,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-tinyfd/lwjgl-tinyfd-natives-linux-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-tinyfd-natives-linux-arm64:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "c2a0a05c82c4b9f69ded0b6ad5f417addea78ce2",
+                    "size": 49495,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl-tinyfd/lwjgl-tinyfd-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-tinyfd-natives-linux-arm32:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "f35d8b6ffe1ac1e3a5eb1d4e33de80f044ad5fd8",
+                    "size": 91294,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl/lwjgl-natives-linux-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-natives-linux-arm64:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "2075c51a80f0ef0f22ba616ba54007ac2b0debd4",
+                    "size": 89565,
+                    "url": "https://build.lwjgl.org/release/3.3.3/bin/lwjgl/lwjgl-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-natives-linux-arm32:3.3.3-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
         }
     ],
     "name": "LWJGL 3",
