@@ -5,11 +5,11 @@
         "feature:is_quick_play_multiplayer"
     ],
     "assetIndex": {
-        "id": "16",
-        "sha1": "5dcd60ca21a0e3f71c145be6d1cdf868b035ca94",
-        "size": 445177,
-        "totalSize": 631811890,
-        "url": "https://piston-meta.mojang.com/v1/packages/5dcd60ca21a0e3f71c145be6d1cdf868b035ca94/16.json"
+        "id": "17",
+        "sha1": "fa4abf71ed48763a49cf959e5cf8990535c9111c",
+        "size": 447033,
+        "totalSize": 799197106,
+        "url": "https://piston-meta.mojang.com/v1/packages/fa4abf71ed48763a49cf959e5cf8990535c9111c/17.json"
     },
     "compatibleJavaMajors": [
         21
@@ -123,12 +123,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "db3485dc1e6b712bd81170d5ce6dca2fb2f8bd86",
-                    "size": 722976,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/7.0.14/datafixerupper-7.0.14.jar"
+                    "sha1": "67d4de6d7f95d89bcf5862995fb854ebaec02a34",
+                    "size": 724313,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:7.0.14"
+            "name": "com.mojang:datafixerupper:8.0.16"
         },
         {
             "downloads": {
@@ -461,17 +461,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "65c8e74e25a8c2e566188baa9090c0febd07b054",
-                "size": 26562232,
-                "url": "https://piston-data.mojang.com/v1/objects/65c8e74e25a8c2e566188baa9090c0febd07b054/client.jar"
+                "sha1": "0d9805f5797bc475b0a495bbe89b6f4421e05ede",
+                "size": 26831993,
+                "url": "https://piston-data.mojang.com/v1/objects/0d9805f5797bc475b0a495bbe89b6f4421e05ede/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.20.5-pre4:client"
+        "name": "com.mojang:minecraft:1.21-pre2:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2024-04-17T11:56:02+00:00",
+    "releaseTime": "2024-05-31T12:44:56+00:00",
     "requires": [
         {
             "suggests": "3.3.3",
@@ -480,5 +480,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.20.5-pre4"
+    "version": "1.21-pre2"
 }
