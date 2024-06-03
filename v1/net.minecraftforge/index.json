@@ -4,7 +4,43 @@
     "uid": "net.minecraftforge",
     "versions": [
         {
+            "recommended": true,
+            "releaseTime": "2024-06-03T21:24:34+00:00",
+            "requires": [
+                {
+                    "equals": "1.19.4",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "sha256": "e0858e5630d696c04f68f062e80f0f3c2a5cf10f4aa0e0015211dabdffeae864",
+            "version": "45.3.0"
+        },
+        {
             "recommended": false,
+            "releaseTime": "2024-06-03T21:07:54+00:00",
+            "requires": [
+                {
+                    "equals": "1.19.4",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "sha256": "9170dad203025d6e820fe6144de783e8a49daae5bfa3ff1d8a823846c63caca4",
+            "version": "45.2.16"
+        },
+        {
+            "recommended": true,
+            "releaseTime": "2024-06-03T20:53:04+00:00",
+            "requires": [
+                {
+                    "equals": "1.20.1",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "sha256": "19f3ff6b15fb306d9528f92545085248dba6308bf2f113267bb83171d7dfe26e",
+            "version": "47.3.0"
+        },
+        {
+            "recommended": true,
             "releaseTime": "2024-06-03T20:39:37+00:00",
             "requires": [
                 {
@@ -16,7 +52,7 @@
             "version": "49.1.0"
         },
         {
-            "recommended": false,
+            "recommended": true,
             "releaseTime": "2024-06-03T20:26:40+00:00",
             "requires": [
                 {
@@ -1948,7 +1984,7 @@
             "version": "43.3.0"
         },
         {
-            "recommended": true,
+            "recommended": false,
             "releaseTime": "2023-09-21T19:02:15+00:00",
             "requires": [
                 {
@@ -1972,7 +2008,7 @@
             "version": "48.0.0"
         },
         {
-            "recommended": true,
+            "recommended": false,
             "releaseTime": "2023-09-21T17:42:34+00:00",
             "requires": [
                 {
