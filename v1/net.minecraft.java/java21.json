@@ -1,0 +1,123 @@
+{
+    "formatVersion": 1,
+    "name": "Java 21",
+    "releaseTime": "2024-04-18T17:23:34+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "8adc688f802f47a4e5e8f5c15c459448a8591a23",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-delta",
+            "packageType": "jre",
+            "releaseTime": "2024-04-23T09:41:16+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/8adc688f802f47a4e5e8f5c15c459448a8591a23/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 21,
+                "minor": 0,
+                "name": "21.0.3",
+                "security": 3
+            }
+        },
+        {
+            "checksum": {
+                "hash": "afa5b09712f17e3a990152f0023b3211910a7777",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-delta",
+            "packageType": "jre",
+            "releaseTime": "2024-04-23T09:39:18+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/afa5b09712f17e3a990152f0023b3211910a7777/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 21,
+                "minor": 0,
+                "name": "21.0.3",
+                "security": 3
+            }
+        },
+        {
+            "checksum": {
+                "hash": "854591579e7c93e69fa7d9577f6c59f6e5a50147",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-delta",
+            "packageType": "jre",
+            "releaseTime": "2024-04-23T09:46:27+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://piston-meta.mojang.com/v1/packages/854591579e7c93e69fa7d9577f6c59f6e5a50147/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 21,
+                "minor": 0,
+                "name": "21.0.3",
+                "security": 3
+            }
+        },
+        {
+            "checksum": {
+                "hash": "b2e7b825ba2072a89c8594c5f3d20b34407392a5",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-delta",
+            "packageType": "jre",
+            "releaseTime": "2024-04-23T09:46:23+00:00",
+            "runtimeOS": "windows-arm64",
+            "url": "https://piston-meta.mojang.com/v1/packages/b2e7b825ba2072a89c8594c5f3d20b34407392a5/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 21,
+                "minor": 0,
+                "name": "21.0.3",
+                "security": 3
+            }
+        },
+        {
+            "checksum": {
+                "hash": "256d4657197d20a767a44a80cb72e8563d007469",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-delta",
+            "packageType": "jre",
+            "releaseTime": "2024-04-23T09:36:44+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/256d4657197d20a767a44a80cb72e8563d007469/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 21,
+                "minor": 0,
+                "name": "21.0.3",
+                "security": 3
+            }
+        },
+        {
+            "checksum": {
+                "hash": "c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-delta",
+            "packageType": "jre",
+            "releaseTime": "2024-04-18T17:23:34+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 21,
+                "minor": 0,
+                "security": 3
+            }
+        }
+    ],
+    "uid": "net.minecraft.java",
+    "version": "java21"
+}

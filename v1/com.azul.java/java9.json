@@ -1,0 +1,27 @@
+{
+    "formatVersion": 1,
+    "name": "Java 9",
+    "releaseTime": "2020-11-06T22:38:26+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "3bf435e5f87249d0023d6348acf60e4f869297d6e324ec47ca479ebb4650d5b3",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre9.0.0",
+            "packageType": "jre",
+            "releaseTime": "2017-09-12T14:16:00+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu9.0.0.15-ca-jre9.0.0-macosx_x64.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 9,
+                "minor": 0,
+                "security": 0
+            }
+        }
+    ],
+    "uid": "com.azul.java",
+    "version": "java9"
+}

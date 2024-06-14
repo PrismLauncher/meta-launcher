@@ -1,0 +1,27 @@
+{
+    "formatVersion": 1,
+    "name": "Java 12",
+    "releaseTime": "2021-04-04T21:57:27+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "5eddaa5c4ba4480c3964476a064eabaddd59f81d636706528abfc19d62fbfd55",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre12.0.0",
+            "packageType": "jre",
+            "releaseTime": "2019-03-29T22:24:00+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu12.1.3-ca-jre12.0.0-win_x64.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 12,
+                "minor": 0,
+                "security": 0
+            }
+        }
+    ],
+    "uid": "com.azul.java",
+    "version": "java12"
+}
