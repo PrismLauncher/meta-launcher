@@ -1,0 +1,160 @@
+{
+    "formatVersion": 1,
+    "name": "Java 8",
+    "releaseTime": "2020-11-17T19:06:44+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "c529f68a6febc042e71835a579f44d55a3717c46",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "jre-legacy",
+            "packageType": "jre",
+            "releaseTime": "2020-11-17T19:26:25+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/c529f68a6febc042e71835a579f44d55a3717c46/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 8,
+                "minor": 0,
+                "name": "8u202",
+                "security": 202
+            }
+        },
+        {
+            "checksum": {
+                "hash": "6df5ff7142797f409ec41e0b94124e677927f8e2",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "jre-legacy",
+            "packageType": "jre",
+            "releaseTime": "2020-11-17T19:28:39+00:00",
+            "runtimeOS": "linux-x86",
+            "url": "https://piston-meta.mojang.com/v1/packages/6df5ff7142797f409ec41e0b94124e677927f8e2/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 8,
+                "minor": 0,
+                "name": "8u202",
+                "security": 202
+            }
+        },
+        {
+            "checksum": {
+                "hash": "501341ccea685ea22228e481a57a5f13b62e9a1b",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "jre-legacy",
+            "packageType": "jre",
+            "releaseTime": "2020-11-17T19:06:44+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/501341ccea685ea22228e481a57a5f13b62e9a1b/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 8,
+                "minor": 0,
+                "name": "8u74",
+                "security": 74
+            }
+        },
+        {
+            "checksum": {
+                "hash": "1b4b3885e07d6e018c59b7f16aace34c7a66a35257e9256a73afd979e667a15a",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "jre-legacy",
+            "packageType": "jre",
+            "releaseTime": "2024-03-28T10:43:43+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jre8.0.412-macosx_aarch64.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 8,
+                "minor": 0,
+                "security": 412
+            }
+        },
+        {
+            "checksum": {
+                "hash": "b857498975fe5c5df26a1faa2b2c8ae7b5d15656",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "jre-legacy",
+            "packageType": "jre",
+            "releaseTime": "2020-11-17T19:12:13+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/b857498975fe5c5df26a1faa2b2c8ae7b5d15656/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 8,
+                "minor": 0,
+                "name": "8u51",
+                "security": 51
+            }
+        },
+        {
+            "checksum": {
+                "hash": "ae4a64107cd5c9f57c5125ca2096bb4864d10f26",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "jre-legacy",
+            "packageType": "jre",
+            "releaseTime": "2020-11-17T19:10:36+00:00",
+            "runtimeOS": "windows-x86",
+            "url": "https://piston-meta.mojang.com/v1/packages/ae4a64107cd5c9f57c5125ca2096bb4864d10f26/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 8,
+                "minor": 0,
+                "name": "8u51",
+                "security": 51
+            }
+        },
+        {
+            "checksum": {
+                "hash": "1a6b470ac83b241223447a1e6cb55c4a8f78af0146b9387e9842625041226654",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "jre-legacy",
+            "packageType": "jre",
+            "releaseTime": "2024-04-18T17:04:04+00:00",
+            "runtimeOS": "linux-arm32",
+            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_arm_linux_hotspot_8u412b08.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 8,
+                "minor": 0,
+                "security": 412
+            }
+        },
+        {
+            "checksum": {
+                "hash": "17550a6a4ddf71ac81ba8f276467bc58f036c123c0f1bafcafd69f70e3e49cf5",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "jre-legacy",
+            "packageType": "jre",
+            "releaseTime": "2024-04-18T17:04:04+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jre_aarch64_linux_hotspot_8u412b08.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 8,
+                "minor": 0,
+                "security": 412
+            }
+        }
+    ],
+    "uid": "net.minecraft.java",
+    "version": "java8"
+}

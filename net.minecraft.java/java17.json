@@ -1,0 +1,619 @@
+{
+    "formatVersion": 1,
+    "name": "Java 17",
+    "releaseTime": "2021-11-15T13:49:56+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "406d142348380dcaccb86af72fcb17f744552a06",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-beta",
+            "packageType": "jre",
+            "releaseTime": "2021-11-15T14:15:19+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/406d142348380dcaccb86af72fcb17f744552a06/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "build": 12,
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.1.12.1",
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "f3e086257efca1a662f7276c415e3a9879c90ee9",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-gamma",
+            "packageType": "jre",
+            "releaseTime": "2023-09-15T08:28:43+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/f3e086257efca1a662f7276c415e3a9879c90ee9/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "f3e086257efca1a662f7276c415e3a9879c90ee9",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2023-08-29T12:39:19+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/f3e086257efca1a662f7276c415e3a9879c90ee9/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "9fd1d18279311103742d1e93babf1bd1b1df538db036066f0b0caed820f19a57",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2024-04-09T07:10:52+00:00",
+            "runtimeOS": "linux-x86",
+            "url": "https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jre17.0.11-linux_i686.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "9fd1d18279311103742d1e93babf1bd1b1df538db036066f0b0caed820f19a57",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2024-04-09T07:10:52+00:00",
+            "runtimeOS": "linux-x86",
+            "url": "https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jre17.0.11-linux_i686.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "9fd1d18279311103742d1e93babf1bd1b1df538db036066f0b0caed820f19a57",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2024-04-09T07:10:52+00:00",
+            "runtimeOS": "linux-x86",
+            "url": "https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jre17.0.11-linux_i686.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "9fd1d18279311103742d1e93babf1bd1b1df538db036066f0b0caed820f19a57",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2024-04-09T07:10:52+00:00",
+            "runtimeOS": "linux-x86",
+            "url": "https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jre17.0.11-linux_i686.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "80d639bc7758203015f3f316a54626c3d86a6ea6",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-beta",
+            "packageType": "jre",
+            "releaseTime": "2021-11-15T13:49:56+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/80d639bc7758203015f3f316a54626c3d86a6ea6/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "build": 12,
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.1.12.1",
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "e9f3153d8426a44410c9e8ceba185ebc81f5780c",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-gamma",
+            "packageType": "jre",
+            "releaseTime": "2023-09-15T08:29:20+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/e9f3153d8426a44410c9e8ceba185ebc81f5780c/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "e9f3153d8426a44410c9e8ceba185ebc81f5780c",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2023-08-29T12:36:48+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/e9f3153d8426a44410c9e8ceba185ebc81f5780c/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "453682d6317aefaaada5e2a6ad2fe486c3aaa7ab",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-alpha",
+            "packageType": "jre",
+            "releaseTime": "2023-09-15T08:27:57+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://piston-meta.mojang.com/v1/packages/453682d6317aefaaada5e2a6ad2fe486c3aaa7ab/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "453682d6317aefaaada5e2a6ad2fe486c3aaa7ab",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-beta",
+            "packageType": "jre",
+            "releaseTime": "2023-09-15T08:27:57+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://piston-meta.mojang.com/v1/packages/453682d6317aefaaada5e2a6ad2fe486c3aaa7ab/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "453682d6317aefaaada5e2a6ad2fe486c3aaa7ab",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-gamma",
+            "packageType": "jre",
+            "releaseTime": "2023-09-15T08:27:57+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://piston-meta.mojang.com/v1/packages/453682d6317aefaaada5e2a6ad2fe486c3aaa7ab/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "453682d6317aefaaada5e2a6ad2fe486c3aaa7ab",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2023-08-29T12:42:11+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://piston-meta.mojang.com/v1/packages/453682d6317aefaaada5e2a6ad2fe486c3aaa7ab/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "d47cd46e4820a5aac61bc9a08f9374c7cebb341b",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-alpha",
+            "packageType": "jre",
+            "releaseTime": "2023-09-15T08:27:13+00:00",
+            "runtimeOS": "windows-arm64",
+            "url": "https://piston-meta.mojang.com/v1/packages/d47cd46e4820a5aac61bc9a08f9374c7cebb341b/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "d47cd46e4820a5aac61bc9a08f9374c7cebb341b",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-beta",
+            "packageType": "jre",
+            "releaseTime": "2023-09-15T08:27:13+00:00",
+            "runtimeOS": "windows-arm64",
+            "url": "https://piston-meta.mojang.com/v1/packages/d47cd46e4820a5aac61bc9a08f9374c7cebb341b/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "d47cd46e4820a5aac61bc9a08f9374c7cebb341b",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-gamma",
+            "packageType": "jre",
+            "releaseTime": "2023-09-15T08:27:13+00:00",
+            "runtimeOS": "windows-arm64",
+            "url": "https://piston-meta.mojang.com/v1/packages/d47cd46e4820a5aac61bc9a08f9374c7cebb341b/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "e4c3cfba7c52464f31f139ccf892c9712c8a226f",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2023-08-29T12:46:15+00:00",
+            "runtimeOS": "windows-arm64",
+            "url": "https://piston-meta.mojang.com/v1/packages/e4c3cfba7c52464f31f139ccf892c9712c8a226f/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "5e720d97044b3e3c3d92fabb9a3904398719b8b7",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-beta",
+            "packageType": "jre",
+            "releaseTime": "2021-11-15T14:22:04+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/5e720d97044b3e3c3d92fabb9a3904398719b8b7/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "build": 12,
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.1.12.1",
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "3355e10f323c52ed92c1e477e0b3d12dbcbdb596",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-gamma",
+            "packageType": "jre",
+            "releaseTime": "2023-09-15T08:23:36+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/3355e10f323c52ed92c1e477e0b3d12dbcbdb596/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "3355e10f323c52ed92c1e477e0b3d12dbcbdb596",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2023-08-29T12:34:40+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/3355e10f323c52ed92c1e477e0b3d12dbcbdb596/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "3c18a05bbeca36894e6f73b9f33ab81df1067437",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-beta",
+            "packageType": "jre",
+            "releaseTime": "2021-11-15T14:19:45+00:00",
+            "runtimeOS": "windows-x86",
+            "url": "https://piston-meta.mojang.com/v1/packages/3c18a05bbeca36894e6f73b9f33ab81df1067437/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "build": 12,
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.1.12.1",
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "5c9039c8f794a07a213b91fee846ed7376017731",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-gamma",
+            "packageType": "jre",
+            "releaseTime": "2023-09-15T08:26:28+00:00",
+            "runtimeOS": "windows-x86",
+            "url": "https://piston-meta.mojang.com/v1/packages/5c9039c8f794a07a213b91fee846ed7376017731/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "build": 1,
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8.1",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "5c9039c8f794a07a213b91fee846ed7376017731",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2023-09-06T12:10:08+00:00",
+            "runtimeOS": "windows-x86",
+            "url": "https://piston-meta.mojang.com/v1/packages/5c9039c8f794a07a213b91fee846ed7376017731/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "build": 1,
+                "major": 17,
+                "minor": 0,
+                "name": "17.0.8.1",
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "2e06401aa3aa7a825d73a6af8e9462449b1a86e7705b793dc8ec90423b602ee2",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2024-04-18T12:06:43+00:00",
+            "runtimeOS": "linux-arm32",
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_arm_linux_hotspot_17.0.11_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 17,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "2e06401aa3aa7a825d73a6af8e9462449b1a86e7705b793dc8ec90423b602ee2",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2024-04-18T12:06:43+00:00",
+            "runtimeOS": "linux-arm32",
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_arm_linux_hotspot_17.0.11_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 17,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "2e06401aa3aa7a825d73a6af8e9462449b1a86e7705b793dc8ec90423b602ee2",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2024-04-18T12:06:43+00:00",
+            "runtimeOS": "linux-arm32",
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_arm_linux_hotspot_17.0.11_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 17,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "2e06401aa3aa7a825d73a6af8e9462449b1a86e7705b793dc8ec90423b602ee2",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2024-04-18T12:06:43+00:00",
+            "runtimeOS": "linux-arm32",
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_arm_linux_hotspot_17.0.11_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 17,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "ccfa23c25790475c84df983cc5f729b94c04d9ea9863912deb15c6266782cf16",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2024-04-18T12:06:43+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.11_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 17,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "ccfa23c25790475c84df983cc5f729b94c04d9ea9863912deb15c6266782cf16",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2024-04-18T12:06:43+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.11_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 17,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "ccfa23c25790475c84df983cc5f729b94c04d9ea9863912deb15c6266782cf16",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2024-04-18T12:06:43+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.11_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 17,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "ccfa23c25790475c84df983cc5f729b94c04d9ea9863912deb15c6266782cf16",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-gamma-snapshot",
+            "packageType": "jre",
+            "releaseTime": "2024-04-18T12:06:43+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.11_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 17,
+                "minor": 0,
+                "security": 11
+            }
+        }
+    ],
+    "uid": "net.minecraft.java",
+    "version": "java17"
+}

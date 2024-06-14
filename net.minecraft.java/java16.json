@@ -1,0 +1,89 @@
+{
+    "formatVersion": 1,
+    "name": "Java 16",
+    "releaseTime": "2021-05-10T16:43:02+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "3bfc5fdcc28d8897aa12f372ea98a9afeb11a813",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-alpha",
+            "packageType": "jre",
+            "releaseTime": "2021-05-10T16:43:02+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/3bfc5fdcc28d8897aa12f372ea98a9afeb11a813/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "build": 9,
+                "major": 16,
+                "minor": 0,
+                "name": "16.0.1.9.1",
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "2351fc2fc174c27300e404ab038b88a54cc32455",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-alpha",
+            "packageType": "jre",
+            "releaseTime": "2021-05-11T15:03:25+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/2351fc2fc174c27300e404ab038b88a54cc32455/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "build": 9,
+                "major": 16,
+                "minor": 0,
+                "name": "16.0.1.9.1_3",
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "5e91f68978e873ef3b4f533dc1dcb73c2e9efff7",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-alpha",
+            "packageType": "jre",
+            "releaseTime": "2021-05-10T16:48:07+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://piston-meta.mojang.com/v1/packages/5e91f68978e873ef3b4f533dc1dcb73c2e9efff7/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "build": 9,
+                "major": 16,
+                "minor": 0,
+                "name": "16.0.1.9.1",
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "41062fddae9baa5a5e6f5a20d4720e604b1e28f6",
+                "type": "sha1"
+            },
+            "downloadType": "manifest",
+            "name": "java-runtime-alpha",
+            "packageType": "jre",
+            "releaseTime": "2021-05-10T16:45:24+00:00",
+            "runtimeOS": "windows-x86",
+            "url": "https://piston-meta.mojang.com/v1/packages/41062fddae9baa5a5e6f5a20d4720e604b1e28f6/manifest.json",
+            "vendor": "mojang",
+            "version": {
+                "build": 9,
+                "major": 16,
+                "minor": 0,
+                "name": "16.0.1.9.1",
+                "security": 1
+            }
+        }
+    ],
+    "uid": "net.minecraft.java",
+    "version": "java16"
+}

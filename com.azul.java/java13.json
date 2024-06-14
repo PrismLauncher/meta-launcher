@@ -1,0 +1,117 @@
+{
+    "formatVersion": 1,
+    "name": "Java 13",
+    "releaseTime": "2023-01-07T17:47:56+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "436d138b4e01e793c2ec450687b6ca75a41d5fcc1df2eb5d37f4d2770f985687",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre13.0.14",
+            "packageType": "jre",
+            "releaseTime": "2023-01-07T17:47:56+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu13.54.17-ca-jre13.0.14-macosx_x64.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 13,
+                "minor": 0,
+                "security": 14
+            }
+        },
+        {
+            "checksum": {
+                "hash": "9c61f4ca3afad3dcc1235a20319ae91d07ea5752d74669698e89c852d34adc59",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre13.0.14",
+            "packageType": "jre",
+            "releaseTime": "2023-01-07T17:47:56+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu13.54.17-ca-jre13.0.14-macosx_aarch64.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 13,
+                "minor": 0,
+                "security": 14
+            }
+        },
+        {
+            "checksum": {
+                "hash": "dd0b7d976f7865ad7bbfbf20650f8cb01860066b779838d8f6938427c02a8fb9",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre13.0.14",
+            "packageType": "jre",
+            "releaseTime": "2023-01-07T17:47:56+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu13.54.17-ca-jre13.0.14-win_x64.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 13,
+                "minor": 0,
+                "security": 14
+            }
+        },
+        {
+            "checksum": {
+                "hash": "3f9633f31a6b188c661fbb8298cc731e9cde04d45e295b5f11835f570ad87237",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre13.0.14",
+            "packageType": "jre",
+            "releaseTime": "2023-01-07T17:47:56+00:00",
+            "runtimeOS": "windows-x86",
+            "url": "https://cdn.azul.com/zulu/bin/zulu13.54.17-ca-jre13.0.14-win_i686.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 13,
+                "minor": 0,
+                "security": 14
+            }
+        },
+        {
+            "checksum": {
+                "hash": "b50d58395bbd6f1228610afff30448323d4135826043fec039db22bfb29f0943",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre13.0.14",
+            "packageType": "jre",
+            "releaseTime": "2023-01-07T17:47:56+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu13.54.17-ca-jre13.0.14-linux_x64.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 13,
+                "minor": 0,
+                "security": 14
+            }
+        },
+        {
+            "checksum": {
+                "hash": "474c3ffa34040781b722ade274c641ec084eb787ac873dd353174ef40b15ce1d",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre13.0.14",
+            "packageType": "jre",
+            "releaseTime": "2023-01-07T17:47:56+00:00",
+            "runtimeOS": "linux-x86",
+            "url": "https://cdn.azul.com/zulu/bin/zulu13.54.17-ca-jre13.0.14-linux_i686.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 13,
+                "minor": 0,
+                "security": 14
+            }
+        }
+    ],
+    "uid": "com.azul.java",
+    "version": "java13"
+}

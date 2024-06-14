@@ -1,0 +1,123 @@
+{
+    "formatVersion": 1,
+    "name": "Java 18",
+    "releaseTime": "2023-01-07T17:48:01+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "2eaac888058b08453ea7b8dc5e2e9203b6802c5b1347e37972859529ff7c77bf",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre18.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2022-08-23T15:37:38+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu18.32.13-ca-jre18.0.2.1-win_x64.zip",
+            "vendor": "azul",
+            "version": {
+                "build": 1,
+                "major": 18,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "52619f5183b7fbd7af73737ff43496736e4b6d1e38c75277a667f480b922b7eb",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre18.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2022-08-23T15:37:38+00:00",
+            "runtimeOS": "windows-x86",
+            "url": "https://cdn.azul.com/zulu/bin/zulu18.32.13-ca-jre18.0.2.1-win_i686.zip",
+            "vendor": "azul",
+            "version": {
+                "build": 1,
+                "major": 18,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "4710e11efdac58dadcfbff518354f72a4e53c7905ebaf877666118cfff473643",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre18.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2022-08-23T15:37:38+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu18.32.13-ca-jre18.0.2.1-macosx_x64.zip",
+            "vendor": "azul",
+            "version": {
+                "build": 1,
+                "major": 18,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "36830817a445c7c77820bd5a18840d9b492309edd53e42a32c2e4c5f4bb9a09f",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre18.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2022-08-23T15:37:38+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu18.32.13-ca-jre18.0.2.1-macosx_aarch64.zip",
+            "vendor": "azul",
+            "version": {
+                "build": 1,
+                "major": 18,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "0672a7465ff0a4c5c131d02fae8467713fdcbb4ba59ee61a3994907624b6bef2",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre18.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2022-08-23T15:37:38+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu18.32.13-ca-jre18.0.2.1-linux_x64.zip",
+            "vendor": "azul",
+            "version": {
+                "build": 1,
+                "major": 18,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "94166151439a3bdd35f38f8c85c0daefe5b415ce55775086f9a3f160db649804",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre18.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2022-08-23T15:37:38+00:00",
+            "runtimeOS": "linux-x86",
+            "url": "https://cdn.azul.com/zulu/bin/zulu18.32.13-ca-jre18.0.2.1-linux_i686.zip",
+            "vendor": "azul",
+            "version": {
+                "build": 1,
+                "major": 18,
+                "minor": 0,
+                "security": 2
+            }
+        }
+    ],
+    "uid": "com.azul.java",
+    "version": "java18"
+}

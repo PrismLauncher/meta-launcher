@@ -1,0 +1,294 @@
+{
+    "formatVersion": 1,
+    "name": "Java 20",
+    "releaseTime": "2023-03-23T10:01:40+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "81b475ab029ab224b2c711ccdfa9c25e0300539faad342a4ceefd33772fb38b4",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.2+9",
+            "packageType": "jre",
+            "releaseTime": "2023-07-21T15:55:46+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.2%2B9/OpenJDK20U-jre_aarch64_mac_hotspot_20.0.2_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 20,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "565d62faac325c098670705fb26a5cc3d4af0a25e86444ddd643f779ad2a3417",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.2+9",
+            "packageType": "jre",
+            "releaseTime": "2023-07-21T15:55:46+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.2%2B9/OpenJDK20U-jre_x64_mac_hotspot_20.0.2_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 20,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "e3592e86290c192804d9c6b5035d42cc32cf04141d1c0b9d1ecb67739826c8c5",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.2+9",
+            "packageType": "jre",
+            "releaseTime": "2023-07-21T15:55:46+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.2%2B9/OpenJDK20U-jre_x64_linux_hotspot_20.0.2_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 20,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "63a730d5a3b6d21d31f7cba15dc44b019a8a4d8652e13acec45040f98584112c",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.2+9",
+            "packageType": "jre",
+            "releaseTime": "2023-07-21T15:55:46+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.2%2B9/OpenJDK20U-jre_aarch64_linux_hotspot_20.0.2_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 20,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "f7960fdd7ce4f0dcc48bb9c63448aadc714f11a0a09f668f87083264c55b933e",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.2+9",
+            "packageType": "jre",
+            "releaseTime": "2023-07-21T15:55:46+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.2%2B9/OpenJDK20U-jre_x64_windows_hotspot_20.0.2_9.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 20,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "daacf24c15bf7f38a957a98a312911a36ba7f7d97004920a7875791f20e8e1ed",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.1+9",
+            "packageType": "jre",
+            "releaseTime": "2023-04-20T12:08:50+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.1%2B9/OpenJDK20U-jre_x64_linux_hotspot_20.0.1_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 20,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "4b04fcfabf833403cc74dd19105a387563f9ff0fef975c4101f3d74c53eb7745",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.1+9",
+            "packageType": "jre",
+            "releaseTime": "2023-04-20T12:08:50+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.1%2B9/OpenJDK20U-jre_aarch64_linux_hotspot_20.0.1_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 20,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "ae753959bbfa5c879333a90f7a589f5c73962311b706efc0aeccde3831a435b9",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.1+9",
+            "packageType": "jre",
+            "releaseTime": "2023-04-20T12:08:50+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.1%2B9/OpenJDK20U-jre_x64_windows_hotspot_20.0.1_9.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 20,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "ee8be9190324285ebc7e9bd47b948eec349221845fa48f1e673e5a1489708750",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.1+9",
+            "packageType": "jre",
+            "releaseTime": "2023-04-20T12:08:50+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.1%2B9/OpenJDK20U-jre_aarch64_mac_hotspot_20.0.1_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 20,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "b59a5f8b7f8fd1502df274e8ba58215b06934c8261413cb40e344f6ad81e7f1f",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.1+9",
+            "packageType": "jre",
+            "releaseTime": "2023-04-20T12:08:50+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20.0.1%2B9/OpenJDK20U-jre_x64_mac_hotspot_20.0.1_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 20,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "b226140b8efacf21d256203cc8f919549e295cb9bac88b24c15fb8e53a66b545",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2023-03-23T10:01:40+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-jre_aarch64_linux_hotspot_20_36.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 20,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "cf0a98fa73c5e3407d424044eac94de9f01f0ac0d0876cf1b70ceb2d883adfc0",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2023-03-23T10:01:40+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-jre_x64_mac_hotspot_20_36.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 20,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "f41be99b1fd21873b0fa1436bb206119706922e9c4b32298538faf3d1b632a72",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2023-03-23T10:01:40+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-jre_x64_linux_hotspot_20_36.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 20,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "446473556941df188dc98f652065bf3031d457ef1848d9d19aa3ff32ea0b4845",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2023-03-23T10:01:40+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-jre_x64_windows_hotspot_20_36.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 20,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "2588651bad8634ff13bfc1deb9a64f8f753ecc87e739bfcfe4223fcc37e9c0cb",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre20.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2023-03-23T10:01:40+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin20-binaries/releases/download/jdk-20%2B36/OpenJDK20U-jre_aarch64_mac_hotspot_20_36.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 20,
+                "minor": 0,
+                "security": 0
+            }
+        }
+    ],
+    "uid": "net.adoptium.java",
+    "version": "java20"
+}
