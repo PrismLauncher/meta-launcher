@@ -534,8 +534,8 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "1db10f99051b0e81045279fbfc14e6b5ac7b090e",
-                    "size": 6428450,
+                    "sha1": "6ea685e8ffac2473f31b4d2b7ad2b5bf4588792e",
+                    "size": 8713844,
                     "url": "https://maven.neoforged.net/net/neoforged/neoforge/20.4.188/neoforge-20.4.188-installer.jar"
                 }
             },
@@ -602,7 +602,7 @@
                     "path": "org/ow2/asm/asm/9.3/asm-9.3.jar",
                     "sha1": "8e6300ef51c1d801a7ed62d07cd221aca3a90640",
                     "size": 122176,
-                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.3/asm-9.3.jar"
+                    "url": "https://libraries.minecraft.net/org/ow2/asm/asm/9.3/asm-9.3.jar"
                 }
             },
             "name": "org.ow2.asm:asm:9.3"
@@ -811,7 +811,7 @@
                     "path": "org/ow2/asm/asm/9.3/asm-9.3.jar",
                     "sha1": "8e6300ef51c1d801a7ed62d07cd221aca3a90640",
                     "size": 122176,
-                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.3/asm-9.3.jar"
+                    "url": "https://libraries.minecraft.net/org/ow2/asm/asm/9.3/asm-9.3.jar"
                 }
             },
             "name": "org.ow2.asm:asm:9.3"
@@ -1020,7 +1020,7 @@
                     "path": "org/ow2/asm/asm/9.3/asm-9.3.jar",
                     "sha1": "8e6300ef51c1d801a7ed62d07cd221aca3a90640",
                     "size": 122176,
-                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.3/asm-9.3.jar"
+                    "url": "https://libraries.minecraft.net/org/ow2/asm/asm/9.3/asm-9.3.jar"
                 }
             },
             "name": "org.ow2.asm:asm:9.3"
@@ -1229,7 +1229,7 @@
                     "path": "org/ow2/asm/asm/9.3/asm-9.3.jar",
                     "sha1": "8e6300ef51c1d801a7ed62d07cd221aca3a90640",
                     "size": 122176,
-                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.3/asm-9.3.jar"
+                    "url": "https://libraries.minecraft.net/org/ow2/asm/asm/9.3/asm-9.3.jar"
                 }
             },
             "name": "org.ow2.asm:asm:9.3"
@@ -1438,7 +1438,7 @@
                     "path": "org/ow2/asm/asm/9.3/asm-9.3.jar",
                     "sha1": "8e6300ef51c1d801a7ed62d07cd221aca3a90640",
                     "size": 122176,
-                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.3/asm-9.3.jar"
+                    "url": "https://libraries.minecraft.net/org/ow2/asm/asm/9.3/asm-9.3.jar"
                 }
             },
             "name": "org.ow2.asm:asm:9.3"
@@ -1647,7 +1647,7 @@
                     "path": "org/ow2/asm/asm/9.3/asm-9.3.jar",
                     "sha1": "8e6300ef51c1d801a7ed62d07cd221aca3a90640",
                     "size": 122176,
-                    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.3/asm-9.3.jar"
+                    "url": "https://libraries.minecraft.net/org/ow2/asm/asm/9.3/asm-9.3.jar"
                 }
             },
             "name": "org.ow2.asm:asm:9.3"
@@ -2074,8 +2074,8 @@
             "downloads": {
                 "artifact": {
                     "path": "net/neoforged/neoforge/20.4.188/neoforge-20.4.188-universal.jar",
-                    "sha1": "08570b741852803585423d492574f7f5017131b2",
-                    "size": 2560245,
+                    "sha1": "583ed4f2b9c74050b4363f918cbe7b5226946bca",
+                    "size": 2586331,
                     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.188/neoforge-20.4.188-universal.jar"
                 }
             },
@@ -2591,7 +2591,7 @@
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --fml.neoForgeVersion 20.4.188 --fml.fmlVersion 2.0.11 --fml.mcVersion 1.20.4 --fml.neoFormVersion 20231207.154220 --launchTarget forgeclient",
     "name": "NeoForge",
     "order": 5,
-    "releaseTime": "2024-02-27T21:16:15.217016+00:00",
+    "releaseTime": "2024-07-02T13:27:47.289227+00:00",
     "requires": [
         {
             "equals": "1.20.4",
