@@ -5,6 +5,42 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "9b15b46c6f0456aec9c426b220c66229c3bcffaf854517293bc46ce9364e16cb",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre17.0.12",
+            "packageType": "jre",
+            "releaseTime": "2024-07-09T22:04:56+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jre17.0.12-macosx_x64.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "security": 12
+            }
+        },
+        {
+            "checksum": {
+                "hash": "fff1b7493f2e8793bcfbb585a23f9afe0fedea057984cef1297913bae0586101",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre17.0.12",
+            "packageType": "jre",
+            "releaseTime": "2024-07-09T22:04:56+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jre17.0.12-macosx_aarch64.zip",
+            "vendor": "azul",
+            "version": {
+                "major": 17,
+                "minor": 0,
+                "security": 12
+            }
+        },
+        {
+            "checksum": {
                 "hash": "826b5bc2ec4317c4a9b823dc50fdc2dd05e64d0e191a6a5635deeb739790f6f6",
                 "type": "sha256"
             },
@@ -73,42 +109,6 @@
                 "major": 17,
                 "minor": 0,
                 "security": 12
-            }
-        },
-        {
-            "checksum": {
-                "hash": "a1b1326fc8af0d717ae2e98cdbb4a331b65497ebbad9c5642a510152952f87fd",
-                "type": "sha256"
-            },
-            "downloadType": "archive",
-            "name": "azul_zulu_jre17.0.11",
-            "packageType": "jre",
-            "releaseTime": "2024-04-09T07:10:52+00:00",
-            "runtimeOS": "mac-os-x64",
-            "url": "https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jre17.0.11-macosx_x64.zip",
-            "vendor": "azul",
-            "version": {
-                "major": 17,
-                "minor": 0,
-                "security": 11
-            }
-        },
-        {
-            "checksum": {
-                "hash": "9560abba9fae9be85074be9c81012ddccabc37988f7d9f8122dbd4e405758e13",
-                "type": "sha256"
-            },
-            "downloadType": "archive",
-            "name": "azul_zulu_jre17.0.11",
-            "packageType": "jre",
-            "releaseTime": "2024-04-09T07:10:52+00:00",
-            "runtimeOS": "mac-os-arm64",
-            "url": "https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jre17.0.11-macosx_aarch64.zip",
-            "vendor": "azul",
-            "version": {
-                "major": 17,
-                "minor": 0,
-                "security": 11
             }
         },
         {
