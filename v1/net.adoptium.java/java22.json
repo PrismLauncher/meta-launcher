@@ -5,6 +5,25 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "41e401f287e1850631b259b483929462217ac6b1cc3c7359d80b1cc01ee5a666",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre22.0.2+9",
+            "packageType": "jre",
+            "releaseTime": "2024-07-17T18:40:56+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_x64_linux_hotspot_22.0.2_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 22,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
                 "hash": "8e5996a2bbae2da9797cff5a62cb2080965e08fd66de24673b29a8e481ec769e",
                 "type": "sha256"
             },
