@@ -1,7 +1,7 @@
 {
     "formatVersion": 1,
     "name": "Java 21",
-    "releaseTime": "2024-04-18T17:23:34+00:00",
+    "releaseTime": "2024-04-23T09:36:44+00:00",
     "runtimes": [
         {
             "checksum": {
@@ -100,21 +100,21 @@
         },
         {
             "checksum": {
-                "hash": "c7c31bc6f5ab4c4b6f4559e11c2fa9541ae6757ab8da6dd85c29163913bd9238",
+                "hash": "58845ce4275f3ec74fba075597c8216bb201773da036c4703be8b7b7b457355d",
                 "type": "sha256"
             },
             "downloadType": "archive",
             "name": "java-runtime-delta",
             "packageType": "jre",
-            "releaseTime": "2024-04-18T17:23:34+00:00",
+            "releaseTime": "2024-07-17T15:29:34+00:00",
             "runtimeOS": "linux-arm64",
-            "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.3_9.tar.gz",
+            "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.4_7.tar.gz",
             "vendor": "eclipse",
             "version": {
-                "build": 9,
+                "build": 7,
                 "major": 21,
                 "minor": 0,
-                "security": 3
+                "security": 4
             }
         }
     ],
