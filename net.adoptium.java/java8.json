@@ -5,6 +5,25 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "814a1e262c10cb3f056adbdb20396564fe9ea0f039a863bae6b648f7680b30cc",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre8.0.422+5",
+            "packageType": "jre",
+            "releaseTime": "2024-07-25T19:28:42+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jre_x64_mac_hotspot_8u422b05.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 5,
+                "major": 8,
+                "minor": 0,
+                "security": 422
+            }
+        },
+        {
+            "checksum": {
                 "hash": "0ac516cc1eadffb4cd3cfc9736a33d58ea6a396bf85729036c973482f7c063d9",
                 "type": "sha256"
             },
