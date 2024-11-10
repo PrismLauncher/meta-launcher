@@ -115,6 +115,44 @@
                 "name": "8u51",
                 "security": 51
             }
+        },
+        {
+            "checksum": {
+                "hash": "49894dbe2f915dfad026cf7b4013118c0284e88359172499b1b25a4dac195ff1",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "jre-legacy",
+            "packageType": "jre",
+            "releaseTime": "2024-10-18T12:58:56+00:00",
+            "runtimeOS": "linux-arm32",
+            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jre_arm_linux_hotspot_8u432b06.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 6,
+                "major": 8,
+                "minor": 0,
+                "security": 432
+            }
+        },
+        {
+            "checksum": {
+                "hash": "786522da4c761104dd8274c81edc90126a25acaafbbbc5da886b3fb51f33cba2",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "jre-legacy",
+            "packageType": "jre",
+            "releaseTime": "2024-10-18T12:58:56+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jre_aarch64_linux_hotspot_8u432b06.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 6,
+                "major": 8,
+                "minor": 0,
+                "security": 432
+            }
         }
     ],
     "uid": "net.minecraft.java",
