@@ -1,7 +1,7 @@
 {
     "formatVersion": 1,
     "name": "Java 23",
-    "releaseTime": "2024-09-18T09:58:40+00:00",
+    "releaseTime": "2024-10-17T16:36:55+00:00",
     "runtimes": [
         {
             "checksum": {
@@ -115,101 +115,6 @@
                 "major": 23,
                 "minor": 0,
                 "security": 1
-            }
-        },
-        {
-            "checksum": {
-                "hash": "9c3c3d42ffb2603b328b7154fc9eb449ef87488b3cbeb24a497d46677c7fd44d",
-                "type": "sha256"
-            },
-            "downloadType": "archive",
-            "name": "eclipse_temurin_jre23.0.0+37",
-            "packageType": "jre",
-            "releaseTime": "2024-09-18T09:58:40+00:00",
-            "runtimeOS": "linux-x64",
-            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_x64_linux_hotspot_23_37.tar.gz",
-            "vendor": "eclipse",
-            "version": {
-                "build": 37,
-                "major": 23,
-                "minor": 0,
-                "security": 0
-            }
-        },
-        {
-            "checksum": {
-                "hash": "5d27360b81ec2a416d5f6614cad3932711eba1b4c0e7a1b9ea697a3c4295226d",
-                "type": "sha256"
-            },
-            "downloadType": "archive",
-            "name": "eclipse_temurin_jre23.0.0+37",
-            "packageType": "jre",
-            "releaseTime": "2024-09-18T09:58:40+00:00",
-            "runtimeOS": "windows-x64",
-            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_x64_windows_hotspot_23_37.zip",
-            "vendor": "eclipse",
-            "version": {
-                "build": 37,
-                "major": 23,
-                "minor": 0,
-                "security": 0
-            }
-        },
-        {
-            "checksum": {
-                "hash": "1f41755494c45a8a88dfed926251f478544c0e51a71a011314fc282e915f804f",
-                "type": "sha256"
-            },
-            "downloadType": "archive",
-            "name": "eclipse_temurin_jre23.0.0+37",
-            "packageType": "jre",
-            "releaseTime": "2024-09-18T09:58:40+00:00",
-            "runtimeOS": "mac-os-x64",
-            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_x64_mac_hotspot_23_37.tar.gz",
-            "vendor": "eclipse",
-            "version": {
-                "build": 37,
-                "major": 23,
-                "minor": 0,
-                "security": 0
-            }
-        },
-        {
-            "checksum": {
-                "hash": "ec45f4f9a4a98d8a0af24b508ca84a411ea88fac8abb8ad2cfca85cb3902ab5d",
-                "type": "sha256"
-            },
-            "downloadType": "archive",
-            "name": "eclipse_temurin_jre23.0.0+37",
-            "packageType": "jre",
-            "releaseTime": "2024-09-18T09:58:40+00:00",
-            "runtimeOS": "linux-arm64",
-            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_aarch64_linux_hotspot_23_37.tar.gz",
-            "vendor": "eclipse",
-            "version": {
-                "build": 37,
-                "major": 23,
-                "minor": 0,
-                "security": 0
-            }
-        },
-        {
-            "checksum": {
-                "hash": "2c96b006080906951fb0ddae8e23ca3ef2bd327b77cac84b4302b8d84c7014f5",
-                "type": "sha256"
-            },
-            "downloadType": "archive",
-            "name": "eclipse_temurin_jre23.0.0+37",
-            "packageType": "jre",
-            "releaseTime": "2024-09-18T09:58:40+00:00",
-            "runtimeOS": "mac-os-arm64",
-            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_aarch64_mac_hotspot_23_37.tar.gz",
-            "vendor": "eclipse",
-            "version": {
-                "build": 37,
-                "major": 23,
-                "minor": 0,
-                "security": 0
             }
         }
     ],
