@@ -6,11 +6,11 @@
         "feature:is_quick_play_multiplayer"
     ],
     "assetIndex": {
-        "id": "19",
-        "sha1": "30533625129c9eaf08bdcda5980917a2cd54191c",
-        "size": 463728,
-        "totalSize": 399172590,
-        "url": "https://piston-meta.mojang.com/v1/packages/30533625129c9eaf08bdcda5980917a2cd54191c/19.json"
+        "id": "21",
+        "sha1": "004572726356c4055a1df734114cfb065b68586f",
+        "size": 467107,
+        "totalSize": 399412888,
+        "url": "https://piston-meta.mojang.com/v1/packages/004572726356c4055a1df734114cfb065b68586f/21.json"
     },
     "compatibleJavaMajors": [
         21
@@ -269,12 +269,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "3cad216e3a7f0c19b4b394388bc9ffc446f13b14",
-                    "size": 12243,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar"
+                    "sha1": "e853a12cdd6ba4f4836e8f4bf3b37844a13482b6",
+                    "size": 13842,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.18.11/text2speech-1.18.11.jar"
                 }
             },
-            "name": "com.mojang:text2speech:1.17.9"
+            "name": "com.mojang:text2speech:1.18.11"
         },
         {
             "downloads": {
@@ -647,24 +647,24 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "a7e5a6024bfd3cd614625aa05629adf760020304",
-                "size": 28335587,
-                "url": "https://piston-data.mojang.com/v1/objects/a7e5a6024bfd3cd614625aa05629adf760020304/client.jar"
+                "sha1": "9acca901e3564a91250b941cd2c55a55d0b71bca",
+                "size": 28534222,
+                "url": "https://piston-data.mojang.com/v1/objects/9acca901e3564a91250b941cd2c55a55d0b71bca/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.21.4:client"
+        "name": "com.mojang:minecraft:25w03a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2024-12-03T10:12:57+00:00",
+    "releaseTime": "2025-01-15T14:28:04+00:00",
     "requires": [
         {
             "suggests": "3.3.3",
             "uid": "org.lwjgl3"
         }
     ],
-    "type": "release",
+    "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.21.4"
+    "version": "25w03a"
 }
