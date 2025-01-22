@@ -6,11 +6,11 @@
         "feature:is_quick_play_multiplayer"
     ],
     "assetIndex": {
-        "id": "19",
-        "sha1": "0405359a694f22b6423f4d64bb828ea732db4d33",
-        "size": 463827,
-        "totalSize": 400675205,
-        "url": "https://piston-meta.mojang.com/v1/packages/0405359a694f22b6423f4d64bb828ea732db4d33/19.json"
+        "id": "21",
+        "sha1": "f09270265d4f7faf1bc7b5d1b9550e297add1779",
+        "size": 467206,
+        "totalSize": 400915524,
+        "url": "https://piston-meta.mojang.com/v1/packages/f09270265d4f7faf1bc7b5d1b9550e297add1779/21.json"
     },
     "compatibleJavaMajors": [
         21
@@ -145,12 +145,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "bded3161a7346de32213da750388ec6529fe4f6b",
-                    "size": 115435,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/6.0.57/authlib-6.0.57.jar"
+                    "sha1": "9261a6d53e629469fab20136b968bf5202d9c0f7",
+                    "size": 115810,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/6.0.58/authlib-6.0.58.jar"
                 }
             },
-            "name": "com.mojang:authlib:6.0.57"
+            "name": "com.mojang:authlib:6.0.58"
         },
         {
             "downloads": {
@@ -269,12 +269,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "3cad216e3a7f0c19b4b394388bc9ffc446f13b14",
-                    "size": 12243,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar"
+                    "sha1": "e853a12cdd6ba4f4836e8f4bf3b37844a13482b6",
+                    "size": 13842,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.18.11/text2speech-1.18.11.jar"
                 }
             },
-            "name": "com.mojang:text2speech:1.17.9"
+            "name": "com.mojang:text2speech:1.18.11"
         },
         {
             "downloads": {
@@ -647,17 +647,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "e879469d52776f40a14fe8472e8a02dafdf4dc27",
-                "size": 28332992,
-                "url": "https://piston-data.mojang.com/v1/objects/e879469d52776f40a14fe8472e8a02dafdf4dc27/client.jar"
+                "sha1": "6102118fc64fba5ac798225e1c3618c005e01a51",
+                "size": 28606348,
+                "url": "https://piston-data.mojang.com/v1/objects/6102118fc64fba5ac798225e1c3618c005e01a51/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.21.4-rc1:client"
+        "name": "com.mojang:minecraft:25w04a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2024-11-28T10:19:01+00:00",
+    "releaseTime": "2025-01-22T13:14:44+00:00",
     "requires": [
         {
             "suggests": "3.3.3",
@@ -666,5 +666,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.21.4-rc1"
+    "version": "25w04a"
 }
