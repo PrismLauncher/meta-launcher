@@ -1,0 +1,28 @@
+{
+    "formatVersion": 1,
+    "name": "Java 24",
+    "releaseTime": "2025-03-20T09:06:52+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "782a46008490272affe0b797155c2ae8e759e10c8ba4540f1f7285ef3d2902de",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2025-03-20T09:06:52+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24%2B36/OpenJDK24U-jre_aarch64_linux_hotspot_24_36.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 24,
+                "minor": 0,
+                "security": 0
+            }
+        }
+    ],
+    "uid": "net.adoptium.java",
+    "version": "java24"
+}
