@@ -6,11 +6,11 @@
         "feature:is_quick_play_multiplayer"
     ],
     "assetIndex": {
-        "id": "24",
-        "sha1": "9cab13b46501adc08b4b711323370161f738f90a",
-        "size": 482192,
-        "totalSize": 407298257,
-        "url": "https://piston-meta.mojang.com/v1/packages/9cab13b46501adc08b4b711323370161f738f90a/24.json"
+        "id": "25",
+        "sha1": "3d58db2d6192306bed2ac023d4dbc13d0d91b1d3",
+        "size": 489734,
+        "totalSize": 408317790,
+        "url": "https://piston-meta.mojang.com/v1/packages/3d58db2d6192306bed2ac023d4dbc13d0d91b1d3/25.json"
     },
     "compatibleJavaMajors": [
         21
@@ -647,17 +647,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "e8340a01da734194c35fd35fbfa93e5bb96627b1",
-                "size": 28795414,
-                "url": "https://piston-data.mojang.com/v1/objects/e8340a01da734194c35fd35fbfa93e5bb96627b1/client.jar"
+                "sha1": "46b06a1758054ab1a50f7f3047772db7c2e5a9d7",
+                "size": 29180578,
+                "url": "https://piston-data.mojang.com/v1/objects/46b06a1758054ab1a50f7f3047772db7c2e5a9d7/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:25w08a:client"
+        "name": "com.mojang:minecraft:25w16a:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2025-02-19T13:41:43+00:00",
+    "releaseTime": "2025-04-15T12:01:58+00:00",
     "requires": [
         {
             "suggests": "3.3.3",
@@ -666,5 +666,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "25w08a"
+    "version": "25w16a"
 }
