@@ -55,7 +55,24 @@
                     "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
                 }
             },
-            "name": "net.java.dev.jna:jna:5.9.0"
+            "name": "net.java.dev.jna:jna:5.9.0",
+            "rules": [
+                {
+                    "action": "allow"
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "osx"
+                    }
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
+                }
+            ]
         },
         {
             "downloads": {
@@ -65,7 +82,24 @@
                     "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.9.0/jna-platform-5.9.0.jar"
                 }
             },
-            "name": "net.java.dev.jna:jna-platform:5.9.0"
+            "name": "net.java.dev.jna:jna-platform:5.9.0",
+            "rules": [
+                {
+                    "action": "allow"
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "osx"
+                    }
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
+                }
+            ]
         },
         {
             "downloads": {
@@ -382,6 +416,54 @@
         {
             "downloads": {
                 "artifact": {
+                    "sha1": "1200e7ebeedbe0d10062093f32925a912020e747",
+                    "size": 1879325,
+                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar"
+                }
+            },
+            "name": "net.java.dev.jna:jna:5.13.0",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "88e9a306715e9379f3122415ef4ae759a352640d",
+                    "size": 1363209,
+                    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar"
+                }
+            },
+            "name": "net.java.dev.jna:jna-platform:5.13.0",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "sha1": "369a83621e3c65496348491e533cb97fe5f2f37d",
                     "size": 91947,
                     "url": "https://github.com/MinecraftMachina/Java-Objective-C-Bridge/releases/download/1.1.0-mmachina.1/java-objc-bridge-1.1.jar"
@@ -398,6 +480,16 @@
             ]
         }
     ],
+    "logging": {
+        "argument": "-Dlog4j.configurationFile=${path}",
+        "file": {
+            "id": "client-1.12.xml",
+            "sha1": "bd65e7d2e3c237be76cfbef4c2405033d7f91521",
+            "size": 888,
+            "url": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml"
+        },
+        "type": "log4j2-xml"
+    },
     "mainClass": "net.minecraft.client.main.Main",
     "mainJar": {
         "downloads": {
