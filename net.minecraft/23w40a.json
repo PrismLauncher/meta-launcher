@@ -439,6 +439,16 @@
             "name": "org.slf4j:slf4j-api:2.0.7"
         }
     ],
+    "logging": {
+        "argument": "-Dlog4j.configurationFile=${path}",
+        "file": {
+            "id": "client-1.12.xml",
+            "sha1": "bd65e7d2e3c237be76cfbef4c2405033d7f91521",
+            "size": 888,
+            "url": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml"
+        },
+        "type": "log4j2-xml"
+    },
     "mainClass": "net.minecraft.client.main.Main",
     "mainJar": {
         "downloads": {
