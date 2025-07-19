@@ -279,48 +279,6 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "172fe3ccf0e7143cbbfba006554412c8e6fc81f2",
-                    "size": 12952,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.2/text2speech-1.11.2.jar"
-                },
-                "classifiers": {
-                    "natives-linux": {
-                        "sha1": "f6b27d5ee4a6877ca19182684c51eba45bd6a782",
-                        "size": 7833,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.2/text2speech-1.11.2-natives-linux.jar"
-                    },
-                    "natives-windows": {
-                        "sha1": "73e36a0422aacf7d62a16062cb719584d617bc30",
-                        "size": 81379,
-                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.2/text2speech-1.11.2-natives-windows.jar"
-                    }
-                }
-            },
-            "extract": {
-                "exclude": [
-                    "META-INF/"
-                ]
-            },
-            "name": "com.mojang:text2speech:1.11.2",
-            "natives": {
-                "linux": "natives-linux",
-                "windows": "natives-windows"
-            },
-            "rules": [
-                {
-                    "action": "allow"
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "osx-arm64"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
                     "sha1": "6ef160c3133a78de015830860197602ca1c855d3",
                     "size": 40502,
                     "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar"
@@ -342,24 +300,6 @@
             "natives": {
                 "osx": "natives-osx"
             },
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "osx"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "6ef160c3133a78de015830860197602ca1c855d3",
-                    "size": 40502,
-                    "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar"
-                }
-            },
-            "name": "ca.weblite:java-objc-bridge:1.0.0",
             "rules": [
                 {
                     "action": "allow",
@@ -425,7 +365,7 @@
                 "url": "https://piston-data.mojang.com/v1/objects/44db7d7bcd5a1bee6f54f6a623f26a1b3d1e293f/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:3D Shareware v1.34:client"
+        "name": "com.mojang:minecraft:3dshareware-1.34:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}",
     "name": "Minecraft",
