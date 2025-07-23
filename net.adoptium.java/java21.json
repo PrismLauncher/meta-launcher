@@ -81,6 +81,44 @@
         },
         {
             "checksum": {
+                "hash": "238d74ec4ec9422d416fa98805ba375eecd8bc8f971bd0c61a21051a4fe42db8",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre21.0.8+9",
+            "packageType": "jre",
+            "releaseTime": "2025-07-17T08:02:15+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jre_x64_windows_hotspot_21.0.8_9.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 21,
+                "minor": 0,
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
+                "hash": "559b35e0ccb5b72b42d477aa104eb00256b79e26391348689beb36f65f7da95c",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre21.0.8+9",
+            "packageType": "jre",
+            "releaseTime": "2025-07-17T08:02:15+00:00",
+            "runtimeOS": "windows-arm64",
+            "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.8_9.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 21,
+                "minor": 0,
+                "security": 8
+            }
+        },
+        {
+            "checksum": {
                 "hash": "61dca7744d0b92d5d270f03e2ff32d64e95f3f7c8d0acbe642d7733ccb8523ac",
                 "type": "sha256"
             },
