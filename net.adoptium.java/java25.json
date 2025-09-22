@@ -1,0 +1,28 @@
+{
+    "formatVersion": 1,
+    "name": "Java 25",
+    "releaseTime": "2025-09-17T11:42:50+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "5e3de13a1487ecc90f8b0cddc83a6cd4e053b4cd48ddcfe5d1f19178e6089fba",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre25.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2025-09-17T11:42:50+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jre_x64_linux_hotspot_25_36.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 25,
+                "minor": 0,
+                "security": 0
+            }
+        }
+    ],
+    "uid": "net.adoptium.java",
+    "version": "java25"
+}
