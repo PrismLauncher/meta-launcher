@@ -1,7 +1,7 @@
 {
     "formatVersion": 1,
     "name": "Java 25",
-    "releaseTime": "2025-12-10T14:14:17+00:00",
+    "releaseTime": "2025-10-24T08:13:58+00:00",
     "runtimes": [
         {
             "checksum": {
@@ -95,6 +95,25 @@
                 "major": 25,
                 "minor": 0,
                 "name": "25.0.1",
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "5371ad922cb4ff571a57c8e5dd14485ebf5b3994cd71e6ea09088312de3bed71",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "java-runtime-epsilon",
+            "packageType": "jre",
+            "releaseTime": "2025-10-24T08:13:58+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jre_aarch64_linux_hotspot_25.0.1_8.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 25,
+                "minor": 0,
                 "security": 1
             }
         }
