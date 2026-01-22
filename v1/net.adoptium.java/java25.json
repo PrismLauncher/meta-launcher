@@ -5,6 +5,25 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "d6c89e08f42be94cd55eab20190958a35b993625018a3ac59cb3d16d8445cf98",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre25.0.2+10",
+            "packageType": "jre",
+            "releaseTime": "2026-01-22T08:56:31+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jre_x64_linux_hotspot_25.0.2_10.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 10,
+                "major": 25,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
                 "hash": "126c7f59b91df97b2e930b0a456422ce29af7f2385117e1c04297eba962b0b1c",
                 "type": "sha256"
             },
