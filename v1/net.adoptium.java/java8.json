@@ -5,6 +5,25 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "01672ca52509f4cb1ffa8aed905808fed7b984f3e279cb13d90a6e865ff6199f",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre8.0.482+8",
+            "packageType": "jre",
+            "releaseTime": "2026-01-26T13:12:32+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u482-b08/OpenJDK8U-jre_x64_linux_hotspot_8u482b08.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 8,
+                "minor": 0,
+                "security": 482
+            }
+        },
+        {
+            "checksum": {
                 "hash": "6f7fb5fd640a0fd00837344b0920cbc4b9b9284b50e66f33789e3b250446a16e",
                 "type": "sha256"
             },
