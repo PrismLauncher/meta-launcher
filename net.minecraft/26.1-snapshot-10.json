@@ -6,11 +6,11 @@
         "feature:is_quick_play_multiplayer"
     ],
     "assetIndex": {
-        "id": "29",
-        "sha1": "9cc622906c648688fb6c68f70edc9fa0aa413424",
-        "size": 529372,
-        "totalSize": 440409863,
-        "url": "https://piston-meta.mojang.com/v1/packages/9cc622906c648688fb6c68f70edc9fa0aa413424/29.json"
+        "id": "30",
+        "sha1": "9b3b79c3e43d6ea73dfdd960681a30be97b4273a",
+        "size": 547128,
+        "totalSize": 441893202,
+        "url": "https://piston-meta.mojang.com/v1/packages/9b3b79c3e43d6ea73dfdd960681a30be97b4273a/30.json"
     },
     "compatibleJavaMajors": [
         25
@@ -125,12 +125,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "efee1e6b54e863108576eb3b3ae71144626aaefc",
-                    "size": 116084,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/7.0.61/authlib-7.0.61.jar"
+                    "sha1": "17e2759e9a92c1be617bbffc49fd89d101387e2a",
+                    "size": 115707,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/7.0.62/authlib-7.0.62.jar"
                 }
             },
-            "name": "com.mojang:authlib:7.0.61"
+            "name": "com.mojang:authlib:7.0.62"
         },
         {
             "downloads": {
@@ -621,24 +621,24 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "bd354bbd46835d7c7753e0b19c718777fb2386ba",
-                "size": 37193668,
-                "url": "https://piston-data.mojang.com/v1/objects/bd354bbd46835d7c7753e0b19c718777fb2386ba/client.jar"
+                "sha1": "70285c18b62ba311a18842ff54e282b75b88612f",
+                "size": 37937134,
+                "url": "https://piston-data.mojang.com/v1/objects/70285c18b62ba311a18842ff54e282b75b88612f/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:26.1-snapshot-1:client"
+        "name": "com.mojang:minecraft:26.1-snapshot-10:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2025-12-16T12:42:29+00:00",
+    "releaseTime": "2026-02-24T13:03:38+00:00",
     "requires": [
         {
-            "suggests": "3.3.3",
+            "suggests": "3.4.1",
             "uid": "org.lwjgl3"
         }
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "26.1-snapshot-1"
+    "version": "26.1-snapshot-10"
 }
