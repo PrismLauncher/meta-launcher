@@ -100,6 +100,25 @@
         },
         {
             "checksum": {
+                "hash": "81aacc0ae75e65846e6207edf41b8c5927673eba5588eebc5ba8076ca9a6041c",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre22.0.2+9",
+            "packageType": "jre",
+            "releaseTime": "2024-07-17T18:40:56+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.2%2B9/OpenJDK22U-jre_riscv64_linux_hotspot_22.0.2_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 22,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
                 "hash": "8e5996a2bbae2da9797cff5a62cb2080965e08fd66de24673b29a8e481ec769e",
                 "type": "sha256"
             },
@@ -195,6 +214,25 @@
         },
         {
             "checksum": {
+                "hash": "15193b64eac9a5ade9fc7d20fe90b9769887c0195afb20442d2a6adeb07c140f",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre22.0.1+8",
+            "packageType": "jre",
+            "releaseTime": "2024-04-19T13:20:10+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jre_riscv64_linux_hotspot_22.0.1_8.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 22,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
                 "hash": "faceda94ffd16e177cb674471f29789e48378f9f190eac8523713a0cb3324be9",
                 "type": "sha256"
             },
@@ -280,6 +318,25 @@
             "releaseTime": "2024-03-20T16:22:57+00:00",
             "runtimeOS": "mac-os-arm64",
             "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_aarch64_mac_hotspot_22_36.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 22,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "a41a16ef998fa986fabe27588a435649eb7656a2235d546b5c8eb06938fb7a90",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre22.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2024-03-20T16:22:57+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22%2B36/OpenJDK22U-jre_riscv64_linux_hotspot_22_36.tar.gz",
             "vendor": "eclipse",
             "version": {
                 "build": 36,
