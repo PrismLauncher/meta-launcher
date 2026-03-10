@@ -6,27 +6,27 @@
         "feature:is_quick_play_multiplayer"
     ],
     "assetIndex": {
-        "id": "29",
-        "sha1": "ce5c4e57c9d39c7fd5458138a9c75f690a39fb88",
-        "size": 529372,
-        "totalSize": 440432280,
-        "url": "https://piston-meta.mojang.com/v1/packages/ce5c4e57c9d39c7fd5458138a9c75f690a39fb88/29.json"
+        "id": "30",
+        "sha1": "45cf9264bd5c098adac408ae0bb977595d789455",
+        "size": 547796,
+        "totalSize": 445436205,
+        "url": "https://piston-meta.mojang.com/v1/packages/45cf9264bd5c098adac408ae0bb977595d789455/30.json"
     },
     "compatibleJavaMajors": [
-        21
+        25
     ],
-    "compatibleJavaName": "java-runtime-delta",
+    "compatibleJavaName": "java-runtime-epsilon",
     "formatVersion": 1,
     "libraries": [
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "1f30a180ee04ccd53339a716aec13cae60a013b5",
-                    "size": 683071,
-                    "url": "https://libraries.minecraft.net/at/yawk/lz4/lz4-java/1.8.1/lz4-java-1.8.1.jar"
+                    "sha1": "f541d7f910fe3d76f38f799c507c48cc81b12ecb",
+                    "size": 910232,
+                    "url": "https://libraries.minecraft.net/at/yawk/lz4/lz4-java/1.10.1/lz4-java-1.10.1.jar"
                 }
             },
-            "name": "at.yawk.lz4:lz4-java:1.8.1"
+            "name": "at.yawk.lz4:lz4-java:1.10.1"
         },
         {
             "downloads": {
@@ -125,12 +125,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "efee1e6b54e863108576eb3b3ae71144626aaefc",
-                    "size": 116084,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/7.0.61/authlib-7.0.61.jar"
+                    "sha1": "17e2759e9a92c1be617bbffc49fd89d101387e2a",
+                    "size": 115707,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/7.0.62/authlib-7.0.62.jar"
                 }
             },
-            "name": "com.mojang:authlib:7.0.61"
+            "name": "com.mojang:authlib:7.0.62"
         },
         {
             "downloads": {
@@ -621,24 +621,24 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "610425569f31560b0189a768864963669012c3c7",
-                "size": 31152775,
-                "url": "https://piston-data.mojang.com/v1/objects/610425569f31560b0189a768864963669012c3c7/client.jar"
+                "sha1": "a623b4ac667739eb36956494a3e7ce98ff4da095",
+                "size": 38110700,
+                "url": "https://piston-data.mojang.com/v1/objects/a623b4ac667739eb36956494a3e7ce98ff4da095/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.21.11-rc3:client"
+        "name": "com.mojang:minecraft:26.1-pre-1:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2025-12-08T13:17:37+00:00",
+    "releaseTime": "2026-03-10T13:00:38+00:00",
     "requires": [
         {
-            "suggests": "3.3.3",
+            "suggests": "3.4.1",
             "uid": "org.lwjgl3"
         }
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.21.11-rc3"
+    "version": "26.1-pre-1"
 }
