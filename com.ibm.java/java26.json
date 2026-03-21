@@ -1,0 +1,104 @@
+{
+    "formatVersion": 1,
+    "name": "Java 26",
+    "releaseTime": "2026-03-18T02:33:53+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "b4ede963ede082d880a33da510c968174c1a9e435c7866680c06881c6f871290",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre26.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-03-18T02:33:53+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jre_x64_linux_26.0.0.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 35,
+                "major": 26,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "0d0fb482553b7cfb033802b6b0c30d21d9e0e9f4d60d76fb598a3a003d0f553a",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre26.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-03-18T02:33:53+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jre_x64_mac_26.0.0.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 35,
+                "major": 26,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "e1e01efb1ca6e6e4740ae05707bb90c7e90fa260d4949468500a15010734fd9e",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre26.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-03-18T02:33:53+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jre_x64_windows_26.0.0.0.zip",
+            "vendor": "ibm",
+            "version": {
+                "build": 35,
+                "major": 26,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "83acaba0c1d6ce02415eec8f0d19b8c758d2fc30f6804e28c240ca9535a8c45a",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre26.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-03-18T02:33:53+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jre_aarch64_mac_26.0.0.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 35,
+                "major": 26,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "5a394cb0e8840aa53ae4c45597b3e871e7262625d522a6832cbce607d9960181",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre26.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-03-18T02:33:53+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru26-binaries/releases/download/jdk-26%2B35_openj9-0.58.0/ibm-semeru-open-jre_aarch64_linux_26.0.0.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 35,
+                "major": 26,
+                "minor": 0,
+                "security": 0
+            }
+        }
+    ],
+    "uid": "com.ibm.java",
+    "version": "java26"
+}

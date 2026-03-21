@@ -1,0 +1,85 @@
+{
+    "formatVersion": 1,
+    "name": "Java 16",
+    "releaseTime": "2021-08-03T18:02:51+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "b077cd0b35d3ed1927c22e5b498264ecff67297992809056187b42662edfc536",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre16.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2021-08-03T17:56:51+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jre_x64_linux_16.0.2_7_openj9-0.27.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 7,
+                "major": 16,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "4952d145b467ec1d440dd68886aaf91d27ddbaea20f92da7c92c499e05505a60",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre16.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2021-08-03T17:56:51+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jre_x64_windows_16.0.2_7_openj9-0.27.0.zip",
+            "vendor": "ibm",
+            "version": {
+                "build": 7,
+                "major": 16,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "2cb8007de405d0c8f160549309bcfc1adc82e304eb372e86ce0e0a214239438f",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre16.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2021-08-03T17:56:51+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jre_x64_mac_16.0.2_7_openj9-0.27.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 7,
+                "major": 16,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "575dc3827077fc661fd1103effaa13ccd0f1606d01a33643956ed2eb1ece9763",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre16.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2021-08-03T17:56:51+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru16-binaries/releases/download/jdk-16.0.2%2B7_openj9-0.27.0/ibm-semeru-open-jre_aarch64_linux_16.0.2_7_openj9-0.27.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 7,
+                "major": 16,
+                "minor": 0,
+                "security": 2
+            }
+        }
+    ],
+    "uid": "com.ibm.java",
+    "version": "java16"
+}
