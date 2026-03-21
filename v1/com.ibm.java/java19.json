@@ -1,0 +1,104 @@
+{
+    "formatVersion": 1,
+    "name": "Java 19",
+    "releaseTime": "2023-05-09T05:55:15+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "0e64e9b569336650ae09c4bba3ddab4dc5db898ef73440e1742b375f0f4be7c0",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre19.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2023-05-09T05:55:15+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru19-binaries/releases/download/jdk-19.0.2%2B7_openj9-0.37.0/ibm-semeru-open-jre_aarch64_linux_19.0.2_7_openj9-0.37.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 7,
+                "major": 19,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "3d9ddce72a8ee0bc6e230531157b2e556a1c01204b04ab78f1cbc050aa4e3f6a",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre19.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2023-05-09T05:55:15+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru19-binaries/releases/download/jdk-19.0.2%2B7_openj9-0.37.0/ibm-semeru-open-jre_x64_linux_19.0.2_7_openj9-0.37.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 7,
+                "major": 19,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "98921e9f206f35d08a846099596f69adf586fafe8a407266f4ba30483255301e",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre19.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2023-05-09T05:55:15+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru19-binaries/releases/download/jdk-19.0.2%2B7_openj9-0.37.0/ibm-semeru-open-jre_x64_windows_19.0.2_7_openj9-0.37.0.zip",
+            "vendor": "ibm",
+            "version": {
+                "build": 7,
+                "major": 19,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "be1a29b8d45918957744403b9097e888279b096d922f09096deb870130e6a18d",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre19.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2023-05-09T05:55:15+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru19-binaries/releases/download/jdk-19.0.2%2B7_openj9-0.37.0/ibm-semeru-open-jre_x64_mac_19.0.2_7_openj9-0.37.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 7,
+                "major": 19,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "87d8c4e71aa33af1d56c9c0225cbafddd1e8b502910f610919c884fdf9a8e3cf",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre19.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2023-05-09T05:55:15+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru19-binaries/releases/download/jdk-19.0.2%2B7_openj9-0.37.0/ibm-semeru-open-jre_aarch64_mac_19.0.2_7_openj9-0.37.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 7,
+                "major": 19,
+                "minor": 0,
+                "security": 2
+            }
+        }
+    ],
+    "uid": "com.ibm.java",
+    "version": "java19"
+}

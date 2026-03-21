@@ -1,0 +1,104 @@
+{
+    "formatVersion": 1,
+    "name": "Java 24",
+    "releaseTime": "2025-08-12T16:24:52+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "ef433a588d348f14ea9bb29a4bc3042db8dabf6f8bf7f46ff2d9dfd48d89a0ca",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre24.0.2+12",
+            "packageType": "jre",
+            "releaseTime": "2025-08-12T16:24:52+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jre_x64_linux_24.0.2_12_openj9-0.54.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 12,
+                "major": 24,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "590d70bcd1d7a029a78ddcad3a36ee5ca2277fa2bdaf9b1585caef627b45e4ed",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre24.0.2+12",
+            "packageType": "jre",
+            "releaseTime": "2025-08-12T16:24:52+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jre_aarch64_linux_24.0.2_12_openj9-0.54.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 12,
+                "major": 24,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "22f48eb1bb233f1522632488a67653227a36af7ffe54c3c1e999dff3f2b20620",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre24.0.2+12",
+            "packageType": "jre",
+            "releaseTime": "2025-08-12T16:24:52+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jre_x64_windows_24.0.2_12_openj9-0.54.0.zip",
+            "vendor": "ibm",
+            "version": {
+                "build": 12,
+                "major": 24,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "abe45cbc851f1dbd92c08b8e84bfaf2d2c61661b50198eed1e21d8d3da14984e",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre24.0.2+12",
+            "packageType": "jre",
+            "releaseTime": "2025-08-12T16:24:52+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jre_x64_mac_24.0.2_12_openj9-0.54.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 12,
+                "major": 24,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "89e5eb7401a55b0fe97d14d25660533ff31155d873c3ffd2fd70afcc23a40f59",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre24.0.2+12",
+            "packageType": "jre",
+            "releaseTime": "2025-08-12T16:24:52+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jre_aarch64_mac_24.0.2_12_openj9-0.54.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 12,
+                "major": 24,
+                "minor": 0,
+                "security": 2
+            }
+        }
+    ],
+    "uid": "com.ibm.java",
+    "version": "java24"
+}
