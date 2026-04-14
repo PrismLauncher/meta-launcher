@@ -6,18 +6,28 @@
         "feature:is_quick_play_multiplayer"
     ],
     "assetIndex": {
-        "id": "29",
-        "sha1": "266e5cce1a013ede600f4a6bb49681d98d3a184d",
-        "size": 529372,
-        "totalSize": 440970807,
-        "url": "https://piston-meta.mojang.com/v1/packages/266e5cce1a013ede600f4a6bb49681d98d3a184d/29.json"
+        "id": "31",
+        "sha1": "560ecd7647b8a5bd3f2c02f2e5d9d6c2a4bf3c47",
+        "size": 569401,
+        "totalSize": 447993176,
+        "url": "https://piston-meta.mojang.com/v1/packages/560ecd7647b8a5bd3f2c02f2e5d9d6c2a4bf3c47/31.json"
     },
     "compatibleJavaMajors": [
-        21
+        25
     ],
-    "compatibleJavaName": "java-runtime-delta",
+    "compatibleJavaName": "java-runtime-epsilon",
     "formatVersion": 1,
     "libraries": [
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "f541d7f910fe3d76f38f799c507c48cc81b12ecb",
+                    "size": 910232,
+                    "url": "https://libraries.minecraft.net/at/yawk/lz4/lz4-java/1.10.1/lz4-java-1.10.1.jar"
+                }
+            },
+            "name": "at.yawk.lz4:lz4-java:1.10.1"
+        },
         {
             "downloads": {
                 "artifact": {
@@ -115,12 +125,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "efee1e6b54e863108576eb3b3ae71144626aaefc",
-                    "size": 116084,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/7.0.61/authlib-7.0.61.jar"
+                    "sha1": "54895b4e25e8b9b4cbbbe25f24eccf2b71b1ac2b",
+                    "size": 115699,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/7.0.63/authlib-7.0.63.jar"
                 }
             },
-            "name": "com.mojang:authlib:7.0.61"
+            "name": "com.mojang:authlib:7.0.63"
         },
         {
             "downloads": {
@@ -257,12 +267,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "e853a12cdd6ba4f4836e8f4bf3b37844a13482b6",
-                    "size": 13842,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.18.11/text2speech-1.18.11.jar"
+                    "sha1": "2e517a75c79d34d32de2b5d68422150836c2133e",
+                    "size": 14009,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar"
                 }
             },
-            "name": "com.mojang:text2speech:1.18.11"
+            "name": "com.mojang:text2speech:1.19.12"
         },
         {
             "downloads": {
@@ -589,16 +599,6 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "4b986a99445e49ea5fbf5d149c4b63f6ed6c6780",
-                    "size": 682804,
-                    "url": "https://libraries.minecraft.net/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar"
-                }
-            },
-            "name": "org.lz4:lz4-java:1.8.0"
-        },
-        {
-            "downloads": {
-                "artifact": {
                     "sha1": "d9e58ac9c7779ba3bf8142aff6c830617a7fe60f",
                     "size": 69908,
                     "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar"
@@ -621,24 +621,24 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "e9b472f991278db704df8ce3eb803af57f26ed07",
-                "size": 31148308,
-                "url": "https://piston-data.mojang.com/v1/objects/e9b472f991278db704df8ce3eb803af57f26ed07/client.jar"
+                "sha1": "b2fc8a4c04fc5984fe408aba387e316a8784d79b",
+                "size": 38726312,
+                "url": "https://piston-data.mojang.com/v1/objects/b2fc8a4c04fc5984fe408aba387e316a8784d79b/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:1.21.11-pre1:client"
+        "name": "com.mojang:minecraft:26.2-snapshot-3:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2025-11-19T08:06:45+00:00",
+    "releaseTime": "2026-04-14T11:30:34+00:00",
     "requires": [
         {
-            "suggests": "3.3.3",
+            "suggests": "3.4.1",
             "uid": "org.lwjgl3"
         }
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "1.21.11-pre1"
+    "version": "26.2-snapshot-3"
 }
