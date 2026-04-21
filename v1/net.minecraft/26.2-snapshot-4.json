@@ -6,11 +6,11 @@
         "feature:is_quick_play_multiplayer"
     ],
     "assetIndex": {
-        "id": "30",
-        "sha1": "2dad34d87825936f854ddd15c41b9732a9f183b0",
-        "size": 547995,
-        "totalSize": 447220939,
-        "url": "https://piston-meta.mojang.com/v1/packages/2dad34d87825936f854ddd15c41b9732a9f183b0/30.json"
+        "id": "31",
+        "sha1": "8df6f1f20a7f089c4227f3e43aa40e3732042f42",
+        "size": 569377,
+        "totalSize": 449251220,
+        "url": "https://piston-meta.mojang.com/v1/packages/8df6f1f20a7f089c4227f3e43aa40e3732042f42/31.json"
     },
     "compatibleJavaMajors": [
         25
@@ -267,12 +267,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "e853a12cdd6ba4f4836e8f4bf3b37844a13482b6",
-                    "size": 13842,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.18.11/text2speech-1.18.11.jar"
+                    "sha1": "2e517a75c79d34d32de2b5d68422150836c2133e",
+                    "size": 14009,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar"
                 }
             },
-            "name": "com.mojang:text2speech:1.18.11"
+            "name": "com.mojang:text2speech:1.19.12"
         },
         {
             "downloads": {
@@ -621,17 +621,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "acda2db8c537c233c82d43919de5adcc5f7b43e9",
-                "size": 38113626,
-                "url": "https://piston-data.mojang.com/v1/objects/acda2db8c537c233c82d43919de5adcc5f7b43e9/client.jar"
+                "sha1": "08ff2a0b68a3eda26cb73abafe87cd8c9b5a838f",
+                "size": 38734894,
+                "url": "https://piston-data.mojang.com/v1/objects/08ff2a0b68a3eda26cb73abafe87cd8c9b5a838f/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:26.1-rc-3:client"
+        "name": "com.mojang:minecraft:26.2-snapshot-4:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2026-03-23T11:11:54+00:00",
+    "releaseTime": "2026-04-21T12:05:40+00:00",
     "requires": [
         {
             "suggests": "3.4.1",
@@ -640,5 +640,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "26.1-rc-3"
+    "version": "26.2-snapshot-4"
 }
