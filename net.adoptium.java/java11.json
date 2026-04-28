@@ -5,6 +5,63 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "a6af3d61851f57eb79ef0189837522329717458bf230ee284da2d26634f1ea3a",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre11.0.31+11",
+            "packageType": "jre",
+            "releaseTime": "2026-04-28T07:54:21+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jre_x64_linux_hotspot_11.0.31_11.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 11,
+                "major": 11,
+                "minor": 0,
+                "security": 31
+            }
+        },
+        {
+            "checksum": {
+                "hash": "b2bddcb43b2f8343f6517570acacd2b6cd0d5035ac797751f55395a26232c7e4",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre11.0.31+11",
+            "packageType": "jre",
+            "releaseTime": "2026-04-28T07:54:21+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.31_11.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 11,
+                "major": 11,
+                "minor": 0,
+                "security": 31
+            }
+        },
+        {
+            "checksum": {
+                "hash": "a98534ac5a87c22b5c9f47296aac4f5671c4015ce8af9b575b2fdf1408cabd3a",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre11.0.31+11",
+            "packageType": "jre",
+            "releaseTime": "2026-04-28T07:54:21+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jre_x64_mac_hotspot_11.0.31_11.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 11,
+                "major": 11,
+                "minor": 0,
+                "security": 31
+            }
+        },
+        {
+            "checksum": {
                 "hash": "d851e43d81ec6ff7f28efe28c42b4787a045e8f59cdcd6434dece98d8342eb8a",
                 "type": "sha256"
             },
