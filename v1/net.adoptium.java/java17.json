@@ -100,6 +100,44 @@
         },
         {
             "checksum": {
+                "hash": "d3712a5b66bb21354463b68935aa414cc4de164d746c7fe8349f1b728aec12b2",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre17.0.19+10",
+            "packageType": "jre",
+            "releaseTime": "2026-04-22T16:14:09+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_x64_windows_hotspot_17.0.19_10.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 10,
+                "major": 17,
+                "minor": 0,
+                "security": 19
+            }
+        },
+        {
+            "checksum": {
+                "hash": "018d1f5c11b2f1a2175c282a0fe8a17d9166da84b70ec1c60c1fa628a261d1eb",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre17.0.19+10",
+            "packageType": "jre",
+            "releaseTime": "2026-04-22T16:14:09+00:00",
+            "runtimeOS": "linux-arm32",
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jre_arm_linux_hotspot_17.0.19_10.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 10,
+                "major": 17,
+                "minor": 0,
+                "security": 19
+            }
+        },
+        {
+            "checksum": {
                 "hash": "8b418e38cca87945858ae911988401720095eb671357d47437b4adb49c28dcab",
                 "type": "sha256"
             },
