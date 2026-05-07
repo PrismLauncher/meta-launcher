@@ -5,6 +5,101 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "e456afe03d339eafb72144825d8942229ec80f79f9c05eaebe6798b2a90482ba",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre21.0.11+10",
+            "packageType": "jre",
+            "releaseTime": "2026-05-07T17:53:42+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jre_x64_linux_21.0.11.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 10,
+                "major": 21,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "063e6a6017d806380db110a1205942f7797aa0ad92d781e4905c92e0ad339278",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre21.0.11+10",
+            "packageType": "jre",
+            "releaseTime": "2026-05-07T17:53:42+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jre_x64_mac_21.0.11.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 10,
+                "major": 21,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "d5bfa99549e4a389c948ff723bfd767735c459b2297712d8b7ab3b15478cb833",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre21.0.11+10",
+            "packageType": "jre",
+            "releaseTime": "2026-05-07T17:53:42+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jre_x64_windows_21.0.11.0.zip",
+            "vendor": "ibm",
+            "version": {
+                "build": 10,
+                "major": 21,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "54eb04f3caf81071876e71235e4d4edc7294522e9572de965fd0376e037ccb14",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre21.0.11+10",
+            "packageType": "jre",
+            "releaseTime": "2026-05-07T17:53:42+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jre_aarch64_mac_21.0.11.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 10,
+                "major": 21,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
+                "hash": "d52f31e417ea9b56a822025cb7c88d1906c254acf2fb2c792921a04409fccc6e",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre21.0.11+10",
+            "packageType": "jre",
+            "releaseTime": "2026-05-07T17:53:42+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jre_aarch64_linux_21.0.11.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 10,
+                "major": 21,
+                "minor": 0,
+                "security": 11
+            }
+        },
+        {
+            "checksum": {
                 "hash": "f3828f281ab2f86936b199148de3903d6eec8d9466945abcf41160624d93b85e",
                 "type": "sha256"
             },
