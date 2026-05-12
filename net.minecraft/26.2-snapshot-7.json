@@ -6,11 +6,11 @@
         "feature:is_quick_play_multiplayer"
     ],
     "assetIndex": {
-        "id": "30",
-        "sha1": "9672f7185226f6be5662bccd8b685c4dc0abdf3c",
-        "size": 548290,
-        "totalSize": 449037874,
-        "url": "https://piston-meta.mojang.com/v1/packages/9672f7185226f6be5662bccd8b685c4dc0abdf3c/30.json"
+        "id": "31",
+        "sha1": "b9058b7cb138b3778d3fb5b0ffadf31328295afa",
+        "size": 575291,
+        "totalSize": 472260290,
+        "url": "https://piston-meta.mojang.com/v1/packages/b9058b7cb138b3778d3fb5b0ffadf31328295afa/31.json"
     },
     "compatibleJavaMajors": [
         25
@@ -125,12 +125,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "17e2759e9a92c1be617bbffc49fd89d101387e2a",
-                    "size": 115707,
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/7.0.62/authlib-7.0.62.jar"
+                    "sha1": "9a13a92cf8b0a00b8dd32600aade72b89d5ed15a",
+                    "size": 147289,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/7.0.72/authlib-7.0.72.jar"
                 }
             },
-            "name": "com.mojang:authlib:7.0.62"
+            "name": "com.mojang:authlib:7.0.72"
         },
         {
             "downloads": {
@@ -155,12 +155,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "4e91f9712fa1e83231d1501625381b0210a977da",
-                    "size": 731440,
-                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/9.0.19/datafixerupper-9.0.19.jar"
+                    "sha1": "b6b2ae770c02e0c1eb90f9985b151e9085a38d0b",
+                    "size": 753612,
+                    "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar"
                 }
             },
-            "name": "com.mojang:datafixerupper:9.0.19"
+            "name": "com.mojang:datafixerupper:10.0.21"
         },
         {
             "downloads": {
@@ -267,12 +267,12 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "e853a12cdd6ba4f4836e8f4bf3b37844a13482b6",
-                    "size": 13842,
-                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.18.11/text2speech-1.18.11.jar"
+                    "sha1": "2e517a75c79d34d32de2b5d68422150836c2133e",
+                    "size": 14009,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar"
                 }
             },
-            "name": "com.mojang:text2speech:1.18.11"
+            "name": "com.mojang:text2speech:1.19.12"
         },
         {
             "downloads": {
@@ -293,6 +293,124 @@
                 }
             },
             "name": "commons-io:commons-io:2.20.0"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "52c7b44ba257efcb920740444cde57a4dace622e",
+                    "size": 103519,
+                    "url": "https://libraries.minecraft.net/dev/onvoid/webrtc/webrtc-java/0.14.0/webrtc-java-0.14.0.jar"
+                }
+            },
+            "name": "dev.onvoid.webrtc:webrtc-java:0.14.0"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "b58f4f1a42eef82841304f1e00ad7c3803dc0af3",
+                    "size": 6939825,
+                    "url": "https://libraries.minecraft.net/dev/onvoid/webrtc/webrtc-java/0.14.0/webrtc-java-0.14.0-linux-aarch32.jar"
+                }
+            },
+            "name": "dev.onvoid.webrtc:webrtc-java:0.14.0:linux-aarch32",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "fee7e97c57fe82dcc95ce0d71b082c80f569b508",
+                    "size": 7827096,
+                    "url": "https://libraries.minecraft.net/dev/onvoid/webrtc/webrtc-java/0.14.0/webrtc-java-0.14.0-linux-aarch64.jar"
+                }
+            },
+            "name": "dev.onvoid.webrtc:webrtc-java:0.14.0:linux-aarch64",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "1138d7c9d4be59216de7bfd720753044610b3143",
+                    "size": 9261652,
+                    "url": "https://libraries.minecraft.net/dev/onvoid/webrtc/webrtc-java/0.14.0/webrtc-java-0.14.0-linux-x86_64.jar"
+                }
+            },
+            "name": "dev.onvoid.webrtc:webrtc-java:0.14.0:linux-x86_64",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "af44674c348f234fa1499a74595d09133ada218f",
+                    "size": 6133210,
+                    "url": "https://libraries.minecraft.net/dev/onvoid/webrtc/webrtc-java/0.14.0/webrtc-java-0.14.0-macos-aarch64.jar"
+                }
+            },
+            "name": "dev.onvoid.webrtc:webrtc-java:0.14.0:macos-aarch64",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "03c22bbf9e617007405060c74b7ce60a54abf747",
+                    "size": 7309690,
+                    "url": "https://libraries.minecraft.net/dev/onvoid/webrtc/webrtc-java/0.14.0/webrtc-java-0.14.0-macos-x86_64.jar"
+                }
+            },
+            "name": "dev.onvoid.webrtc:webrtc-java:0.14.0:macos-x86_64",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "e7bc2183ece16289bae04095ca9930399df8f82c",
+                    "size": 8285058,
+                    "url": "https://libraries.minecraft.net/dev/onvoid/webrtc/webrtc-java/0.14.0/webrtc-java-0.14.0-windows-x86_64.jar"
+                }
+            },
+            "name": "dev.onvoid.webrtc:webrtc-java:0.14.0:windows-x86_64",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
         },
         {
             "downloads": {
@@ -621,17 +739,17 @@
     "mainJar": {
         "downloads": {
             "artifact": {
-                "sha1": "632526298395b8483b608e9488d4787bfed9e3f6",
-                "size": 38064482,
-                "url": "https://piston-data.mojang.com/v1/objects/632526298395b8483b608e9488d4787bfed9e3f6/client.jar"
+                "sha1": "8a35666eb5c6d625dd90662bdb7259ec67aaf26f",
+                "size": 39242021,
+                "url": "https://piston-data.mojang.com/v1/objects/8a35666eb5c6d625dd90662bdb7259ec67aaf26f/client.jar"
             }
         },
-        "name": "com.mojang:minecraft:26.1-snapshot-11:client"
+        "name": "com.mojang:minecraft:26.2-snapshot-7:client"
     },
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --versionType ${version_type}",
     "name": "Minecraft",
     "order": -2,
-    "releaseTime": "2026-03-03T13:01:51+00:00",
+    "releaseTime": "2026-05-12T12:24:28+00:00",
     "requires": [
         {
             "suggests": "3.4.1",
@@ -640,5 +758,5 @@
     ],
     "type": "snapshot",
     "uid": "net.minecraft",
-    "version": "26.1-snapshot-11"
+    "version": "26.2-snapshot-7"
 }
