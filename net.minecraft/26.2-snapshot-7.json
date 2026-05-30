@@ -7,10 +7,10 @@
     ],
     "assetIndex": {
         "id": "31",
-        "sha1": "75a0e95a3c1126e3c8b1869c0f425f3291c8df66",
+        "sha1": "3b59fc838c3f4cfa3616146cecdce27b4b0212a8",
         "size": 575291,
-        "totalSize": 473901734,
-        "url": "https://piston-meta.mojang.com/v1/packages/75a0e95a3c1126e3c8b1869c0f425f3291c8df66/31.json"
+        "totalSize": 474111294,
+        "url": "https://piston-meta.mojang.com/v1/packages/3b59fc838c3f4cfa3616146cecdce27b4b0212a8/31.json"
     },
     "compatibleJavaMajors": [
         25
@@ -319,6 +319,12 @@
                     "os": {
                         "name": "linux"
                     }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
                 }
             ]
         },
@@ -336,6 +342,12 @@
                     "action": "allow",
                     "os": {
                         "name": "linux"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
                     }
                 }
             ]
@@ -372,6 +384,12 @@
                     "action": "allow",
                     "os": {
                         "name": "osx"
+                    }
+                },
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
                     }
                 }
             ]
