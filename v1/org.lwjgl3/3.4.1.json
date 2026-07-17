@@ -139,136 +139,6 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "23cdf7655ce9f3b27ad90f08e73345e0d5b46362",
-                    "size": 139793,
-                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-linux.jar"
-                }
-            },
-            "name": "org.lwjgl:lwjgl-glfw-natives-linux:3.4.1",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "ef1f8efca5a60ba3512bc4982b88e446ecc43378",
-                    "size": 147477,
-                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-macos-arm64.jar"
-                }
-            },
-            "name": "org.lwjgl:lwjgl-glfw-natives-macos-arm64:3.4.1",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "osx"
-                    }
-                },
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "osx-arm64"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "3c8538942f58377d59cd7be2dc164ba71a53868a",
-                    "size": 153018,
-                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-macos.jar"
-                }
-            },
-            "name": "org.lwjgl:lwjgl-glfw-natives-macos:3.4.1",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "osx"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "196101d96d9b2aa73264a96ae1dc8944a1446cee",
-                    "size": 153879,
-                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-windows-arm64.jar"
-                }
-            },
-            "name": "org.lwjgl:lwjgl-glfw-natives-windows-arm64:3.4.1",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "windows"
-                    }
-                },
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "windows-arm64"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "a48bbdd544f00c88f8906e9d09e3f31bc1c17fac",
-                    "size": 166065,
-                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-windows-x86.jar"
-                }
-            },
-            "name": "org.lwjgl:lwjgl-glfw-natives-windows-x86:3.4.1",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "windows"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "2eb4aa895ea190ba8cf4356f8cea24d3ebb40ea1",
-                    "size": 173265,
-                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-windows.jar"
-                }
-            },
-            "name": "org.lwjgl:lwjgl-glfw-natives-windows:3.4.1",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "windows"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "a782b1ddd175c9107bf300fd92920579ea65e2a4",
-                    "size": 151893,
-                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1.jar"
-                }
-            },
-            "name": "org.lwjgl:lwjgl-glfw:3.4.1"
-        },
-        {
-            "downloads": {
-                "artifact": {
                     "sha1": "b83c82d941f2e624d150d6d1e2efcf4ea49ff8ea",
                     "size": 226748,
                     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.4.1/lwjgl-jemalloc-3.4.1-natives-linux.jar"
@@ -775,6 +645,124 @@
                 }
             },
             "name": "org.lwjgl:lwjgl-opengl:3.4.1"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "1da71d0ae8ff2f60a94fdb066c889c195d097607",
+                    "size": 1635277,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-sdl/3.4.1/lwjgl-sdl-3.4.1-natives-linux.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-sdl-natives-linux:3.4.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "23fcd784ae6126e49b8db333ef5015a2a58f661c",
+                    "size": 962969,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-sdl/3.4.1/lwjgl-sdl-3.4.1-natives-macos-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-sdl-natives-macos-arm64:3.4.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "ac01403f6c3b65666417185661e0ab3db0711769",
+                    "size": 1103533,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-sdl/3.4.1/lwjgl-sdl-3.4.1-natives-macos.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-sdl-natives-macos:3.4.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "e0bf4999b1ccb742c9965aeb9fb6cb2d40a40329",
+                    "size": 1091169,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-sdl/3.4.1/lwjgl-sdl-3.4.1-natives-windows-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-sdl-natives-windows-arm64:3.4.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "4989a6b47aae1798941401f54d5f910504868c47",
+                    "size": 1062609,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-sdl/3.4.1/lwjgl-sdl-3.4.1-natives-windows-x86.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-sdl-natives-windows-x86:3.4.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "b6dacfb1f46fe1cefac27b030d75b58f3644d1d3",
+                    "size": 1228341,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-sdl/3.4.1/lwjgl-sdl-3.4.1-natives-windows.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-sdl-natives-windows:3.4.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "ec28db6e949478044c649fea25eae43b1b161971",
+                    "size": 983498,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-sdl/3.4.1/lwjgl-sdl-3.4.1.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-sdl:3.4.1"
         },
         {
             "downloads": {
@@ -1545,60 +1533,6 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "e5e87034c47118960746077dba46280e8de864b3",
-                    "size": 141056,
-                    "url": "https://build.lwjgl.org/release/3.4.1/bin/lwjgl-glfw/lwjgl-glfw-natives-linux-arm64.jar"
-                }
-            },
-            "name": "org.lwjgl:lwjgl-glfw-natives-linux-arm64:3.4.1-lwjgl.1",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux-arm64"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "bb243e9a857c4301bf7d5e668538686eaa64101e",
-                    "size": 118670,
-                    "url": "https://build.lwjgl.org/release/3.4.1/bin/lwjgl-glfw/lwjgl-glfw-natives-linux-arm32.jar"
-                }
-            },
-            "name": "org.lwjgl:lwjgl-glfw-natives-linux-arm32:3.4.1-lwjgl.1",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux-arm32"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
-                    "sha1": "d76ed6846bff9804cfd1adb84b068728645a097b",
-                    "size": 119447,
-                    "url": "https://build.lwjgl.org/release/3.4.1/bin/lwjgl-glfw/lwjgl-glfw-natives-linux-riscv64.jar"
-                }
-            },
-            "name": "org.lwjgl:lwjgl-glfw-natives-linux-riscv64:3.4.1-lwjgl.1",
-            "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux-riscv64"
-                    }
-                }
-            ]
-        },
-        {
-            "downloads": {
-                "artifact": {
                     "sha1": "7891964dfb723209c6d02b0401432348fb707cc0",
                     "size": 222196,
                     "url": "https://build.lwjgl.org/release/3.4.1/bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-linux-arm64.jar"
@@ -1749,6 +1683,60 @@
                 }
             },
             "name": "org.lwjgl:lwjgl-opengl-natives-linux-riscv64:3.4.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-riscv64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "b5a62eb82113b0227077fb270128487a80a20299",
+                    "size": 1434288,
+                    "url": "https://build.lwjgl.org/release/3.4.1/bin/lwjgl-sdl/lwjgl-sdl-natives-linux-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-sdl-natives-linux-arm64:3.4.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "2aa4505272ea3c453f4c2a2266b6f24e03b49f68",
+                    "size": 1165867,
+                    "url": "https://build.lwjgl.org/release/3.4.1/bin/lwjgl-sdl/lwjgl-sdl-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-sdl-natives-linux-arm32:3.4.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "d443cd6e73467f437d0be30a3ece7b6fe162a10a",
+                    "size": 1207531,
+                    "url": "https://build.lwjgl.org/release/3.4.1/bin/lwjgl-sdl/lwjgl-sdl-natives-linux-riscv64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-sdl-natives-linux-riscv64:3.4.1-lwjgl.1",
             "rules": [
                 {
                     "action": "allow",
@@ -2081,11 +2069,190 @@
                     }
                 }
             ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1.jar",
+                    "sha1": "a782b1ddd175c9107bf300fd92920579ea65e2a4",
+                    "size": 151893,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw:3.4.1"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-linux.jar",
+                    "sha1": "23cdf7655ce9f3b27ad90f08e73345e0d5b46362",
+                    "size": 139793,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-linux.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw:3.4.1:natives-linux",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-macos.jar",
+                    "sha1": "3c8538942f58377d59cd7be2dc164ba71a53868a",
+                    "size": 153018,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-macos.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw:3.4.1:natives-macos",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-macos-arm64.jar",
+                    "sha1": "ef1f8efca5a60ba3512bc4982b88e446ecc43378",
+                    "size": 147477,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-macos-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw:3.4.1:natives-macos-arm64",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-windows.jar",
+                    "sha1": "2eb4aa895ea190ba8cf4356f8cea24d3ebb40ea1",
+                    "size": 173265,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-windows.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw:3.4.1:natives-windows",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-windows-arm64.jar",
+                    "sha1": "196101d96d9b2aa73264a96ae1dc8944a1446cee",
+                    "size": 153879,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-windows-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw:3.4.1:natives-windows-arm64",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "path": "org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-windows-x86.jar",
+                    "sha1": "a48bbdd544f00c88f8906e9d09e3f31bc1c17fac",
+                    "size": 166065,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.4.1/lwjgl-glfw-3.4.1-natives-windows-x86.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw:3.4.1:natives-windows-x86",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "e5e87034c47118960746077dba46280e8de864b3",
+                    "size": 141056,
+                    "url": "https://build.lwjgl.org/release/3.4.1/bin/lwjgl-glfw/lwjgl-glfw-natives-linux-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw-natives-linux-arm64:3.4.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "bb243e9a857c4301bf7d5e668538686eaa64101e",
+                    "size": 118670,
+                    "url": "https://build.lwjgl.org/release/3.4.1/bin/lwjgl-glfw/lwjgl-glfw-natives-linux-arm32.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw-natives-linux-arm32:3.4.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-arm32"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "d76ed6846bff9804cfd1adb84b068728645a097b",
+                    "size": 119447,
+                    "url": "https://build.lwjgl.org/release/3.4.1/bin/lwjgl-glfw/lwjgl-glfw-natives-linux-riscv64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-glfw-natives-linux-riscv64:3.4.1-lwjgl.1",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux-riscv64"
+                    }
+                }
+            ]
         }
     ],
     "name": "LWJGL 3",
     "order": -1,
-    "releaseTime": "2026-06-11T11:57:50+00:00",
+    "releaseTime": "2026-07-16T13:59:30+00:00",
     "type": "release",
     "uid": "org.lwjgl3",
     "version": "3.4.1",
