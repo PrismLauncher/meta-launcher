@@ -5,6 +5,25 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "1a442a55bcf2613290b7577912900210f1eea6b45d9f9184190fca17ab9a6090",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+10",
+            "packageType": "jre",
+            "releaseTime": "2026-07-28T09:46:31+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_x64_mac_hotspot_26.0.2_10.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 10,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
                 "hash": "2e90cf68d31b28553fb2c8202d5a4c3a5e99a60285e125dc28c94ba5fb2ac1ef",
                 "type": "sha256"
             },
