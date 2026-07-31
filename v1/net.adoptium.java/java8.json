@@ -5,6 +5,63 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "f1a7bea0804bfa5627dac412fe7a0d751c4228592e356d6a32a30da54a48ed7a",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre8.0.502+7",
+            "packageType": "jre",
+            "releaseTime": "2026-07-31T10:00:51+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jre_x64_linux_hotspot_8u502b07.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 7,
+                "major": 8,
+                "minor": 0,
+                "security": 502
+            }
+        },
+        {
+            "checksum": {
+                "hash": "4ffd3abaf65a47610096d9c25ea06f2439428f1c087d3e54eb518553a6115638",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre8.0.502+7",
+            "packageType": "jre",
+            "releaseTime": "2026-07-31T10:00:51+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jre_aarch64_linux_hotspot_8u502b07.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 7,
+                "major": 8,
+                "minor": 0,
+                "security": 502
+            }
+        },
+        {
+            "checksum": {
+                "hash": "820210e36393da3da9b2d05376dbb2c94303010a673b14209949a36f3d721aed",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre8.0.502+7",
+            "packageType": "jre",
+            "releaseTime": "2026-07-31T10:00:51+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jre_x64_windows_hotspot_8u502b07.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 7,
+                "major": 8,
+                "minor": 0,
+                "security": 502
+            }
+        },
+        {
+            "checksum": {
                 "hash": "8eef3d4a837bb7a9e45d30a7579d84d5b76a4321f4376573311e6bf89e48f9b0",
                 "type": "sha256"
             },
