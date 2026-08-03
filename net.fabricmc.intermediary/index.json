@@ -6165,6 +6165,20 @@
         },
         {
             "recommended": true,
+            "releaseTime": "2020-10-15T21:23:04+00:00",
+            "requires": [
+                {
+                    "equals": "19w03a",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "sha256": "3d3cf0b37f6a3d59e71764b44c1c8e6f4cb7d407723017b0b312efac48e3f46e",
+            "type": "release",
+            "version": "19w03a",
+            "volatile": true
+        },
+        {
+            "recommended": true,
             "releaseTime": "2020-10-15T21:23:03+00:00",
             "requires": [
                 {
@@ -6427,20 +6441,6 @@
             "sha256": "5d14a14e6a4e77516bda8701fa3b6d992a33b703e192f26b693d4171b5937a10",
             "type": "release",
             "version": "1.16.2-pre3",
-            "volatile": true
-        },
-        {
-            "recommended": true,
-            "releaseTime": "2020-10-15T21:22:53+00:00",
-            "requires": [
-                {
-                    "equals": "1.16.2-rc1",
-                    "uid": "net.minecraft"
-                }
-            ],
-            "sha256": "d25131c9c2d6f789d46a73dd1445192246ac3b5aee476a9a4fc6b4c14c8db227",
-            "type": "release",
-            "version": "1.16.2-rc1",
             "volatile": true
         },
         {
@@ -7229,16 +7229,16 @@
         },
         {
             "recommended": true,
-            "releaseTime": "2020-10-15T21:22:00+00:00",
+            "releaseTime": "2020-10-15T21:21:54+00:00",
             "requires": [
                 {
-                    "equals": "19w03a",
+                    "equals": "1.16.2-rc1",
                     "uid": "net.minecraft"
                 }
             ],
-            "sha256": "f3504779ed4794ba2c7648e7d0df0361e9a537be06ce8ccec5d6e3a04c549535",
+            "sha256": "429735a21ccc97c5e4f0b2ae4a8782a8157bcefe6a4c2de2a4dc85bae122d500",
             "type": "release",
-            "version": "19w03a",
+            "version": "1.16.2-rc1",
             "volatile": true
         }
     ]
