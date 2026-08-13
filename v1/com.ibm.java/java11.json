@@ -5,6 +5,101 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "2aa0aad217a1816630df86b4a74eff0ab3a9f2a57643ab1f1718240bf9384bb1",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre11.0.32+9",
+            "packageType": "jre",
+            "releaseTime": "2026-08-12T18:33:55+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jre_x64_linux_11.0.32.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 9,
+                "major": 11,
+                "minor": 0,
+                "security": 32
+            }
+        },
+        {
+            "checksum": {
+                "hash": "7580f1a6601c17233d6ab26499b6696666b6922c4a1ef4fad0d89d7d8dd90696",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre11.0.32+9",
+            "packageType": "jre",
+            "releaseTime": "2026-08-12T18:33:55+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jre_x64_mac_11.0.32.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 9,
+                "major": 11,
+                "minor": 0,
+                "security": 32
+            }
+        },
+        {
+            "checksum": {
+                "hash": "c923a40d12fdcff2f5dde361d8abad9db30fb77c1ab45fdd15b3e9597adc152a",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre11.0.32+9",
+            "packageType": "jre",
+            "releaseTime": "2026-08-12T18:33:55+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jre_x64_windows_11.0.32.0.zip",
+            "vendor": "ibm",
+            "version": {
+                "build": 9,
+                "major": 11,
+                "minor": 0,
+                "security": 32
+            }
+        },
+        {
+            "checksum": {
+                "hash": "0d08a1909633ff228940a0e62d6921a6539596bdc7edf85f8d1a7499633f2445",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre11.0.32+9",
+            "packageType": "jre",
+            "releaseTime": "2026-08-12T18:33:55+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jre_aarch64_mac_11.0.32.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 9,
+                "major": 11,
+                "minor": 0,
+                "security": 32
+            }
+        },
+        {
+            "checksum": {
+                "hash": "40b6f31ea010ea8367f10e0da35811fa29be71f4ce52be99186ff23f5804fe71",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre11.0.32+9",
+            "packageType": "jre",
+            "releaseTime": "2026-08-12T18:33:55+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jre_aarch64_linux_11.0.32.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 9,
+                "major": 11,
+                "minor": 0,
+                "security": 32
+            }
+        },
+        {
+            "checksum": {
                 "hash": "e51820d8cb2f47c57d625943d0d65c0f2d10a06d88d6626fa7fa00fe4c1ecd44",
                 "type": "sha256"
             },
@@ -2237,25 +2332,6 @@
             "releaseTime": "2021-08-03T16:16:45+00:00",
             "runtimeOS": "mac-os-x64",
             "url": "https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jre_x64_mac_11.0.12_7_openj9-0.27.0.tar.gz",
-            "vendor": "ibm",
-            "version": {
-                "build": 7,
-                "major": 11,
-                "minor": 0,
-                "security": 12
-            }
-        },
-        {
-            "checksum": {
-                "hash": "06fa66b99d3c9ba07f117860ef653d52bcb19dac1ea598c15f3b4eec9f832b36",
-                "type": "sha256"
-            },
-            "downloadType": "archive",
-            "name": "ibm_semeru-open_jre11.0.12+7",
-            "packageType": "jre",
-            "releaseTime": "2021-08-03T16:16:45+00:00",
-            "runtimeOS": "linux-arm64",
-            "url": "https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jre_aarch64_linux_11.0.12_7_openj9-0.27.0.tar.gz",
             "vendor": "ibm",
             "version": {
                 "build": 7,
