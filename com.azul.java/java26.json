@@ -1,21 +1,22 @@
 {
     "formatVersion": 1,
     "name": "Java 26",
-    "releaseTime": "2026-07-03T21:53:26+00:00",
+    "releaseTime": "2026-08-03T20:54:06+00:00",
     "runtimes": [
         {
             "checksum": {
-                "hash": "1af906e7259a725f7f06d38f420cd6aff6279f6f7babcd22baf0ee6114b365eb",
+                "hash": "0203aedf1456c7f9d6ff05ac280faaa1de8e36df285aa8b40b35555d47fc43cd",
                 "type": "sha256"
             },
             "downloadType": "archive",
-            "name": "azul_zulu_jre26.0.2",
+            "name": "azul_zulu_jre26.0.2+1",
             "packageType": "jre",
-            "releaseTime": "2026-07-03T21:53:26+00:00",
+            "releaseTime": "2026-08-03T20:54:06+00:00",
             "runtimeOS": "mac-os-x64",
-            "url": "https://cdn.azul.com/zulu/bin/zulu26.32.13-ca-jre26.0.2-macosx_x64.zip",
+            "url": "https://cdn.azul.com/zulu/bin/zulu26.32.203-ca-jre26.0.2.1-macosx_x64.zip",
             "vendor": "azul",
             "version": {
+                "build": 1,
                 "major": 26,
                 "minor": 0,
                 "security": 2
@@ -23,17 +24,18 @@
         },
         {
             "checksum": {
-                "hash": "dda05043f347811a44b357e93f15acbd71f92acac81c4d4196f88e7964d39513",
+                "hash": "0a5653fbf72b480889af983ef2ad3abd64e83c6b40e5aa31ae02836c4fe31d6c",
                 "type": "sha256"
             },
             "downloadType": "archive",
-            "name": "azul_zulu_jre26.0.2",
+            "name": "azul_zulu_jre26.0.2+1",
             "packageType": "jre",
-            "releaseTime": "2026-07-03T21:53:26+00:00",
+            "releaseTime": "2026-08-03T20:54:06+00:00",
             "runtimeOS": "mac-os-arm64",
-            "url": "https://cdn.azul.com/zulu/bin/zulu26.32.13-ca-jre26.0.2-macosx_aarch64.zip",
+            "url": "https://cdn.azul.com/zulu/bin/zulu26.32.203-ca-jre26.0.2.1-macosx_aarch64.zip",
             "vendor": "azul",
             "version": {
+                "build": 1,
                 "major": 26,
                 "minor": 0,
                 "security": 2
@@ -41,35 +43,37 @@
         },
         {
             "checksum": {
-                "hash": "874a418c800b090a36dfb53b36a0cd75bce6c157e392140914442af6f2c2e9a3",
+                "hash": "0b05c37f4313a7cd5dd1388d168ca9bf860564ad4f8b9543e09c5e008621e635",
                 "type": "sha256"
             },
             "downloadType": "archive",
-            "name": "azul_zulu_jre26.0.2",
+            "name": "azul_zulu_jre26.0.2+1",
             "packageType": "jre",
-            "releaseTime": "2026-07-03T21:53:26+00:00",
-            "runtimeOS": "windows-x64",
-            "url": "https://cdn.azul.com/zulu/bin/zulu26.32.13-ca-jre26.0.2-win_x64.zip",
-            "vendor": "azul",
-            "version": {
-                "major": 26,
-                "minor": 0,
-                "security": 2
-            }
-        },
-        {
-            "checksum": {
-                "hash": "b54017633163f83fad83ec41251b74385eb63632df29b9042842dcde4fc8152b",
-                "type": "sha256"
-            },
-            "downloadType": "archive",
-            "name": "azul_zulu_jre26.0.2",
-            "packageType": "jre",
-            "releaseTime": "2026-07-03T21:53:26+00:00",
+            "releaseTime": "2026-08-03T20:54:06+00:00",
             "runtimeOS": "linux-x64",
-            "url": "https://cdn.azul.com/zulu/bin/zulu26.32.13-ca-jre26.0.2-linux_x64.zip",
+            "url": "https://cdn.azul.com/zulu/bin/zulu26.32.203-ca-jre26.0.2.1-linux_x64.zip",
             "vendor": "azul",
             "version": {
+                "build": 1,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "098c6320c5bd8755eb4b8bef1072b016684d6f494ee3f0997d8d861feacb26e1",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "azul_zulu_jre26.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2026-08-03T20:54:06+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://cdn.azul.com/zulu/bin/zulu26.32.203-ca-jre26.0.2.1-win_x64.zip",
+            "vendor": "azul",
+            "version": {
+                "build": 1,
                 "major": 26,
                 "minor": 0,
                 "security": 2
