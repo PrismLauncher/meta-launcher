@@ -43,6 +43,44 @@
         },
         {
             "checksum": {
+                "hash": "1731a34baadec5479258ea0202e4d5d865d2efeee60cb0c7d7eb056fe96ca219",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre25.0.4+1",
+            "packageType": "jre",
+            "releaseTime": "2026-08-19T14:49:26+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_x64_linux_hotspot_25.0.4.1_1.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 1,
+                "major": 25,
+                "minor": 0,
+                "security": 4
+            }
+        },
+        {
+            "checksum": {
+                "hash": "34828cbb93ed31c281c84ecb31ddab655d11a802f263c1fc019d42e9e0230fed",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre25.0.4+1",
+            "packageType": "jre",
+            "releaseTime": "2026-08-19T14:49:26+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_aarch64_linux_hotspot_25.0.4.1_1.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 1,
+                "major": 25,
+                "minor": 0,
+                "security": 4
+            }
+        },
+        {
+            "checksum": {
                 "hash": "5b0d58f043f762fa3ee6cc12b6774b59b245cafdcb357e45ce61f822aa9a56cb",
                 "type": "sha256"
             },
