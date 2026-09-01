@@ -909,6 +909,124 @@
         {
             "downloads": {
                 "artifact": {
+                    "sha1": "cd3d817e38f372451f168239ea7b9c03196f2288",
+                    "size": 64549,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-spng/3.4.3/lwjgl-spng-3.4.3-natives-linux.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-spng-natives-linux:3.4.3",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "f5e89d150e758f7216fbd8a84b47dd1178bfd705",
+                    "size": 73424,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-spng/3.4.3/lwjgl-spng-3.4.3-natives-macos-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-spng-natives-macos-arm64:3.4.3",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "040962a783564fdc0c1e49f1e2755f7dbe27ebec",
+                    "size": 80425,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-spng/3.4.3/lwjgl-spng-3.4.3-natives-macos.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-spng-natives-macos:3.4.3",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "52794da349310effa3c3f9ea42cadbd0c2f35239",
+                    "size": 93695,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-spng/3.4.3/lwjgl-spng-3.4.3-natives-windows-arm64.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-spng-natives-windows-arm64:3.4.3",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "754aadb96f6c29f03e452d5c915a24ceed521202",
+                    "size": 100552,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-spng/3.4.3/lwjgl-spng-3.4.3-natives-windows-x86.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-spng-natives-windows-x86:3.4.3",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "ac816c4521d282440f9867be23ae2e076bae7c15",
+                    "size": 108983,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-spng/3.4.3/lwjgl-spng-3.4.3-natives-windows.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-spng-natives-windows:3.4.3",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "windows"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "3a134111ce70d69463278a2a9ab5a20c84cd6484",
+                    "size": 120677,
+                    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-spng/3.4.3/lwjgl-spng-3.4.3.jar"
+                }
+            },
+            "name": "org.lwjgl:lwjgl-spng:3.4.3"
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "sha1": "709eb01deec4bdafb7634b125a63fd8de172fc50",
                     "size": 1265592,
                     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-spvc/3.4.3/lwjgl-spvc-3.4.3-natives-linux.jar"
@@ -1541,7 +1659,7 @@
     ],
     "name": "LWJGL 3",
     "order": -1,
-    "releaseTime": "2026-08-25T12:53:43+00:00",
+    "releaseTime": "2026-09-01T11:29:01+00:00",
     "type": "release",
     "uid": "org.lwjgl3",
     "version": "3.4.3",
