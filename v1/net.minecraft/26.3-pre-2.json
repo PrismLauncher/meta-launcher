@@ -1,4 +1,7 @@
 {
+    "+jvmArgs": [
+        "-XX:StackShadowPages=32"
+    ],
     "+traits": [
         "XR:Initial",
         "FirstThreadOnMacOS",
