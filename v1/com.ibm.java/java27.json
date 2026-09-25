@@ -1,0 +1,104 @@
+{
+    "formatVersion": 1,
+    "name": "Java 27",
+    "releaseTime": "2026-09-25T18:22:01+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "9e6d9c1131da124bd08eb4183f7787a9f90111fc3d62c1231976c2d37372d59e",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre27.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-09-25T18:22:01+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru27-binaries/releases/download/jdk-27.0.0.0/ibm-semeru-open-jre_x64_linux_27.0.0.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 35,
+                "major": 27,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "9d5bcf338f9198469683f586bd01c01ee88296813d0c81366b0e82525bfbbb91",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre27.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-09-25T18:22:01+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru27-binaries/releases/download/jdk-27.0.0.0/ibm-semeru-open-jre_x64_mac_27.0.0.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 35,
+                "major": 27,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "4baaa0931d7c5f58897385baafccc89f088500737ebba96e44703a54bb7aabbb",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre27.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-09-25T18:22:01+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru27-binaries/releases/download/jdk-27.0.0.0/ibm-semeru-open-jre_x64_windows_27.0.0.0.zip",
+            "vendor": "ibm",
+            "version": {
+                "build": 35,
+                "major": 27,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "e8342bf56c29e70b898b58964ef8ccbe2abc0c732add5d21bc536233bf0f1006",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre27.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-09-25T18:22:01+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru27-binaries/releases/download/jdk-27.0.0.0/ibm-semeru-open-jre_aarch64_mac_27.0.0.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 35,
+                "major": 27,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "988cb758c25c0739daf53fd5665f684c1ff0fbf138d1e0f0827208b07aa0ab64",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre27.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-09-25T18:22:01+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru27-binaries/releases/download/jdk-27.0.0.0/ibm-semeru-open-jre_aarch64_linux_27.0.0.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 35,
+                "major": 27,
+                "minor": 0,
+                "security": 0
+            }
+        }
+    ],
+    "uid": "com.ibm.java",
+    "version": "java27"
+}
