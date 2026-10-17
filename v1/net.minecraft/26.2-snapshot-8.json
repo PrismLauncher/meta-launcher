@@ -222,7 +222,7 @@
                 {
                     "action": "allow",
                     "os": {
-                        "name": "osx"
+                        "name": "osx-arm64"
                     }
                 }
             ]
@@ -318,12 +318,6 @@
                 {
                     "action": "allow",
                     "os": {
-                        "name": "linux"
-                    }
-                },
-                {
-                    "action": "allow",
-                    "os": {
                         "name": "linux-arm32"
                     }
                 }
@@ -339,12 +333,6 @@
             },
             "name": "dev.onvoid.webrtc:webrtc-java:0.14.0:linux-aarch64",
             "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "linux"
-                    }
-                },
                 {
                     "action": "allow",
                     "os": {
@@ -381,12 +369,6 @@
             },
             "name": "dev.onvoid.webrtc:webrtc-java:0.14.0:macos-aarch64",
             "rules": [
-                {
-                    "action": "allow",
-                    "os": {
-                        "name": "osx"
-                    }
-                },
                 {
                     "action": "allow",
                     "os": {
