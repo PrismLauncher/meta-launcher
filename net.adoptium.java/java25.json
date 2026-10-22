@@ -5,6 +5,44 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "6fac98f0c8202efc3135a9e9e42aa61963ec42d1c5cbb40caf231e7b14a24ef6",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre25.0.5+8",
+            "packageType": "jre",
+            "releaseTime": "2026-10-22T08:18:33+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_x64_linux_hotspot_25.0.5_8.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 25,
+                "minor": 0,
+                "security": 5
+            }
+        },
+        {
+            "checksum": {
+                "hash": "72ebd76b502c849e88dea39afae51baf5f82f2b5b1b6389c28ea707b20451bce",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre25.0.5+8",
+            "packageType": "jre",
+            "releaseTime": "2026-10-22T08:18:33+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jre_aarch64_mac_hotspot_25.0.5_8.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 25,
+                "minor": 0,
+                "security": 5
+            }
+        },
+        {
+            "checksum": {
                 "hash": "099cbc182af99ab454991a4230f0bdbf2b2ee3f61ce462d637aceaa12709380d",
                 "type": "sha256"
             },
