@@ -5,6 +5,44 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "b86bbab4bd4d8718c9c8da56100d363ea09af374a4aafa9ce30e62bff1b13651",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre27.0.1+0",
+            "packageType": "jre",
+            "releaseTime": "2026-10-24T11:36:00+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_aarch64_mac_hotspot_27.0.1.0.2_1.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 0,
+                "major": 27,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "104b5d204314aa33dff4a9a5b925e2c58790e9d8cd7097b678e8e4d8cf86ced0",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre27.0.1+0",
+            "packageType": "jre",
+            "releaseTime": "2026-10-24T11:36:00+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.0.2%2B1/OpenJDK27U-jre_x64_linux_hotspot_27.0.1.0.2_1.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 0,
+                "major": 27,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
                 "hash": "2cb1b81ab49f516e5aeb28ee8acf3c73d64c77ca432ac959c6511a335342d8e9",
                 "type": "sha256"
             },
