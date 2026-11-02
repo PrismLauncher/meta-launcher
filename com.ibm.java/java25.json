@@ -5,6 +5,101 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "dead27a708a2b843ed0787b7fceb92fed04245718474da51577599183e54a958",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre25.0.5+0",
+            "packageType": "jre",
+            "releaseTime": "2026-10-29T17:02:54+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru25-binaries/releases/download/jdk-25.0.5.0/ibm-semeru-open-jre_x64_linux_25.0.5.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 0,
+                "major": 25,
+                "minor": 0,
+                "security": 5
+            }
+        },
+        {
+            "checksum": {
+                "hash": "b0e23a71fa09713fc19ab764af125c6da2db36036d0753d9cc9452c426ce1b79",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre25.0.5+0",
+            "packageType": "jre",
+            "releaseTime": "2026-10-29T17:02:54+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru25-binaries/releases/download/jdk-25.0.5.0/ibm-semeru-open-jre_x64_mac_25.0.5.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 0,
+                "major": 25,
+                "minor": 0,
+                "security": 5
+            }
+        },
+        {
+            "checksum": {
+                "hash": "968c4c59cf7cfe2ad6683eb378bb8c25803e7b5f635bf4500fef5063ecbbba53",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre25.0.5+0",
+            "packageType": "jre",
+            "releaseTime": "2026-10-29T17:02:54+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/AdoptOpenJDK/semeru25-binaries/releases/download/jdk-25.0.5.0/ibm-semeru-open-jre_x64_windows_25.0.5.0.zip",
+            "vendor": "ibm",
+            "version": {
+                "build": 0,
+                "major": 25,
+                "minor": 0,
+                "security": 5
+            }
+        },
+        {
+            "checksum": {
+                "hash": "8333025a5dee6ff44de2c039c3ebe3817c01f511723d63eb5d1618241cf82fe4",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre25.0.5+0",
+            "packageType": "jre",
+            "releaseTime": "2026-10-29T17:02:54+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru25-binaries/releases/download/jdk-25.0.5.0/ibm-semeru-open-jre_aarch64_mac_25.0.5.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 0,
+                "major": 25,
+                "minor": 0,
+                "security": 5
+            }
+        },
+        {
+            "checksum": {
+                "hash": "7df1d21793596891bb4e76b63948d6cb08c23a3092f7f06fcdecdca80b6eab90",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "ibm_semeru-open_jre25.0.5+0",
+            "packageType": "jre",
+            "releaseTime": "2026-10-29T17:02:54+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/AdoptOpenJDK/semeru25-binaries/releases/download/jdk-25.0.5.0/ibm-semeru-open-jre_aarch64_linux_25.0.5.0.tar.gz",
+            "vendor": "ibm",
+            "version": {
+                "build": 0,
+                "major": 25,
+                "minor": 0,
+                "security": 5
+            }
+        },
+        {
+            "checksum": {
                 "hash": "bdedc1e8f74f83fc9984ca1fa367f13b76003b936cf6fedd354661bc8207615f",
                 "type": "sha256"
             },
