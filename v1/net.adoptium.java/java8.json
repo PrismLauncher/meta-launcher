@@ -62,6 +62,25 @@
         },
         {
             "checksum": {
+                "hash": "bbe01d0683d3dcdd0bbdcc568d3d9123f719a4fa390208b3fe1ca6e1ef083923",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre8.0.512+9",
+            "packageType": "jre",
+            "releaseTime": "2026-11-04T12:45:11+00:00",
+            "runtimeOS": "linux-arm32",
+            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jre_arm_linux_hotspot_8u512b09.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 8,
+                "minor": 0,
+                "security": 512
+            }
+        },
+        {
+            "checksum": {
                 "hash": "52dcd578baca1d3e449ea86768a9129c0ee04d7b22565695498353cc66940c61",
                 "type": "sha256"
             },
