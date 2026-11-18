@@ -5,6 +5,25 @@
     "runtimes": [
         {
             "checksum": {
+                "hash": "9e15835ca3451a0089aac2c3667c009bc2743b9cb15030a14c6f5ec05f8d5aaf",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre27.0.1+4",
+            "packageType": "jre",
+            "releaseTime": "2026-11-18T10:08:11+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27.0.1.1%2B4/OpenJDK27U-jre_x64_linux_hotspot_27.0.1.1_4.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 4,
+                "major": 27,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
                 "hash": "b86bbab4bd4d8718c9c8da56100d363ea09af374a4aafa9ce30e62bff1b13651",
                 "type": "sha256"
             },
